@@ -1,0 +1,120 @@
+# Note: Template blocks require a 'weight' parameter so they're correctly ordered on the landing page
+
+# Hero
+hero:
+  enable: true
+  weight: 10
+  template: hero
+
+  backgroundImage:
+    path: "images/templates/hero"
+    filename:
+      desktop: "gradient-desktop.webp"
+      mobile: "gradient-mobile.webp"
+
+  badge:
+    text: v0.1.0
+    color: primary # primary, secondary, success, danger, warning, info, light, dark
+    pill: false # boolean
+    soft: true # boolean
+
+  # titleLogo:
+  #   path: "images/logos"
+  #   filename: "title_logo.png"
+  #   alt: "Lotus Docs Logo"
+  #   height: 80px
+
+  title: "Chapar"
+  subtitle: Chapar is an upcoming native API testing tool built with GoLang, designed to simplify and expedite the testing process for developers. While still in its early beta phase, Chapar aims to offer a user-friendly experience with support for both HTTP and gRPC protocols with.
+
+  image:
+    path: "images" # path to image under configured assets directory. default 'images'
+    filename: "chapar_screenshot.png" # filename of your hero image (including file extension)
+    alt: "Chpar Screenshot" # Optional but recommended
+    boxShadow: true # default 'false' (excludes .svg images)
+    rounded: true # round the image corners? default 'false' (excludes .svg images)
+
+  ctaButton:
+    icon: rocket_launch
+    btnText: "Get Started"
+    url: "/docs/quickstart/#installation"
+  cta2Button:
+    icon: construction
+    btnText: "In Development"
+    url: "https://github.com/mirzakhany/chapar"
+
+  info: "**Open Source** MIT Licensed."
+
+
+# Feature Grid
+featureGrid:
+  enable: true
+  weight: 20
+  template: feature grid
+
+  title: Why choose Chapar?
+  subtitle: Chapar is an open source api testing tools built with Golang wiht goal of respcting your privacy and security. It is designed to be simple, fast and easy to use.
+
+  items:
+    - title: Fast
+      icon: speed
+      description: Chapar built with GoLang, which is known for its speed and performance. It is designed to be fast and efficient.
+      ctaLink:
+        text: learn more
+        url: /docs/
+
+    - title: Developer Friendly
+      icon: trending_up
+      description: Chapar is designed to be developer friendly. It is simple, easy to use and has a clean and intuitive UI.
+      ctaLink:
+        text: learn more
+        url: /docs/
+
+    - title: Secure by default
+      icon: lock
+      description: Your data remains private and secure. Chapar is designed to respect your privacy and security.
+      ctaLink:
+        text: learn more
+        url: /docs/
+
+    - title: GRPC Support
+      icon: swap_horiz
+      description: Chapar makes it easy to test your gRPC APIs. It supports both HTTP and gRPC protocols.
+      ctaLink:
+        text: learn more
+        url: /docs/
+
+    - title: Python SDK
+      icon: code_blocks
+      description: Chapar is using python to write pre and post request scripts. It is designed to be easy to use and flexible.
+      ctaLink:
+        text: learn more
+        url: /docs/
+
+    - title: Tunnel Support
+      icon: terminal
+      description: Chapar can create a secure tunnel to your development environment. It specially useful for testing grpc methods.
+      ctaLink:
+        text: learn more
+        url: /docs/
+
+    - title: Config as Code
+      icon: integration_instructions
+      description: Chapar keeps your configuration as code. It is easy to share and version control.
+      ctaLink:
+        text: learn more
+        url: /docs/
+
+    - title: Open Source
+      icon: crowdsource
+      description: Chapar is open source and MIT licensed. It is free to use and modify.
+      ctaLink:
+        text: learn more
+        url: /docs/
+
+    - title: Community
+      icon: communities
+      description: Chapar has a growing community. It is easy to get help and contribute.
+      ctaLink:
+        text: learn more
+        url: /docs/

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapar</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Chapar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Feb 2024 15:18:24 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overview</title>
+      <link>http://localhost:1313/docs/overview/</link>
+      <pubDate>Sun, 25 Feb 2024 15:13:21 +0100</pubDate>
+      <guid>http://localhost:1313/docs/overview/</guid>
+      <description>Chapar - Native API Testing Tool linkChapar is an upcoming native API testing tool built with GoLang, designed to simplify and expedite the testing process for developers. While still in its early beta phase, Chapar aims to offer a user-friendly experience with support for both HTTP and gRPC protocols with.&#xA;What Chapar means? linkChapar was the institution of the royal mounted couriers in ancient Persia. The messengers, called Chapar, alternated in stations a day&amp;rsquo;s ride apart along the Royal Road.</description>
+    </item>
+    <item>
+      <title>Quickstart</title>
+      <link>http://localhost:1313/docs/quickstart/</link>
+      <pubDate>Sun, 25 Feb 2024 15:18:24 +0100</pubDate>
+      <guid>http://localhost:1313/docs/quickstart/</guid>
+      <description>Installation linkTo install Chapar, you can use the following command:&#xA;brew install chapar </description>
+    </item>
+  </channel>
+</rss>
