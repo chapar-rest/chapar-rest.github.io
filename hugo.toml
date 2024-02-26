@@ -16,6 +16,20 @@ title = 'Chapar'
         path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
         disable = false
 
+[markup]
+    [markup.tableOfContents]
+      endLevel = 3
+      startLevel = 1
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true # https://jdhao.github.io/2019/12/29/hugo_html_not_shown/
+  # [markup.highlight]
+  #   codeFences = false # disables Hugo's default syntax highlighting
+  [markup.goldmark.parser]
+    [markup.goldmark.parser.attribute]
+      block = true
+
+
 [params]
   google_fonts = [
     ["Inter", "300, 400, 600, 700"],
@@ -78,7 +92,7 @@ title = 'Chapar'
     weight = 10
 
 [[menu.primary]]
-    name  = "Community"
-    url = "https://github.com/mirzakhany/chapar/discussions"
-    identifier = "community"
+    name  = "GitHub"
+    url = "https://github.com/mirzakhany/chapar"
+    identifier = "github"
     weight = 30

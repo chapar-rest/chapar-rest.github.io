@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Help on Chapar</title>
+    <link>http://localhost:1313/docs/help/</link>
+    <description>Recent content in Help on Chapar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Feb 2024 15:18:24 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/docs/help/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Troubleshooting</title>
+      <link>http://localhost:1313/docs/help/troubleshooting/</link>
+      <pubDate>Sun, 25 Feb 2024 15:18:24 +0100</pubDate>
+      <guid>http://localhost:1313/docs/help/troubleshooting/</guid>
+      <description> warning Caution - This documentation is in progress </description>
+    </item>
+    <item>
+      <title>FAQ</title>
+      <link>http://localhost:1313/docs/help/faqs/</link>
+      <pubDate>Sun, 25 Feb 2024 15:18:24 +0100</pubDate>
+      <guid>http://localhost:1313/docs/help/faqs/</guid>
+      <description> warning Caution - This documentation is in progress </description>
+    </item>
+  </channel>
+</rss>

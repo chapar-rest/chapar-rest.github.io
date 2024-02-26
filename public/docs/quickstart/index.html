@@ -32,16 +32,16 @@
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="manifest" crossorigin="use-credentials" href="http://localhost:1313/site.webmanifest">
 <meta property="og:title" content="Quickstart" />
-<meta property="og:description" content="Installation linkTo install Chapar, you can use the following command:
-brew install chapar " />
+<meta property="og:description" content=" warning Caution - This documentation is in progress Installation linkTo install Chapar, you can use the following command:
+go install github.com/mirzakhany/chapar " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/docs/quickstart/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_16426636103867891431.png"/><meta property="article:section" content="docs" />
 <meta property="article:published_time" content="2024-02-25T15:18:24+01:00" />
 <meta property="article:modified_time" content="2024-02-25T15:18:24+01:00" /><meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_16426636103867891431.png"/>
 <meta name="twitter:title" content="Quickstart"/>
-<meta name="twitter:description" content="Installation linkTo install Chapar, you can use the following command:
-brew install chapar "/>
+<meta name="twitter:description" content=" warning Caution - This documentation is in progress Installation linkTo install Chapar, you can use the following command:
+go install github.com/mirzakhany/chapar "/>
 
     
     
@@ -92,7 +92,7 @@ brew install chapar "/>
                         
                         <li class="">
                             <a class="sidebar-root-link" href="http://localhost:1313/docs/overview/">
-                                <i class="material-icons me-2">article</i>
+                                <i class="material-icons me-2">circle</i>
                                 
                                 Overview
                             </a>
@@ -103,10 +103,65 @@ brew install chapar "/>
                         
                         <li class="current">
                             <a class="sidebar-root-link" href="http://localhost:1313/docs/quickstart/">
-                                <i class="material-icons me-2">article</i>
+                                <i class="material-icons me-2">rocket_launch</i>
                                 
                                 Quickstart
                             </a>
+                        </li>
+                    
+                
+                    
+                    
+                        <li class="sidebar-dropdown  ">
+                            <button class="btn">
+                                <i class="material-icons me-2">heart_plus</i>
+                                Contributing
+                            </button>
+                            <div class="sidebar-submenu ">
+                                <ul>
+                                    
+                                        
+                                        
+                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/docs/contributing/how-to-contribute/">How to Contribute</a></li>
+                                        
+                                    
+                                        
+                                        
+                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/docs/contributing/financial-contributions/">Financial Contributions</a></li>
+                                        
+                                    
+                                        
+                                        
+                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/docs/contributing/code-of-conduct/">Code of Conduct</a></li>
+                                        
+                                    
+                                </ul>
+                            </div>
+                        </li>
+                    
+                
+                    
+                    
+                        <li class="sidebar-dropdown  ">
+                            <button class="btn">
+                                <i class="material-icons me-2">help</i>
+                                Help
+                            </button>
+                            <div class="sidebar-submenu ">
+                                <ul>
+                                    
+                                        
+                                        
+                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/docs/help/troubleshooting/">Troubleshooting</a></li>
+                                        
+                                    
+                                        
+                                        
+                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/docs/help/faqs/">FAQ</a></li>
+                                        
+                                    
+                                </ul>
+                            </div>
                         </li>
                     
                 
@@ -245,7 +300,11 @@ brew install chapar "/>
     <div class="fw-bold text-uppercase mb-2">On this page</div>
     <nav id="toc">
   <ul>
-    <li><a href="#installation">Installation</a></li>
+    <li>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
     </toc></div>
@@ -257,18 +316,20 @@ brew install chapar "/>
                                             </button>
 <nav id="toc-mobile">
   <ul class="dropdown-menu">
-    <li><a href="#installation">Installation</a></li>
+    <li>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
   </ul>
 </nav></div>
                                         <div class="docs-content col-12 col-xl-9 mt-0">
                                             <div class="mb-0 d-flex">
                                                 
-                                                <i class="material-icons title-icon me-2">article</i>
+                                                <i class="material-icons title-icon me-2">rocket_launch</i>
                                                 
                                                 <h1 class="content-title mb-0">
                                                     Quickstart
-                                                    
-                                                        <span class="badge bg-default fs-6 mb-1 align-middle">DRAFT</span>
                                                     
                                                 </h1>
                                             </div>
@@ -279,11 +340,18 @@ brew install chapar "/>
                                                 
     
     <div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="">
-        <h2 id="installation">Installation <a href="#installation" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><p>To install Chapar, you can use the following command:</p>
+        <div class="alert alert-warning d-flex" role="alert">
+  <div class="flex-shrink-1 alert-icon">
+  <span class="material-icons size-20 me-2">
+  warning
+  </span></div>
+  <div class="w-100"><strong>Caution</strong> - This documentation is in progress</div>
+  </div>
+<h2 id="installation">Installation <a href="#installation" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><p>To install Chapar, you can use the following command:</p>
 
 
     
-    <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install chapar</span></span></code></pre></div>
+    <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>go install github.com/mirzakhany/chapar</span></span></code></pre></div>
 
     </div>
 
@@ -301,6 +369,17 @@ brew install chapar "/>
 				<div class="card-body py-2">
                     <p class="card-title fs-5 fw-semibold lh-base mb-0"><i class="material-icons align-middle">navigate_before</i> Overview</p>
 					<p class="card-text ms-2"></p>
+					
+				</div>
+			</div>
+		</a>
+        </div>
+	<div class="col-sm-6 pt-2 doc-prev">
+		<a class="ms-auto" href="/docs/contributing/how-to-contribute/">
+			<div class="card h-100 my-1 text-end">
+				<div class="card-body py-2">
+                    <p class="card-title fs-5 fw-semibold lh-base mb-0">How to Contribute <i class="material-icons align-middle">navigate_next</i></p>
+					<p class="card-text me-2">Contribute to code, improve …</p>
 					
 				</div>
 			</div>
@@ -484,6 +563,55 @@ brew install chapar "/>
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
     
@@ -493,6 +621,15 @@ brew install chapar "/>
     index.add(
             {
                 id:  0 ,
+                href: "\/docs\/",
+                title: "Documentation",
+                description: "Explore our guides and examples to Chapar",
+                content: ""
+            }
+        );
+    index.add(
+            {
+                id:  1 ,
                 href: "\/docs\/overview\/",
                 title: "Overview",
                 description: "Chapar - Native API Testing Tool linkChapar is an upcoming native API testing tool built with GoLang, designed to simplify and expedite the testing process for developers. While still in its early beta phase, Chapar aims to offer a user-friendly experience with support for both HTTP and gRPC protocols with.\nWhat Chapar means? linkChapar was the institution of the royal mounted couriers in ancient Persia. The messengers, called Chapar, alternated in stations a day’s ride apart along the Royal Road.",
@@ -501,20 +638,74 @@ brew install chapar "/>
         );
     index.add(
             {
-                id:  1 ,
+                id:  2 ,
                 href: "\/docs\/quickstart\/",
                 title: "Quickstart",
-                description: "Installation linkTo install Chapar, you can use the following command:\nbrew install chapar ",
-                content: "Installation linkTo install Chapar, you can use the following command:\nbrew install chapar "
+                description: " warning Caution - This documentation is in progress Installation linkTo install Chapar, you can use the following command:\ngo install github.com/mirzakhany/chapar ",
+                content: " warning Caution - This documentation is in progress Installation linkTo install Chapar, you can use the following command:\ngo install github.com/mirzakhany/chapar "
             }
         );
     index.add(
             {
-                id:  2 ,
-                href: "\/docs\/",
-                title: "Docs",
-                description: "",
+                id:  3 ,
+                href: "\/docs\/contributing\/",
+                title: "Contributing",
+                description: "How to contribute to Chapar",
                 content: ""
+            }
+        );
+    index.add(
+            {
+                id:  4 ,
+                href: "\/docs\/contributing\/how-to-contribute\/",
+                title: "How to Contribute",
+                description: "Contribute to code, improve documentation, help others, and contribute financially.",
+                content: "Contribute to code linkCreate a Pull Request link Follow the GitHub flow. Follow the Conventional Commits Specification Improve documentation link Follow the GitHub flow. Follow the Conventional Commits Specification Help others linkChapar Issues is the place to get help and help others with Chapar.\nContribute financially linkHelp support the team developing Chapar by "
+            }
+        );
+    index.add(
+            {
+                id:  5 ,
+                href: "\/docs\/contributing\/financial-contributions\/",
+                title: "Financial Contributions",
+                description: "Help support the Lotus Docs development team by becoming a financial contributor.",
+                content: ""
+            }
+        );
+    index.add(
+            {
+                id:  6 ,
+                href: "\/docs\/contributing\/code-of-conduct\/",
+                title: "Code of Conduct",
+                description: "Contributor Covenant Code of Conduct.",
+                content: "Our Pledge linkWe as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.\nOur Standards linkExamples of behaviour that contributes to a positive environment for our community include:\nDemonstrating empathy and kindness toward other people Being respectful of differing opinions, viewpoints, and experiences Giving and gracefully accepting constructive feedback Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience Focusing on what is best not just for us as individuals, but for the overall community Examples of unacceptable behaviour include:\nThe use of sexualized language or imagery, and sexual attention or advances of any kind Trolling, insulting or derogatory comments, and personal or political attacks Public or private harassment Publishing others’ private information, such as a physical or email address, without their explicit permission Other conduct which could reasonably be considered inappropriate in a professional setting Enforcement Responsibilities linkCommunity leaders are responsible for clarifying and enforcing our standards of acceptable behaviour and will take appropriate and fair corrective action in response to any behaviour that they deem inappropriate, threatening, offensive, or harmful.\nCommunity leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.\nScope linkThis Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event.\nEnforcement linkInstances of abusive, harassing, or otherwise unacceptable behaviour may be reported by contacting the project team at help@chapar.rest. All complaints will be reviewed and investigated promptly and fairly.\nAll community leaders are obligated to respect the privacy and security of the reporter of any incident.\nEnforcement Guidelines linkCommunity leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:\n1. Correction linkCommunity Impact: Use of inappropriate language or other behaviour deemed unprofessional or unwelcome in the community.\nConsequence: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behaviour was inappropriate. A public apology may be requested.\n2. Warning linkCommunity Impact: A violation through a single incident or series of actions.\nConsequence: A warning with consequences for continued behaviour. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.\n3. Temporary Ban linkCommunity Impact: A serious violation of community standards, including sustained inappropriate behaviour.\nConsequence: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.\n4. Permanent Ban linkCommunity Impact: Demonstrating a pattern of violation of community standards, including sustained inappropriate behaviour, harassment of an individual, or aggression toward or disparagement of classes of individuals.\nConsequence: A permanent ban from any sort of public interaction within the community.\nAttribution linkThis Code of Conduct is adapted from the Contributor Covenant, version 2.1, available at https://www.contributor-covenant.org/version/2/1/code_of_conduct.html.\nCommunity Impact Guidelines were inspired by Mozilla’s code of conduct enforcement ladder.\nFor answers to common questions about this code of conduct, see the FAQ at https://www.contributor-covenant.org/faq. Translations are available at https://www.contributor-covenant.org/translations.\n"
+            }
+        );
+    index.add(
+            {
+                id:  7 ,
+                href: "\/docs\/help\/",
+                title: "Help",
+                description: "Help using the Chapar.",
+                content: ""
+            }
+        );
+    index.add(
+            {
+                id:  8 ,
+                href: "\/docs\/help\/troubleshooting\/",
+                title: "Troubleshooting",
+                description: "Solutions to common problems.",
+                content: " warning Caution - This documentation is in progress "
+            }
+        );
+    index.add(
+            {
+                id:  9 ,
+                href: "\/docs\/help\/faqs\/",
+                title: "FAQ",
+                description: "Answers to frequently asked questions.",
+                content: " warning Caution - This documentation is in progress "
             }
         );
     search.addEventListener('input', show_results, true);

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contributing on Chapar</title>
+    <link>http://localhost:1313/docs/contributing/</link>
+    <description>Recent content in Contributing on Chapar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Feb 2024 15:13:21 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/docs/contributing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Contribute</title>
+      <link>http://localhost:1313/docs/contributing/how-to-contribute/</link>
+      <pubDate>Sun, 25 Feb 2024 15:13:21 +0100</pubDate>
+      <guid>http://localhost:1313/docs/contributing/how-to-contribute/</guid>
+      <description>Contribute to code linkCreate a Pull Request link Follow the GitHub flow. Follow the Conventional Commits Specification Improve documentation link Follow the GitHub flow. Follow the Conventional Commits Specification Help others linkChapar Issues is the place to get help and help others with Chapar.&#xA;Contribute financially linkHelp support the team developing Chapar by becoming a financial contributor.</description>
+    </item>
+    <item>
+      <title>Financial Contributions</title>
+      <link>http://localhost:1313/docs/contributing/financial-contributions/</link>
+      <pubDate>Sun, 25 Feb 2024 15:13:21 +0100</pubDate>
+      <guid>http://localhost:1313/docs/contributing/financial-contributions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Code of Conduct</title>
+      <link>http://localhost:1313/docs/contributing/code-of-conduct/</link>
+      <pubDate>Sun, 25 Feb 2024 15:13:21 +0100</pubDate>
+      <guid>http://localhost:1313/docs/contributing/code-of-conduct/</guid>
+      <description>Our Pledge linkWe as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.&#xA;We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.</description>
+    </item>
+  </channel>
+</rss>
