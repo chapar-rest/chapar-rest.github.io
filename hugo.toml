@@ -3,6 +3,10 @@ languageCode = 'en-us'
 title = 'Chapar'
 
 
+[services]
+  [services.googleAnalytics]
+    ID = 'G-TR7Z16ZHVE'
+
 [module]
     replacements = "github.com/colinwilson/lotusdocs -> lotusdocs"
     [[module.imports]]
