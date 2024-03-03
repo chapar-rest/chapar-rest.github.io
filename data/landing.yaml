@@ -107,7 +107,7 @@ featureGrid:
 
     - title: Open Source
       icon: crowdsource
-      description: Chapar is open source and MIT licensed. It is free to use and modify.
+      description: Chapar is open source and BSD-3-Clause licensed. It is free to use and modify.
       ctaLink:
         text: learn more
         url: /docs/
