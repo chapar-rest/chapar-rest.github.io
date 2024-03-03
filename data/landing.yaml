@@ -43,7 +43,7 @@ hero:
     btnText: "In Development"
     url: "https://github.com/mirzakhany/chapar"
 
-  info: "**Open Source** MIT Licensed."
+  info: "**Open Source** BSD-3-Clause licensed."
 
 
 # Feature Grid
