@@ -37,7 +37,8 @@ hero:
   ctaButton:
     icon: rocket_launch
     btnText: "Get Started"
-    url: "https://chapar.rest/docs/quickstart"
+    url: "/docs/quickstart"
+    
   cta2Button:
     icon: construction
     btnText: "In Development"
