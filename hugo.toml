@@ -44,7 +44,7 @@ title = 'Chapar'
         copyright = "© :YEAR: Chapar. Built with [**Lotus Docs**](https://github.com/colinwilson/lotusdocs)"
 
     [params.social]
-        github = "https://github.com/mirzakhany/chapar"
+        github = "mirzakhany/chapar"
 
     [params.docs] # Parameters for the /docs 'template'
         title           = "Chapar Docs"           # default html title for documentation pages/sections
