@@ -42,7 +42,7 @@ hero:
   cta2Button:
     icon: construction
     btnText: "In Development"
-    url: "https://github.com/mirzakhany/chapar"
+    url: "https://github.com/chapar-rest/chapar"
 
   info: "**Open Source** BSD-3-Clause licensed."
 

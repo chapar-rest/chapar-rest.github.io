@@ -25,7 +25,7 @@ toc: true
 
 ## Help others
 
-[Chapar Issues](https://github.com/mirzakhany/chapar/issues) is the place to get help and help others with Chapar.
+[Chapar Issues](https://github.com/chapar-rest/chapar/issues) is the place to get help and help others with Chapar.
 
 ## Contribute financially
 

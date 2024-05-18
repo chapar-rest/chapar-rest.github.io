@@ -17,6 +17,6 @@ toc: true
 To install Chapar, you can use the following command:
 
 ```bash
-go install github.com/mirzakhany/chapar
+go install github.com/chapar-rest/chapar
 ```
 

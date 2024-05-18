@@ -4,7 +4,7 @@
     <title>Documentation on Chapar</title>
     <link>http://localhost:1313/docs/</link>
     <description>Recent content in Documentation on Chapar</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 25 Feb 2024 15:18:24 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
@@ -20,7 +20,7 @@
       <link>http://localhost:1313/docs/quickstart/</link>
       <pubDate>Sun, 25 Feb 2024 15:18:24 +0100</pubDate>
       <guid>http://localhost:1313/docs/quickstart/</guid>
-      <description> warning Caution - This documentation is in progress Installation linkTo install Chapar, you can use the following command:&#xA;go install github.com/mirzakhany/chapar </description>
+      <description> warning Caution - This documentation is in progress Installation linkTo install Chapar, you can use the following command:&#xA;go install github.com/chapar-rest/chapar </description>
     </item>
   </channel>
 </rss>
