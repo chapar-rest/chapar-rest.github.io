@@ -20,14 +20,14 @@
       <link>http://localhost:1313/docs/quickstart/</link>
       <pubDate>Sun, 25 Feb 2024 15:18:24 +0100</pubDate>
       <guid>http://localhost:1313/docs/quickstart/</guid>
-      <description> warning Caution - This documentation is in progress Installation linkTo install Chapar, you can use the following command:&#xA;go install github.com/mirzakhany/chapar </description>
+      <description>Installation linkTo install Chapar, you can download the latest release or build the project from source.&#xA;Download the latest release linkYou can download the latest release from the releases page. Be sure to download the version that is compatible with your operating system.&#xA;Install From Source linkTo install Chapar from source, clone the repository install the dependencies, and run the application using the following commands:&#xA;git clone https://github.com/chapar-rest/chapar.git cd chapar go build -o chapar .</description>
     </item>
     <item>
       <title>How to Contribute</title>
       <link>http://localhost:1313/docs/contributing/how-to-contribute/</link>
       <pubDate>Sun, 25 Feb 2024 15:13:21 +0100</pubDate>
       <guid>http://localhost:1313/docs/contributing/how-to-contribute/</guid>
-      <description>Contribute to code linkCreate a Pull Request link Follow the GitHub flow. Follow the Conventional Commits Specification Improve documentation link Follow the GitHub flow. Follow the Conventional Commits Specification Help others linkChapar Issues is the place to get help and help others with Chapar.&#xA;Contribute financially linkHelp support the team developing Chapar by becoming a financial contributor.</description>
+      <description>Contribute to code linkContributing to the codebase is a great way to help improve the project. Here’s how you can get started:&#xA;Create a Pull Request link Fork the repository: Click the &amp;ldquo;Fork&amp;rdquo; button in the top right corner of the repository page to create your own copy of the repo. Clone the repository: Clone your forked repository to your local machine using git clone . Create a new branch: Create a new branch for your changes with a descriptive name, such as feature/add-new-feature or fix/bug-description.</description>
     </item>
     <item>
       <title>Financial Contributions</title>

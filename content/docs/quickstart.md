@@ -10,13 +10,25 @@ draft: false
 toc: true
 ---
 
-{{% alert context="warning" text="**Caution** - This documentation is in progress" /%}}
+### Installation
+To install Chapar, you can download the latest release or build the project from source.
 
-## Installation
+#### Download the latest release
+You can download the latest release from the [releases page](https://github.com/chapar-rest/chapar/releases).
+Be sure to download the version that is compatible with your operating system.
 
-To install Chapar, you can use the following command:
-
+#### Install From Source
+To install Chapar from source, clone the repository install the dependencies, and run the application using the following commands:
 ```bash
-go install github.com/mirzakhany/chapar
+git clone https://github.com/chapar-rest/chapar.git
+cd chapar
+go build -o chapar .
 ```
+
+## Dependencies
+If you want to build the project from source, you need to install the following dependencies:
+Chapar is built using [Gio](https://gioui.org) library so you need to install the following dependencies to build the project:
+
+for linux follow instructions in [gio linux](https://gioui.org/doc/install/linux)
+for macOS follow instructions in [gio macos](https://gioui.org/doc/install/macos)
 

@@ -20,7 +20,7 @@
       <link>http://localhost:1313/docs/quickstart/</link>
       <pubDate>Sun, 25 Feb 2024 15:18:24 +0100</pubDate>
       <guid>http://localhost:1313/docs/quickstart/</guid>
-      <description> warning Caution - This documentation is in progress Installation linkTo install Chapar, you can use the following command:&#xA;go install github.com/mirzakhany/chapar </description>
+      <description>Installation linkTo install Chapar, you can download the latest release or build the project from source.&#xA;Download the latest release linkYou can download the latest release from the releases page. Be sure to download the version that is compatible with your operating system.&#xA;Install From Source linkTo install Chapar from source, clone the repository install the dependencies, and run the application using the following commands:&#xA;git clone https://github.com/chapar-rest/chapar.git cd chapar go build -o chapar .</description>
     </item>
   </channel>
 </rss>

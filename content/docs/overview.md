@@ -25,23 +25,24 @@ Herodus described the Chapar as follows:
 >
 > Herodotus, about 440 BC
 
-### Key Features
-* User-Friendly Interface: Chapar prioritizes ease of use, ensuring developers can quickly get started with testing their API endpoints.
+## State of the project
+Chapar is currently in the early beta phase, with the first release expected soon. The project is under active development, with regular updates and improvements planned to enhance the user experience and functionality.
 
-* Protocol Flexibility: Test endpoints with ease, supporting both HTTP and gRPC protocols.
-Fast-Paced Development: Expect regular updates and improvements as Chapar evolves to meet the needs of developers.
+### Features
+* Create and manage workspaces to organize your API endpoints.
+* Create and manage environments to store variables and configurations for your API endpoints.
+* Create and manage requests to test your API endpoints.
+* Send requests with different methods (GET, POST, PUT, DELETE, PATCH, HEAD, OPTION,CONNECT).
+* Send requests with different content types (JSON, XML, Form, Text, HTML).
+* Send requests with different authentication methods (Basic, Bearer, API Key, No Auth).
+* Send requests with different body types (Form, Raw, Binary).
+* Set environment variables from the response of the request using JSONPath.
+* Dark mode support.
+* Data is stored locally on your machine. and no data is sent to any server.
+* Import collections and requests from Postman.
 
-* Efficiency: Conduct tests efficiently without sacrificing accuracy or reliability.
-
-
-### Getting Started
-Stay tuned for the upcoming early beta release of Chapar. Once released, clone the repository or download the beta version to get started with testing your API endpoints.
-
-```bash
-  go mod tidy
-  go mod vendor
-  make run
-```
-
-### Contributing
-We welcome contributions from the community once the early beta is released! If you have ideas, feedback, or wish to contribute, please open an issue or submit a pull request.
+### Roadmap
+* Support for gRPC, WebSocket, GraphQL protocol.
+* Syntax highlighting for request body.
+* Python as a scripting language for pre-request and post-request scripts.
+* Support for tunneling to servers and kube clusters as pre request actions.
