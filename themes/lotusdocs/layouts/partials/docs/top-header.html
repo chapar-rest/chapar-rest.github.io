@@ -4,13 +4,15 @@
         <div class="d-flex align-items-center">
             <a href='{{ with .Site.Params.docs.logoLinkURL }}{{ . }}{{ else }}{{ relLangURL "" }}{{ end }}' class="logo-icon me-3" aria-label="HomePage" alt="HomePage">
                 <div class="small">
-                    {{ with resources.Get "images/logos/mark.svg" }}
-                            {{ .Content | safeHTML }}
+                    {{ with resources.Get "images/logos/marks.png" }}
+                        <img src="{{ .RelPermalink }}" alt="Chapar logo" height="30px">
+                          <!--  {{ .Content | safeHTML }} -->
                     {{ end }}
                 </div>
                 <div class="big">
-                    {{ with resources.Get "images/logos/logo.svg" }}
-                            {{ .Content | safeHTML }}
+                    {{ with resources.Get "images/logos/marks.png" }}
+                        <img src="{{ .RelPermalink }}" alt="Chapar logo" height="30px">
+                    <!--  {{ .Content | safeHTML }} -->
                     {{ end }}
                 </div>
             </a>

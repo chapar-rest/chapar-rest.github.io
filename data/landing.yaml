@@ -18,11 +18,11 @@ hero:
     pill: false # boolean
     soft: true # boolean
 
-  # titleLogo:
-  #   path: "images/logos"
-  #   filename: "title_logo.png"
-  #   alt: "Lotus Docs Logo"
-  #   height: 80px
+  titleLogo:
+    path: "images/logos"
+    filename: "chapar_logo.png"
+    alt: "Chapar Logo"
+    height: 80px
 
   title: "Chapar"
   subtitle: Chapar is an upcoming native API testing tool built with GoLang, designed to simplify and expedite the testing process for developers. While still in its early beta phase, Chapar aims to offer a user-friendly experience with support for both HTTP and gRPC protocols with.

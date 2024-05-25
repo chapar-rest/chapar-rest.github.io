@@ -13,7 +13,7 @@
       <link>http://localhost:1313/docs/contributing/how-to-contribute/</link>
       <pubDate>Sun, 25 Feb 2024 15:13:21 +0100</pubDate>
       <guid>http://localhost:1313/docs/contributing/how-to-contribute/</guid>
-      <description>Contribute to code linkCreate a Pull Request link Follow the GitHub flow. Follow the Conventional Commits Specification Improve documentation link Follow the GitHub flow. Follow the Conventional Commits Specification Help others linkChapar Issues is the place to get help and help others with Chapar.&#xA;Contribute financially linkHelp support the team developing Chapar by becoming a financial contributor.</description>
+      <description>Contribute to code linkContributing to the codebase is a great way to help improve the project. Here’s how you can get started:&#xA;Create a Pull Request link Fork the repository: Click the &amp;ldquo;Fork&amp;rdquo; button in the top right corner of the repository page to create your own copy of the repo. Clone the repository: Clone your forked repository to your local machine using git clone . Create a new branch: Create a new branch for your changes with a descriptive name, such as feature/add-new-feature or fix/bug-description.</description>
     </item>
     <item>
       <title>Financial Contributions</title>

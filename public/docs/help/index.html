@@ -41,6 +41,7 @@
 <meta name="twitter:description" content="Help using the Chapar."/>
 
     
+    <script>(()=>{var t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,e=localStorage.getItem("theme");t&&e===null&&(localStorage.setItem("theme","dark"),document.documentElement.setAttribute("data-dark-mode","")),t&&e==="dark"&&document.documentElement.setAttribute("data-dark-mode",""),e==="dark"&&document.documentElement.setAttribute("data-dark-mode","")})()</script>
     
     
             
@@ -181,12 +182,14 @@
             <a href='/' class="logo-icon me-3" aria-label="HomePage" alt="HomePage">
                 <div class="small">
                     
-                            <?xml version="1.0" encoding="UTF-8"?><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250"><path d="m143,39.5c-18,0-18,18-18,18,0,0,0-18-18-18H22c-2.76,0-5,2.24-5,5v143c0,2.76,2.24,5,5,5h76c7.2,0,8.64,11.52,8.93,16.13.07,1.05.95,1.87,2,1.87h32.14c1.06,0,1.94-.82,2-1.87.29-4.61,1.73-16.13,8.93-16.13h76c2.76,0,5-2.24,5-5V44.5c0-2.76-2.24-5-5-5h-85Zm63,123.5c0,1.38-1.12,2.5-2.5,2.5h-60.5c-18,0-18,18-18,18,0,0,0-18-18-18h-60.5c-1.38,0-2.5-1.12-2.5-2.5v-94c0-1.38,1.12-2.5,2.5-2.5h51.5c7.2,0,8.64,11.52,8.93,16.13.07,1.05.95,1.87,2,1.87h32.14c1.06,0,1.94-.82,2-1.87.29-4.61,1.73-16.13,8.93-16.13h51.5c1.38,0,2.5,1.12,2.5,2.5v94Z" style="fill:#06f;"/></svg>
+                        <img src="/images/logos/marks.png" alt="Chapar logo" height="30px">
+                          
                     
                 </div>
                 <div class="big">
                     
-                            <?xml version="1.0" encoding="UTF-8"?><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250"><path d="m143,39.5c-18,0-18,18-18,18,0,0,0-18-18-18H22c-2.76,0-5,2.24-5,5v143c0,2.76,2.24,5,5,5h76c7.2,0,8.64,11.52,8.93,16.13.07,1.05.95,1.87,2,1.87h32.14c1.06,0,1.94-.82,2-1.87.29-4.61,1.73-16.13,8.93-16.13h76c2.76,0,5-2.24,5-5V44.5c0-2.76-2.24-5-5-5h-85Zm63,123.5c0,1.38-1.12,2.5-2.5,2.5h-60.5c-18,0-18,18-18,18,0,0,0-18-18-18h-60.5c-1.38,0-2.5-1.12-2.5-2.5v-94c0-1.38,1.12-2.5,2.5-2.5h51.5c7.2,0,8.64,11.52,8.93,16.13.07,1.05.95,1.87,2,1.87h32.14c1.06,0,1.94-.82,2-1.87.29-4.61,1.73-16.13,8.93-16.13h51.5c1.38,0,2.5,1.12,2.5,2.5v94Z" style="fill:#06f;"/></svg>
+                        <img src="/images/logos/marks.png" alt="Chapar logo" height="30px">
+                    
                     
                 </div>
             </a>
@@ -230,6 +233,20 @@
                     
                 
             </ul>
+            <button id="mode" class="btn btn-icon btn-default ms-2" type="button" aria-label="Toggle user interface mode">
+                <span class="toggle-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30" viewBox="0 0 48 48" fill="currentColor">
+                        <title>Enable dark mode</title>
+                        <path d="M24 42q-7.5 0-12.75-5.25T6 24q0-7.5 5.25-12.75T24 6q.4 0 .85.025.45.025 1.15.075-1.8 1.6-2.8 3.95-1 2.35-1 4.95 0 4.5 3.15 7.65Q28.5 25.8 33 25.8q2.6 0 4.95-.925T41.9 22.3q.05.6.075.975Q42 23.65 42 24q0 7.5-5.25 12.75T24 42Zm0-3q5.45 0 9.5-3.375t5.05-7.925q-1.25.55-2.675.825Q34.45 28.8 33 28.8q-5.75 0-9.775-4.025T19.2 15q0-1.2.25-2.575.25-1.375.9-3.125-4.9 1.35-8.125 5.475Q9 18.9 9 24q0 6.25 4.375 10.625T24 39Zm-.2-14.85Z"/>
+                    </svg>
+                </span>
+                <span class="toggle-light">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30" viewBox="0 0 48 48" fill="currentColor">
+                        <title>Enable light mode</title>
+                        <path d="M24 31q2.9 0 4.95-2.05Q31 26.9 31 24q0-2.9-2.05-4.95Q26.9 17 24 17q-2.9 0-4.95 2.05Q17 21.1 17 24q0 2.9 2.05 4.95Q21.1 31 24 31Zm0 3q-4.15 0-7.075-2.925T14 24q0-4.15 2.925-7.075T24 14q4.15 0 7.075 2.925T34 24q0 4.15-2.925 7.075T24 34ZM3.5 25.5q-.65 0-1.075-.425Q2 24.65 2 24q0-.65.425-1.075Q2.85 22.5 3.5 22.5h5q.65 0 1.075.425Q10 23.35 10 24q0 .65-.425 1.075-.425.425-1.075.425Zm36 0q-.65 0-1.075-.425Q38 24.65 38 24q0-.65.425-1.075.425-.425 1.075-.425h5q.65 0 1.075.425Q46 23.35 46 24q0 .65-.425 1.075-.425.425-1.075.425ZM24 10q-.65 0-1.075-.425Q22.5 9.15 22.5 8.5v-5q0-.65.425-1.075Q23.35 2 24 2q.65 0 1.075.425.425.425.425 1.075v5q0 .65-.425 1.075Q24.65 10 24 10Zm0 36q-.65 0-1.075-.425-.425-.425-.425-1.075v-5q0-.65.425-1.075Q23.35 38 24 38q.65 0 1.075.425.425.425.425 1.075v5q0 .65-.425 1.075Q24.65 46 24 46ZM12 14.1l-2.85-2.8q-.45-.45-.425-1.075.025-.625.425-1.075.45-.45 1.075-.45t1.075.45L14.1 12q.4.45.4 1.05 0 .6-.4 1-.4.45-1.025.45-.625 0-1.075-.4Zm24.7 24.75L33.9 36q-.4-.45-.4-1.075t.45-1.025q.4-.45 1-.45t1.05.45l2.85 2.8q.45.45.425 1.075-.025.625-.425 1.075-.45.45-1.075.45t-1.075-.45ZM33.9 14.1q-.45-.45-.45-1.05 0-.6.45-1.05l2.8-2.85q.45-.45 1.075-.425.625.025 1.075.425.45.45.45 1.075t-.45 1.075L36 14.1q-.4.4-1.025.4-.625 0-1.075-.4ZM9.15 38.85q-.45-.45-.45-1.075t.45-1.075L12 33.9q.45-.45 1.05-.45.6 0 1.05.45.45.45.45 1.05 0 .6-.45 1.05l-2.8 2.85q-.45.45-1.075.425-.625-.025-1.075-.425ZM24 24Z"/>
+                    </svg>
+                </span>
+            </button>
             
         </div>
     </div>
@@ -390,6 +407,8 @@
         
 
         
+        
+            <script>(()=>{var e=document.getElementById("mode");e!==null&&(window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",e=>{e.matches?(localStorage.setItem("theme","dark"),document.documentElement.setAttribute("data-dark-mode","")):(localStorage.setItem("theme","light"),document.documentElement.removeAttribute("data-dark-mode"))}),e.addEventListener("click",()=>{document.documentElement.toggleAttribute("data-dark-mode"),localStorage.setItem("theme",document.documentElement.hasAttribute("data-dark-mode")?"dark":"light")}),localStorage.getItem("theme")==="dark"?document.documentElement.setAttribute("data-dark-mode",""):document.documentElement.removeAttribute("data-dark-mode"))})()</script>
         
 
 
@@ -607,7 +626,7 @@
                 href: "\/docs\/overview\/",
                 title: "Overview",
                 description: "Chapar - Native API Testing Tool linkChapar is an upcoming native API testing tool built with GoLang, designed to simplify and expedite the testing process for developers. While still in its early beta phase, Chapar aims to offer a user-friendly experience with support for both HTTP and gRPC protocols with.\nWhat Chapar means? linkChapar was the institution of the royal mounted couriers in ancient Persia. The messengers, called Chapar, alternated in stations a day’s ride apart along the Royal Road.",
-                content: "Chapar - Native API Testing Tool linkChapar is an upcoming native API testing tool built with GoLang, designed to simplify and expedite the testing process for developers. While still in its early beta phase, Chapar aims to offer a user-friendly experience with support for both HTTP and gRPC protocols with.\nWhat Chapar means? linkChapar was the institution of the royal mounted couriers in ancient Persia. The messengers, called Chapar, alternated in stations a day’s ride apart along the Royal Road. The riders were exclusively in the service of the Great King and the network allowed for messages to be transported from Susa to Sardis (2699 km) in nine days; the journey took ninety days on foot.\nHerodus described the Chapar as follows:\nThere is nothing in the world that travels faster than these Persian couriers. Neither snow, nor rain, nor heat, nor darkness of night prevents these couriers from completing their designated stages with utmost speed.\nHerodotus, about 440 BC\nKey Features link User-Friendly Interface: Chapar prioritizes ease of use, ensuring developers can quickly get started with testing their API endpoints.\nProtocol Flexibility: Test endpoints with ease, supporting both HTTP and gRPC protocols. Fast-Paced Development: Expect regular updates and improvements as Chapar evolves to meet the needs of developers.\nEfficiency: Conduct tests efficiently without sacrificing accuracy or reliability.\nGetting Started linkStay tuned for the upcoming early beta release of Chapar. Once released, clone the repository or download the beta version to get started with testing your API endpoints.\ngo mod tidy go mod vendor make run Contributing linkWe welcome contributions from the community once the early beta is released! If you have ideas, feedback, or wish to contribute, please open an issue or submit a pull request.\n"
+                content: "Chapar - Native API Testing Tool linkChapar is an upcoming native API testing tool built with GoLang, designed to simplify and expedite the testing process for developers. While still in its early beta phase, Chapar aims to offer a user-friendly experience with support for both HTTP and gRPC protocols with.\nWhat Chapar means? linkChapar was the institution of the royal mounted couriers in ancient Persia. The messengers, called Chapar, alternated in stations a day’s ride apart along the Royal Road. The riders were exclusively in the service of the Great King and the network allowed for messages to be transported from Susa to Sardis (2699 km) in nine days; the journey took ninety days on foot.\nHerodus described the Chapar as follows:\nThere is nothing in the world that travels faster than these Persian couriers. Neither snow, nor rain, nor heat, nor darkness of night prevents these couriers from completing their designated stages with utmost speed.\nHerodotus, about 440 BC\nState of the project linkChapar is currently in the early beta phase, with the first release expected soon. The project is under active development, with regular updates and improvements planned to enhance the user experience and functionality.\nFeatures link Create and manage workspaces to organize your API endpoints. Create and manage environments to store variables and configurations for your API endpoints. Create and manage requests to test your API endpoints. Send requests with different methods (GET, POST, PUT, DELETE, PATCH, HEAD, OPTION,CONNECT). Send requests with different content types (JSON, XML, Form, Text, HTML). Send requests with different authentication methods (Basic, Bearer, API Key, No Auth). Send requests with different body types (Form, Raw, Binary). Set environment variables from the response of the request using JSONPath. Dark mode support. Data is stored locally on your machine. and no data is sent to any server. Import collections and requests from Postman. Roadmap link Support for gRPC, WebSocket, GraphQL protocol. Syntax highlighting for request body. Python as a scripting language for pre-request and post-request scripts. Support for tunneling to servers and kube clusters as pre request actions. "
             }
         );
     index.add(
@@ -615,8 +634,8 @@
                 id:  2 ,
                 href: "\/docs\/quickstart\/",
                 title: "Quickstart",
-                description: " warning Caution - This documentation is in progress Installation linkTo install Chapar, you can use the following command:\ngo install github.com/mirzakhany/chapar ",
-                content: " warning Caution - This documentation is in progress Installation linkTo install Chapar, you can use the following command:\ngo install github.com/mirzakhany/chapar "
+                description: "Installation linkTo install Chapar, you can download the latest release or build the project from source.\nDownload the latest release linkYou can download the latest release from the releases page. Be sure to download the version that is compatible with your operating system.\nInstall From Source linkTo install Chapar from source, clone the repository install the dependencies, and run the application using the following commands:\ngit clone https://github.com/chapar-rest/chapar.git cd chapar go build -o chapar .",
+                content: "Installation linkTo install Chapar, you can download the latest release or build the project from source.\nDownload the latest release linkYou can download the latest release from the releases page. Be sure to download the version that is compatible with your operating system.\nInstall From Source linkTo install Chapar from source, clone the repository install the dependencies, and run the application using the following commands:\ngit clone https://github.com/chapar-rest/chapar.git cd chapar go build -o chapar . Dependencies linkIf you want to build the project from source, you need to install the following dependencies: Chapar is built using Gio library so you need to install the following dependencies to build the project:\nfor linux follow instructions in gio linux for macOS follow instructions in gio macos\n"
             }
         );
     index.add(
@@ -634,7 +653,7 @@
                 href: "\/docs\/contributing\/how-to-contribute\/",
                 title: "How to Contribute",
                 description: "Contribute to code, improve documentation, help others, and contribute financially.",
-                content: "Contribute to code linkCreate a Pull Request link Follow the GitHub flow. Follow the Conventional Commits Specification Improve documentation link Follow the GitHub flow. Follow the Conventional Commits Specification Help others linkChapar Issues is the place to get help and help others with Chapar.\nContribute financially linkHelp support the team developing Chapar by "
+                content: "Contribute to code linkContributing to the codebase is a great way to help improve the project. Here’s how you can get started:\nCreate a Pull Request link Fork the repository: Click the “Fork” button in the top right corner of the repository page to create your own copy of the repo. Clone the repository: Clone your forked repository to your local machine using git clone . Create a new branch: Create a new branch for your changes with a descriptive name, such as feature/add-new-feature or fix/bug-description. git checkout -b feature/your-feature-name Make your changes: Implement your changes or new features. Make sure your code adheres to the project’s coding standards and guidelines. Commit your changes: Use the Conventional Commits Specification for your commit messages. git commit -m \"feat: description of your feature\" Push your changes: Push your changes to your forked repository. git push origin feature/your-feature-name Create a Pull Request: Go to the original repository and create a new pull request. Make sure to provide a detailed description of your changes. Follow the GitHub flow. Follow the Conventional Commits Specification Improve documentation linkGood documentation is essential for any project. Here’s how you can contribute to the documentation:\nIdentify areas for improvement: Look for typos, unclear sections, or outdated information in the existing documentation. Edit the documentation: Make the necessary changes in the documentation files. These are usually found in the docs folder or as README.md files in various directories. Follow the same process: Use the same GitHub flow and Conventional Commits Specification as you would for code contributions. Submit a Pull Request: Provide a clear explanation of the documentation improvements you made. Help others linkParticipating in the community and helping others is a valuable way to contribute. Here’s how you can get involved:\nAnswer questions: Visit the Chapar Issues page to find questions and issues raised by other users. Provide helpful answers and solutions.\nShare knowledge: Write tutorials, blog posts, or create videos explaining how to use different features of the project.\nReport bugs: If you encounter any bugs, report them by creating a new issue on the Chapar Issues page. Provide detailed information to help the maintainers understand and reproduce the issue. is the place to get help and help others with Chapar.\nContribute financially linkHelp support the team developing Chapar by "
             }
         );
     index.add(
