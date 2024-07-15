@@ -129,6 +129,11 @@
                                     
                                         
                                         
+                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/docs/guides/manage-workspaces/">Manage Workspaces</a></li>
+                                        
+                                    
+                                        
+                                        
                                             <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/docs/guides/send-grpc-request/">Send GRPC Request</a></li>
                                         
                                     
@@ -371,6 +376,23 @@
                                             <div id="content" class="main-content" data-bs-spy="scroll" data-bs-root-margin="0px 0px -65%" data-bs-target="#toc-mobile">
                                                 
     <div class="row flex-xl-wrap">
+        
+        <div id="list-item" class="col-md-4 col-12 mt-4 pt-2">
+            <a class="text-decoration-none text-reset" href="http://localhost:1313/docs/guides/manage-workspaces/">
+                <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
+                    <span class="icon-color d-flex my-3">
+                        <i class="material-icons align-middle">article</i>
+                        
+                        
+                    </span>
+                    <div class="card-body p-0 content">
+                        <p class="fs-5 fw-semibold card-title mb-1">Manage Workspaces</p>
+                        <p class="para card-text mb-0"></p>
+                    </div>
+                    
+                </div>
+            </a>
+        </div>
         
         <div id="list-item" class="col-md-4 col-12 mt-4 pt-2">
             <a class="text-decoration-none text-reset" href="http://localhost:1313/docs/guides/send-grpc-request/">
@@ -667,6 +689,13 @@
     
     
     
+    
+    
+    
+    
+    
+    
+    
 
 
     
@@ -775,6 +804,15 @@
     index.add(
             {
                 id:  11 ,
+                href: "\/docs\/guides\/manage-workspaces\/",
+                title: "Manage Workspaces",
+                description: "Workspaces are a way to organize your requests and collections. You can create multiple workspaces to separate your requests and collections based on your needs. Chapr comes with a default workspace where by default all your requests and collections are stored.\nCreate a Workspace linkTo create a new workspace, go to Workspaces tab and click on the “New Workspace” button. You can give your workspace a name.",
+                content: "Workspaces are a way to organize your requests and collections. You can create multiple workspaces to separate your requests and collections based on your needs. Chapr comes with a default workspace where by default all your requests and collections are stored.\nCreate a Workspace linkTo create a new workspace, go to Workspaces tab and click on the “New Workspace” button. You can give your workspace a name.\n"
+            }
+        );
+    index.add(
+            {
+                id:  12 ,
                 href: "\/docs\/quickstart\/installation\/",
                 title: "Installation",
                 description: "Installation linkTo install Chapar, you can download the latest release or build the project from source.\nDownload the latest release linkYou can download the latest release from the releases page. Be sure to download the version that is compatible with your operating system.\nInstall From Source linkTo install Chapar from source, clone the repository install the dependencies, and run the application using the following commands:\ngit clone https://github.com/chapar-rest/chapar.git cd chapar go build -o chapar .",
@@ -783,7 +821,7 @@
         );
     index.add(
             {
-                id:  12 ,
+                id:  13 ,
                 href: "\/docs\/guides\/send-grpc-request\/",
                 title: "Send GRPC Request",
                 description: "To send an GRPC request using Chapar, you can use the following steps:\nOpen the Chapar application. Click on “New” and select “GRPC Request”. Enter the URL of the GRPC server. In “Server info” select eatheir “Server reflection” or “Proto file” and hit “Reload” to load the server info. In “Body” enter the request message in JSON format. you can also use “Load Example” to load an example request. Click on “Invoke” to send the request.",
@@ -792,7 +830,7 @@
         );
     index.add(
             {
-                id:  13 ,
+                id:  14 ,
                 href: "\/docs\/guides\/send-http-request\/",
                 title: "Send HTTP Request",
                 description: "To send an HTTP request using Chapar, you can use the following steps:\nOpen the Chapar application. Click on “New” and select “HTTP Request”. ",

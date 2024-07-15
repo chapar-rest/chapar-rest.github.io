@@ -36,8 +36,8 @@
 Create a Workspace linkTo create a new workspace, go to Workspaces tab and click on the &ldquo;New Workspace&rdquo; button. You can give your workspace a name." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/docs/guides/manage-workspaces/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_1329679305339728711.png"/><meta property="article:section" content="docs" />
-<meta property="article:published_time" content="2024-02-25T15:18:24+01:00" />
-<meta property="article:modified_time" content="2024-02-25T15:18:24+01:00" /><meta name="twitter:card" content="summary_large_image"/>
+<meta property="article:published_time" content="2024-07-14T01:18:24+01:00" />
+<meta property="article:modified_time" content="2024-07-14T01:18:24+01:00" /><meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_1329679305339728711.png"/>
 <meta name="twitter:title" content="Manage Workspaces"/>
 <meta name="twitter:description" content="Workspaces are a way to organize your requests and collections. You can create multiple workspaces to separate your requests and collections based on your needs. Chapr comes with a default workspace where by default all your requests and collections are stored.
@@ -443,21 +443,21 @@ Chapr comes with a default workspace where by default all your requests and coll
 
 	<div class="row flex-xl-nowrap ">
 	<div class="col-sm-6 pt-2 doc-next">
-		<a href="/docs/quickstart/installation/">
+		<a href="/docs/help/faqs/">
 			<div class="card h-100 my-1">
 				<div class="card-body py-2">
-                    <p class="card-title fs-5 fw-semibold lh-base mb-0"><i class="material-icons align-middle">navigate_before</i> Installation</p>
-					<p class="card-text ms-2"></p>
+                    <p class="card-title fs-5 fw-semibold lh-base mb-0"><i class="material-icons align-middle">navigate_before</i> FAQ</p>
+					<p class="card-text ms-2">Answers to frequently asked …</p>
 					
 				</div>
 			</div>
 		</a>
         </div>
 	<div class="col-sm-6 pt-2 doc-prev">
-		<a class="ms-auto" href="/docs/guides/send-grpc-request/">
+		<a class="ms-auto" href="/docs/quickstart/installation/">
 			<div class="card h-100 my-1 text-end">
 				<div class="card-body py-2">
-                    <p class="card-title fs-5 fw-semibold lh-base mb-0">Send GRPC Request <i class="material-icons align-middle">navigate_next</i></p>
+                    <p class="card-title fs-5 fw-semibold lh-base mb-0">Installation <i class="material-icons align-middle">navigate_next</i></p>
 					<p class="card-text me-2"></p>
 					
 				</div>
@@ -836,15 +836,6 @@ Chapr comes with a default workspace where by default all your requests and coll
     index.add(
             {
                 id:  11 ,
-                href: "\/docs\/quickstart\/installation\/",
-                title: "Installation",
-                description: "Installation linkTo install Chapar, you can download the latest release or build the project from source.\nDownload the latest release linkYou can download the latest release from the releases page. Be sure to download the version that is compatible with your operating system.\nInstall From Source linkTo install Chapar from source, clone the repository install the dependencies, and run the application using the following commands:\ngit clone https://github.com/chapar-rest/chapar.git cd chapar go build -o chapar .",
-                content: "Installation linkTo install Chapar, you can download the latest release or build the project from source.\nDownload the latest release linkYou can download the latest release from the releases page. Be sure to download the version that is compatible with your operating system.\nInstall From Source linkTo install Chapar from source, clone the repository install the dependencies, and run the application using the following commands:\ngit clone https://github.com/chapar-rest/chapar.git cd chapar go build -o chapar . Dependencies linkIf you want to build the project from source, you need to install the following dependencies: Chapar is built using Gio library so you need to install the following dependencies to build the project:\nfor linux follow instructions in gio linux for macOS follow instructions in gio macos\n"
-            }
-        );
-    index.add(
-            {
-                id:  12 ,
                 href: "\/docs\/guides\/manage-workspaces\/",
                 title: "Manage Workspaces",
                 description: "Workspaces are a way to organize your requests and collections. You can create multiple workspaces to separate your requests and collections based on your needs. Chapr comes with a default workspace where by default all your requests and collections are stored.\nCreate a Workspace linkTo create a new workspace, go to Workspaces tab and click on the “New Workspace” button. You can give your workspace a name.",
@@ -853,11 +844,20 @@ Chapr comes with a default workspace where by default all your requests and coll
         );
     index.add(
             {
+                id:  12 ,
+                href: "\/docs\/quickstart\/installation\/",
+                title: "Installation",
+                description: "Installation linkTo install Chapar, you can download the latest release or build the project from source.\nDownload the latest release linkYou can download the latest release from the releases page. Be sure to download the version that is compatible with your operating system.\nInstall From Source linkTo install Chapar from source, clone the repository install the dependencies, and run the application using the following commands:\ngit clone https://github.com/chapar-rest/chapar.git cd chapar go build -o chapar .",
+                content: "Installation linkTo install Chapar, you can download the latest release or build the project from source.\nDownload the latest release linkYou can download the latest release from the releases page. Be sure to download the version that is compatible with your operating system.\nInstall From Source linkTo install Chapar from source, clone the repository install the dependencies, and run the application using the following commands:\ngit clone https://github.com/chapar-rest/chapar.git cd chapar go build -o chapar . Dependencies linkIf you want to build the project from source, you need to install the following dependencies: Chapar is built using Gio library so you need to install the following dependencies to build the project:\nfor linux follow instructions in gio linux for macOS follow instructions in gio macos\n"
+            }
+        );
+    index.add(
+            {
                 id:  13 ,
                 href: "\/docs\/guides\/send-grpc-request\/",
                 title: "Send GRPC Request",
-                description: "To send an GRPC request using Chapar, you can use the following steps:\nOpen the Chapar application. Click on “New” and select “GRPC Request”. ",
-                content: "To send an GRPC request using Chapar, you can use the following steps:\nOpen the Chapar application. Click on “New” and select “GRPC Request”. "
+                description: "To send an GRPC request using Chapar, you can use the following steps:\nOpen the Chapar application. Click on “New” and select “GRPC Request”. Enter the URL of the GRPC server. In “Server info” select eatheir “Server reflection” or “Proto file” and hit “Reload” to load the server info. In “Body” enter the request message in JSON format. you can also use “Load Example” to load an example request. Click on “Invoke” to send the request.",
+                content: "To send an GRPC request using Chapar, you can use the following steps:\nOpen the Chapar application. Click on “New” and select “GRPC Request”. Enter the URL of the GRPC server. In “Server info” select eatheir “Server reflection” or “Proto file” and hit “Reload” to load the server info. In “Body” enter the request message in JSON format. you can also use “Load Example” to load an example request. Click on “Invoke” to send the request. You can also add metadata to the request in the “Metadata” section. change request timeout and other settings in the “Settings” section. Chapar supports both unary and server streaming GRPC requests.\n"
             }
         );
     index.add(

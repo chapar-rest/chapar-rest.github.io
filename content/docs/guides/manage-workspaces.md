@@ -2,8 +2,8 @@
 title: "Manage Workspaces"
 description: ""
 icon: "article"
-date: "2024-07-15T22:18:24+01:00"
-lastmod: "2024-07-15T22:18:24+01:00"
+date: "2024-07-14T01:18:24+01:00"
+lastmod:  "2024-07-14T01:18:24+01:00"
 draft: false
 
 ---
