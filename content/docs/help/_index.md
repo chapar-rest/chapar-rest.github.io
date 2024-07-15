@@ -1,5 +1,5 @@
 ---
-weight: 2100
+weight: 3000
 title: "Help"
 description: "Help using the Chapar."
 icon: help

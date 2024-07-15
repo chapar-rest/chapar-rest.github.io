@@ -1,4 +1,5 @@
 ---
+weight: 1001
 title: "Installation"
 description: ""
 icon: "article"

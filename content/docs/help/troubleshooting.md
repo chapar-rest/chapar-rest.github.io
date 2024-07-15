@@ -1,5 +1,5 @@
 ---
-weight: 2115
+weight: 3002
 title: "Troubleshooting"
 icon: "tools_wrench"
 description: "Solutions to common problems."

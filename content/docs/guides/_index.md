@@ -1,5 +1,5 @@
 ---
-weight: 1100
+weight: 2000
 title: "Guides"
 description: "How to use Chapar."
 icon: menu_book

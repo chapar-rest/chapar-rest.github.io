@@ -1,4 +1,5 @@
 ---
+weight: 2001
 title: "Manage Workspaces"
 description: ""
 icon: "article"

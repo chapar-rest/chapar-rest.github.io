@@ -1,5 +1,5 @@
 ---
-weight: 2120
+weight: 3001
 title: "FAQ"
 icon: "quiz"
 description: "Answers to frequently asked questions."

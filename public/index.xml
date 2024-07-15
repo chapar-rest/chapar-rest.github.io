@@ -6,7 +6,7 @@
     <description>Recent content on Chapar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jul 2024 01:18:24 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jul 2024 01:18:24 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Overview</title>
@@ -16,39 +16,11 @@
       <description>Chapar - Native API Testing Tool linkChapar is an upcoming native API testing tool built with GoLang, designed to simplify and expedite the testing process for developers. While still in its early beta phase, Chapar aims to offer a user-friendly experience with support for both HTTP and gRPC protocols with.&#xA;What Chapar means? linkChapar was the institution of the royal mounted couriers in ancient Persia. The messengers, called Chapar, alternated in stations a day&amp;rsquo;s ride apart along the Royal Road.</description>
     </item>
     <item>
-      <title>How to Contribute</title>
-      <link>http://localhost:1313/docs/contributing/how-to-contribute/</link>
-      <pubDate>Sun, 25 Feb 2024 15:13:21 +0100</pubDate>
-      <guid>http://localhost:1313/docs/contributing/how-to-contribute/</guid>
-      <description>Contribute to code linkContributing to the codebase is a great way to help improve the project. Here’s how you can get started:&#xA;Create a Pull Request link Fork the repository: Click the &amp;ldquo;Fork&amp;rdquo; button in the top right corner of the repository page to create your own copy of the repo. Clone the repository: Clone your forked repository to your local machine using git clone . Create a new branch: Create a new branch for your changes with a descriptive name, such as feature/add-new-feature or fix/bug-description.</description>
-    </item>
-    <item>
-      <title>Financial Contributions</title>
-      <link>http://localhost:1313/docs/contributing/financial-contributions/</link>
-      <pubDate>Sun, 25 Feb 2024 15:13:21 +0100</pubDate>
-      <guid>http://localhost:1313/docs/contributing/financial-contributions/</guid>
-      <description>Chapar is an open-source project that relies on the support of the community to continue development. If you find Chapar useful and would like to help support the project, you can make a financial contribution. Financial contributions help cover the costs of hosting, development, and maintenance of the project.&#xA;How to contribute financially linkRegardless of the amount, your financial contribution is greatly appreciated and helps ensure the continued development of Chapar.</description>
-    </item>
-    <item>
-      <title>Code of Conduct</title>
-      <link>http://localhost:1313/docs/contributing/code-of-conduct/</link>
-      <pubDate>Sun, 25 Feb 2024 15:13:21 +0100</pubDate>
-      <guid>http://localhost:1313/docs/contributing/code-of-conduct/</guid>
-      <description>Our Pledge linkWe as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.&#xA;We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.</description>
-    </item>
-    <item>
-      <title>Troubleshooting</title>
-      <link>http://localhost:1313/docs/help/troubleshooting/</link>
+      <title>Installation</title>
+      <link>http://localhost:1313/docs/quickstart/installation/</link>
       <pubDate>Sun, 25 Feb 2024 15:18:24 +0100</pubDate>
-      <guid>http://localhost:1313/docs/help/troubleshooting/</guid>
-      <description> warning Caution - This documentation is in progress </description>
-    </item>
-    <item>
-      <title>FAQ</title>
-      <link>http://localhost:1313/docs/help/faqs/</link>
-      <pubDate>Sun, 25 Feb 2024 15:18:24 +0100</pubDate>
-      <guid>http://localhost:1313/docs/help/faqs/</guid>
-      <description> warning Caution - This documentation is in progress </description>
+      <guid>http://localhost:1313/docs/quickstart/installation/</guid>
+      <description>Installation linkTo install Chapar, you can download the latest release or build the project from source.&#xA;Download the latest release linkYou can download the latest release from the releases page. Be sure to download the version that is compatible with your operating system.&#xA;Install From Source linkTo install Chapar from source, clone the repository install the dependencies, and run the application using the following commands:&#xA;git clone https://github.com/chapar-rest/chapar.git cd chapar go build -o chapar .</description>
     </item>
     <item>
       <title>Manage Workspaces</title>
@@ -56,13 +28,6 @@
       <pubDate>Sun, 14 Jul 2024 01:18:24 +0100</pubDate>
       <guid>http://localhost:1313/docs/guides/manage-workspaces/</guid>
       <description>Workspaces are a way to organize your requests and collections. You can create multiple workspaces to separate your requests and collections based on your needs. Chapr comes with a default workspace where by default all your requests and collections are stored.&#xA;Create a Workspace linkTo create a new workspace, go to Workspaces tab and click on the &amp;ldquo;New Workspace&amp;rdquo; button. You can give your workspace a name.</description>
-    </item>
-    <item>
-      <title>Installation</title>
-      <link>http://localhost:1313/docs/quickstart/installation/</link>
-      <pubDate>Sun, 25 Feb 2024 15:18:24 +0100</pubDate>
-      <guid>http://localhost:1313/docs/quickstart/installation/</guid>
-      <description>Installation linkTo install Chapar, you can download the latest release or build the project from source.&#xA;Download the latest release linkYou can download the latest release from the releases page. Be sure to download the version that is compatible with your operating system.&#xA;Install From Source linkTo install Chapar from source, clone the repository install the dependencies, and run the application using the following commands:&#xA;git clone https://github.com/chapar-rest/chapar.git cd chapar go build -o chapar .</description>
     </item>
     <item>
       <title>Send GRPC Request</title>
@@ -76,7 +41,49 @@
       <link>http://localhost:1313/docs/guides/send-http-request/</link>
       <pubDate>Sun, 25 Feb 2024 15:18:24 +0100</pubDate>
       <guid>http://localhost:1313/docs/guides/send-http-request/</guid>
-      <description>To send an HTTP request using Chapar, you can use the following steps:&#xA;Open the Chapar application. Click on &amp;ldquo;New&amp;rdquo; and select &amp;ldquo;HTTP Request&amp;rdquo;. </description>
+      <description>To send an HTTP request using Chapar, you can use the following steps:&#xA;Open the Chapar application. Click on &amp;ldquo;New&amp;rdquo; and select &amp;ldquo;HTTP Request&amp;rdquo;. Enter the URL of the server you want to send the request to. Choose the HTTP method you want to use (GET, POST, PUT, DELETE, etc.). Add any headers or parameters you need to include in the request. Click on &amp;ldquo;Send&amp;rdquo; to send the request. View the response in the &amp;ldquo;Response&amp;rdquo; section.</description>
+    </item>
+    <item>
+      <title>Variables</title>
+      <link>http://localhost:1313/docs/guides/variables/</link>
+      <pubDate>Mon, 15 Jul 2024 01:18:24 +0100</pubDate>
+      <guid>http://localhost:1313/docs/guides/variables/</guid>
+      <description>Chapar comes with predefined variables that you can use in your requests. These variables can be used to dynamically generate values for headers, parameters, and request bodies. Here are some of the variables that are available in Chapar:&#xA;{{randomUUID4}} - Generates a random UUID version 4. {{timeNow}} - Generates the current time in RFC3339 format. {{unixTimestamp}} - Generates the current Unix timestamp. {{randInt1000}} - Generates a random integer between 0 and 1000.</description>
+    </item>
+    <item>
+      <title>FAQ</title>
+      <link>http://localhost:1313/docs/help/faqs/</link>
+      <pubDate>Sun, 25 Feb 2024 15:18:24 +0100</pubDate>
+      <guid>http://localhost:1313/docs/help/faqs/</guid>
+      <description> warning Caution - This documentation is in progress </description>
+    </item>
+    <item>
+      <title>Troubleshooting</title>
+      <link>http://localhost:1313/docs/help/troubleshooting/</link>
+      <pubDate>Sun, 25 Feb 2024 15:18:24 +0100</pubDate>
+      <guid>http://localhost:1313/docs/help/troubleshooting/</guid>
+      <description> warning Caution - This documentation is in progress </description>
+    </item>
+    <item>
+      <title>Code of Conduct</title>
+      <link>http://localhost:1313/docs/contributing/code-of-conduct/</link>
+      <pubDate>Sun, 25 Feb 2024 15:13:21 +0100</pubDate>
+      <guid>http://localhost:1313/docs/contributing/code-of-conduct/</guid>
+      <description>Our Pledge linkWe as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.&#xA;We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.</description>
+    </item>
+    <item>
+      <title>Financial Contributions</title>
+      <link>http://localhost:1313/docs/contributing/financial-contributions/</link>
+      <pubDate>Sun, 25 Feb 2024 15:13:21 +0100</pubDate>
+      <guid>http://localhost:1313/docs/contributing/financial-contributions/</guid>
+      <description>Chapar is an open-source project that relies on the support of the community to continue development. If you find Chapar useful and would like to help support the project, you can make a financial contribution. Financial contributions help cover the costs of hosting, development, and maintenance of the project.&#xA;How to contribute financially linkRegardless of the amount, your financial contribution is greatly appreciated and helps ensure the continued development of Chapar.</description>
+    </item>
+    <item>
+      <title>How to Contribute</title>
+      <link>http://localhost:1313/docs/contributing/how-to-contribute/</link>
+      <pubDate>Sun, 25 Feb 2024 15:13:21 +0100</pubDate>
+      <guid>http://localhost:1313/docs/contributing/how-to-contribute/</guid>
+      <description>Contribute to code linkContributing to the codebase is a great way to help improve the project. Here’s how you can get started:&#xA;Create a Pull Request link Fork the repository: Click the &amp;ldquo;Fork&amp;rdquo; button in the top right corner of the repository page to create your own copy of the repo. Clone the repository: Clone your forked repository to your local machine using git clone . Create a new branch: Create a new branch for your changes with a descriptive name, such as feature/add-new-feature or fix/bug-description.</description>
     </item>
   </channel>
 </rss>

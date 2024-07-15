@@ -1,5 +1,5 @@
 ---
-weight: 1900
+weight: 4000
 title: "Contributing"
 description: "How to contribute to Chapar"
 icon: heart_plus

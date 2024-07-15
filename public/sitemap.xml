@@ -11,44 +11,47 @@
     <loc>http://localhost:1313/docs/quickstart/</loc>
     <lastmod>2024-07-14T01:18:24+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/docs/quickstart/installation/</loc>
+    <lastmod>2024-02-25T15:18:24+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/docs/guides/</loc>
     <lastmod>2024-02-25T15:18:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/contributing/</loc>
-    <lastmod>2024-02-25T15:13:21+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/contributing/how-to-contribute/</loc>
-    <lastmod>2024-02-25T15:13:21+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/contributing/financial-contributions/</loc>
-    <lastmod>2024-02-25T15:13:21+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/contributing/code-of-conduct/</loc>
-    <lastmod>2024-02-25T15:13:21+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/help/</loc>
-    <lastmod>2024-02-25T15:18:24+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/help/troubleshooting/</loc>
-    <lastmod>2024-02-25T15:18:24+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/help/faqs/</loc>
-    <lastmod>2024-02-25T15:18:24+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-07-14T01:18:24+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/docs/guides/manage-workspaces/</loc>
     <lastmod>2024-07-14T01:18:24+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/quickstart/installation/</loc>
-    <lastmod>2024-02-25T15:18:24+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/guides/send-grpc-request/</loc>
     <lastmod>2024-02-25T15:18:24+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/guides/send-http-request/</loc>
     <lastmod>2024-02-25T15:18:24+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/guides/variables/</loc>
+    <lastmod>2024-07-15T01:18:24+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/help/</loc>
+    <lastmod>2024-02-25T15:18:24+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/help/faqs/</loc>
+    <lastmod>2024-02-25T15:18:24+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/help/troubleshooting/</loc>
+    <lastmod>2024-02-25T15:18:24+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/contributing/</loc>
+    <lastmod>2024-02-25T15:13:21+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/contributing/code-of-conduct/</loc>
+    <lastmod>2024-02-25T15:13:21+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/contributing/financial-contributions/</loc>
+    <lastmod>2024-02-25T15:13:21+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/contributing/how-to-contribute/</loc>
+    <lastmod>2024-02-25T15:13:21+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-07-15T01:18:24+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>

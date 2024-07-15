@@ -16,7 +16,7 @@
 
 <html lang="en-us"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
-    <title>Send HTTP Request | Chapar Docs</title>
+    <title>Variables | Chapar Docs</title>
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Chapar, testing, rest api, grpc" />
@@ -31,17 +31,17 @@
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="manifest" crossorigin="use-credentials" href="http://localhost:1313/site.webmanifest">
-<meta property="og:title" content="Send HTTP Request" />
-<meta property="og:description" content="To send an HTTP request using Chapar, you can use the following steps:
-Open the Chapar application. Click on &ldquo;New&rdquo; and select &ldquo;HTTP Request&rdquo;. Enter the URL of the server you want to send the request to. Choose the HTTP method you want to use (GET, POST, PUT, DELETE, etc.). Add any headers or parameters you need to include in the request. Click on &ldquo;Send&rdquo; to send the request. View the response in the &ldquo;Response&rdquo; section." />
+<meta property="og:title" content="Variables" />
+<meta property="og:description" content="Chapar comes with predefined variables that you can use in your requests. These variables can be used to dynamically generate values for headers, parameters, and request bodies. Here are some of the variables that are available in Chapar:
+{{randomUUID4}} - Generates a random UUID version 4. {{timeNow}} - Generates the current time in RFC3339 format. {{unixTimestamp}} - Generates the current Unix timestamp. {{randInt1000}} - Generates a random integer between 0 and 1000." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/docs/guides/send-http-request/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_11209264966188474948.png"/><meta property="article:section" content="docs" />
-<meta property="article:published_time" content="2024-02-25T15:18:24+01:00" />
-<meta property="article:modified_time" content="2024-02-25T15:18:24+01:00" /><meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_11209264966188474948.png"/>
-<meta name="twitter:title" content="Send HTTP Request"/>
-<meta name="twitter:description" content="To send an HTTP request using Chapar, you can use the following steps:
-Open the Chapar application. Click on &ldquo;New&rdquo; and select &ldquo;HTTP Request&rdquo;. Enter the URL of the server you want to send the request to. Choose the HTTP method you want to use (GET, POST, PUT, DELETE, etc.). Add any headers or parameters you need to include in the request. Click on &ldquo;Send&rdquo; to send the request. View the response in the &ldquo;Response&rdquo; section."/>
+<meta property="og:url" content="http://localhost:1313/docs/guides/variables/" /><meta property="og:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_3176514229927099303.png"/><meta property="article:section" content="docs" />
+<meta property="article:published_time" content="2024-07-15T01:18:24+01:00" />
+<meta property="article:modified_time" content="2024-07-15T01:18:24+01:00" /><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://localhost:1313/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_3176514229927099303.png"/>
+<meta name="twitter:title" content="Variables"/>
+<meta name="twitter:description" content="Chapar comes with predefined variables that you can use in your requests. These variables can be used to dynamically generate values for headers, parameters, and request bodies. Here are some of the variables that are available in Chapar:
+{{randomUUID4}} - Generates a random UUID version 4. {{timeNow}} - Generates the current time in RFC3339 format. {{unixTimestamp}} - Generates the current Unix timestamp. {{randInt1000}} - Generates a random integer between 0 and 1000."/>
 
     
     <script>(()=>{var t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,e=localStorage.getItem("theme");t&&e===null&&(localStorage.setItem("theme","dark"),document.documentElement.setAttribute("data-dark-mode","")),t&&e==="dark"&&document.documentElement.setAttribute("data-dark-mode",""),e==="dark"&&document.documentElement.setAttribute("data-dark-mode","")})()</script>
@@ -142,12 +142,12 @@ Open the Chapar application. Click on &ldquo;New&rdquo; and select &ldquo;HTTP R
                                     
                                         
                                         
-                                            <li class="current "><a class="sidebar-nested-link" href="http://localhost:1313/docs/guides/send-http-request/">Send HTTP Request</a></li>
+                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/docs/guides/send-http-request/">Send HTTP Request</a></li>
                                         
                                     
                                         
                                         
-                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/docs/guides/variables/">Variables</a></li>
+                                            <li class="current "><a class="sidebar-nested-link" href="http://localhost:1313/docs/guides/variables/">Variables</a></li>
                                         
                                     
                                 </ul>
@@ -356,7 +356,7 @@ Open the Chapar application. Click on &ldquo;New&rdquo; and select &ldquo;HTTP R
             
         
             <li class="breadcrumb-item text-capitalize active" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <span itemprop="name">Send HTTP Request</span>
+                <span itemprop="name">Variables</span>
                 <meta itemprop="position" content='3' />
             </li>
         
@@ -382,7 +382,7 @@ Open the Chapar application. Click on &ldquo;New&rdquo; and select &ldquo;HTTP R
                                                 <i class="material-icons title-icon me-2">article</i>
                                                 
                                                 <h1 class="content-title mb-0">
-                                                    Send HTTP Request
+                                                    Variables
                                                     
                                                 </h1>
                                             </div>
@@ -393,15 +393,18 @@ Open the Chapar application. Click on &ldquo;New&rdquo; and select &ldquo;HTTP R
                                                 
     
     <div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="">
-        <p>To send an HTTP request using Chapar, you can use the following steps:</p>
+        <p>Chapar comes with predefined variables that you can use in your requests. These variables can be used to dynamically generate values for headers, parameters, and request bodies. Here are some of the variables that are available in Chapar:</p>
 <ul>
-<li>Open the Chapar application.</li>
-<li>Click on &ldquo;New&rdquo; and select &ldquo;HTTP Request&rdquo;.</li>
-<li>Enter the URL of the server you want to send the request to.</li>
-<li>Choose the HTTP method you want to use (GET, POST, PUT, DELETE, etc.).</li>
-<li>Add any headers or parameters you need to include in the request.</li>
-<li>Click on &ldquo;Send&rdquo; to send the request.</li>
-<li>View the response in the &ldquo;Response&rdquo; section.</li>
+<li><code>{{randomUUID4}}</code> - Generates a random UUID version 4.</li>
+<li><code>{{timeNow}}</code> - Generates the current time in RFC3339 format.</li>
+<li><code>{{unixTimestamp}}</code> - Generates the current Unix timestamp.</li>
+<li><code>{{randInt1000}}</code> - Generates a random integer between 0 and 1000.</li>
+<li><code>{{randInt100}}</code> - Generates a random integer between 0 and 100.</li>
+<li><code>{{randInt}}</code> - Generates a random integer between 0 and maxInt.</li>
+<li><code>{{randFloat}}</code> - Generates a random 64 float</li>
+<li><code>{{randFloat32}}</code> - Generates a random 32 float</li>
+<li><code>{{fullDate}}</code> - Generates the current date in the format &ldquo;2006-01-02&rdquo;.</li>
+<li><code>{{randBool}}</code> - Generates a random boolean value.</li>
 </ul>
 
     </div>
@@ -415,10 +418,10 @@ Open the Chapar application. Click on &ldquo;New&rdquo; and select &ldquo;HTTP R
 
 	<div class="row flex-xl-nowrap ">
 	<div class="col-sm-6 pt-2 doc-next">
-		<a href="/docs/guides/send-grpc-request/">
+		<a href="/docs/guides/send-http-request/">
 			<div class="card h-100 my-1">
 				<div class="card-body py-2">
-                    <p class="card-title fs-5 fw-semibold lh-base mb-0"><i class="material-icons align-middle">navigate_before</i> Send GRPC Request</p>
+                    <p class="card-title fs-5 fw-semibold lh-base mb-0"><i class="material-icons align-middle">navigate_before</i> Send HTTP Request</p>
 					<p class="card-text ms-2"></p>
 					
 				</div>
@@ -426,11 +429,11 @@ Open the Chapar application. Click on &ldquo;New&rdquo; and select &ldquo;HTTP R
 		</a>
         </div>
 	<div class="col-sm-6 pt-2 doc-prev">
-		<a class="ms-auto" href="/docs/guides/variables/">
+		<a class="ms-auto" href="/docs/help/faqs/">
 			<div class="card h-100 my-1 text-end">
 				<div class="card-body py-2">
-                    <p class="card-title fs-5 fw-semibold lh-base mb-0">Variables <i class="material-icons align-middle">navigate_next</i></p>
-					<p class="card-text me-2"></p>
+                    <p class="card-title fs-5 fw-semibold lh-base mb-0">FAQ <i class="material-icons align-middle">navigate_next</i></p>
+					<p class="card-text me-2">Answers to frequently asked …</p>
 					
 				</div>
 			</div>

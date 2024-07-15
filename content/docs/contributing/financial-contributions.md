@@ -1,5 +1,5 @@
 ---
-weight: 1910
+weight: 4002
 title: "Financial Contributions"
 icon: paid
 description: "Help support the Chapar development by becoming a financial contributor."

@@ -9,17 +9,17 @@
     <lastBuildDate>Sun, 25 Feb 2024 15:18:24 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/docs/help/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Troubleshooting</title>
-      <link>http://localhost:1313/docs/help/troubleshooting/</link>
-      <pubDate>Sun, 25 Feb 2024 15:18:24 +0100</pubDate>
-      <guid>http://localhost:1313/docs/help/troubleshooting/</guid>
-      <description> warning Caution - This documentation is in progress </description>
-    </item>
-    <item>
       <title>FAQ</title>
       <link>http://localhost:1313/docs/help/faqs/</link>
       <pubDate>Sun, 25 Feb 2024 15:18:24 +0100</pubDate>
       <guid>http://localhost:1313/docs/help/faqs/</guid>
+      <description> warning Caution - This documentation is in progress </description>
+    </item>
+    <item>
+      <title>Troubleshooting</title>
+      <link>http://localhost:1313/docs/help/troubleshooting/</link>
+      <pubDate>Sun, 25 Feb 2024 15:18:24 +0100</pubDate>
+      <guid>http://localhost:1313/docs/help/troubleshooting/</guid>
       <description> warning Caution - This documentation is in progress </description>
     </item>
   </channel>

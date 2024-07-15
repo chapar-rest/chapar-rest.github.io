@@ -9,11 +9,11 @@
     <lastBuildDate>Sun, 25 Feb 2024 15:13:21 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/docs/contributing/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to Contribute</title>
-      <link>http://localhost:1313/docs/contributing/how-to-contribute/</link>
+      <title>Code of Conduct</title>
+      <link>http://localhost:1313/docs/contributing/code-of-conduct/</link>
       <pubDate>Sun, 25 Feb 2024 15:13:21 +0100</pubDate>
-      <guid>http://localhost:1313/docs/contributing/how-to-contribute/</guid>
-      <description>Contribute to code linkContributing to the codebase is a great way to help improve the project. Here’s how you can get started:&#xA;Create a Pull Request link Fork the repository: Click the &amp;ldquo;Fork&amp;rdquo; button in the top right corner of the repository page to create your own copy of the repo. Clone the repository: Clone your forked repository to your local machine using git clone . Create a new branch: Create a new branch for your changes with a descriptive name, such as feature/add-new-feature or fix/bug-description.</description>
+      <guid>http://localhost:1313/docs/contributing/code-of-conduct/</guid>
+      <description>Our Pledge linkWe as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.&#xA;We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.</description>
     </item>
     <item>
       <title>Financial Contributions</title>
@@ -23,11 +23,11 @@
       <description>Chapar is an open-source project that relies on the support of the community to continue development. If you find Chapar useful and would like to help support the project, you can make a financial contribution. Financial contributions help cover the costs of hosting, development, and maintenance of the project.&#xA;How to contribute financially linkRegardless of the amount, your financial contribution is greatly appreciated and helps ensure the continued development of Chapar.</description>
     </item>
     <item>
-      <title>Code of Conduct</title>
-      <link>http://localhost:1313/docs/contributing/code-of-conduct/</link>
+      <title>How to Contribute</title>
+      <link>http://localhost:1313/docs/contributing/how-to-contribute/</link>
       <pubDate>Sun, 25 Feb 2024 15:13:21 +0100</pubDate>
-      <guid>http://localhost:1313/docs/contributing/code-of-conduct/</guid>
-      <description>Our Pledge linkWe as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.&#xA;We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.</description>
+      <guid>http://localhost:1313/docs/contributing/how-to-contribute/</guid>
+      <description>Contribute to code linkContributing to the codebase is a great way to help improve the project. Here’s how you can get started:&#xA;Create a Pull Request link Fork the repository: Click the &amp;ldquo;Fork&amp;rdquo; button in the top right corner of the repository page to create your own copy of the repo. Clone the repository: Clone your forked repository to your local machine using git clone . Create a new branch: Create a new branch for your changes with a descriptive name, such as feature/add-new-feature or fix/bug-description.</description>
     </item>
   </channel>
 </rss>
