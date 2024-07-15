@@ -6,7 +6,7 @@
     <description>Recent content in Documentation on Chapar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Feb 2024 15:18:24 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 25 Feb 2024 15:13:21 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Overview</title>
@@ -14,13 +14,6 @@
       <pubDate>Sun, 25 Feb 2024 15:13:21 +0100</pubDate>
       <guid>http://localhost:1313/docs/overview/</guid>
       <description>Chapar - Native API Testing Tool linkChapar is an upcoming native API testing tool built with GoLang, designed to simplify and expedite the testing process for developers. While still in its early beta phase, Chapar aims to offer a user-friendly experience with support for both HTTP and gRPC protocols with.&#xA;What Chapar means? linkChapar was the institution of the royal mounted couriers in ancient Persia. The messengers, called Chapar, alternated in stations a day&amp;rsquo;s ride apart along the Royal Road.</description>
-    </item>
-    <item>
-      <title>Quickstart</title>
-      <link>http://localhost:1313/docs/quickstart/</link>
-      <pubDate>Sun, 25 Feb 2024 15:18:24 +0100</pubDate>
-      <guid>http://localhost:1313/docs/quickstart/</guid>
-      <description>Installation linkTo install Chapar, you can download the latest release or build the project from source.&#xA;Download the latest release linkYou can download the latest release from the releases page. Be sure to download the version that is compatible with your operating system.&#xA;Install From Source linkTo install Chapar from source, clone the repository install the dependencies, and run the application using the following commands:&#xA;git clone https://github.com/chapar-rest/chapar.git cd chapar go build -o chapar .</description>
     </item>
   </channel>
 </rss>

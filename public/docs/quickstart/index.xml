@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quick Start on Chapar</title>
+    <link>http://localhost:1313/docs/quickstart/</link>
+    <description>Recent content in Quick Start on Chapar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Feb 2024 15:18:24 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/docs/quickstart/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installation</title>
+      <link>http://localhost:1313/docs/quickstart/installation/</link>
+      <pubDate>Sun, 25 Feb 2024 15:18:24 +0100</pubDate>
+      <guid>http://localhost:1313/docs/quickstart/installation/</guid>
+      <description>Installation linkTo install Chapar, you can download the latest release or build the project from source.&#xA;Download the latest release linkYou can download the latest release from the releases page. Be sure to download the version that is compatible with your operating system.&#xA;Install From Source linkTo install Chapar from source, clone the repository install the dependencies, and run the application using the following commands:&#xA;git clone https://github.com/chapar-rest/chapar.git cd chapar go build -o chapar .</description>
+    </item>
+  </channel>
+</rss>

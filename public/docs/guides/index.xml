@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guides on Chapar</title>
+    <link>http://localhost:1313/docs/guides/</link>
+    <description>Recent content in Guides on Chapar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Feb 2024 15:18:24 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/docs/guides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Manage Workspaces</title>
+      <link>http://localhost:1313/docs/guides/manage-workspaces/</link>
+      <pubDate>Sun, 25 Feb 2024 15:18:24 +0100</pubDate>
+      <guid>http://localhost:1313/docs/guides/manage-workspaces/</guid>
+      <description>Workspaces are a way to organize your requests and collections. You can create multiple workspaces to separate your requests and collections based on your needs. Chapr comes with a default workspace where by default all your requests and collections are stored.&#xA;Create a Workspace linkTo create a new workspace, go to Workspaces tab and click on the &amp;ldquo;New Workspace&amp;rdquo; button. You can give your workspace a name.</description>
+    </item>
+    <item>
+      <title>Send GRPC Request</title>
+      <link>http://localhost:1313/docs/guides/send-grpc-request/</link>
+      <pubDate>Sun, 25 Feb 2024 15:18:24 +0100</pubDate>
+      <guid>http://localhost:1313/docs/guides/send-grpc-request/</guid>
+      <description>To send an GRPC request using Chapar, you can use the following steps:&#xA;Open the Chapar application. Click on &amp;ldquo;New&amp;rdquo; and select &amp;ldquo;GRPC Request&amp;rdquo;. </description>
+    </item>
+    <item>
+      <title>Send HTTP Request</title>
+      <link>http://localhost:1313/docs/guides/send-http-request/</link>
+      <pubDate>Sun, 25 Feb 2024 15:18:24 +0100</pubDate>
+      <guid>http://localhost:1313/docs/guides/send-http-request/</guid>
+      <description>To send an HTTP request using Chapar, you can use the following steps:&#xA;Open the Chapar application. Click on &amp;ldquo;New&amp;rdquo; and select &amp;ldquo;HTTP Request&amp;rdquo;. </description>
+    </item>
+  </channel>
+</rss>

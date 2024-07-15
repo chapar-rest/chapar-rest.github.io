@@ -98,13 +98,52 @@
                     
                 
                     
-                        
-                        <li class="">
-                            <a class="sidebar-root-link" href="http://localhost:1313/docs/quickstart/">
-                                <i class="material-icons me-2">rocket_launch</i>
-                                
-                                Quickstart
-                            </a>
+                    
+                        <li class="sidebar-dropdown  ">
+                            <button class="btn">
+                                <i class="material-icons me-2">rocket</i>
+                                Quick Start
+                            </button>
+                            <div class="sidebar-submenu ">
+                                <ul>
+                                    
+                                        
+                                        
+                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/docs/quickstart/installation/">Installation</a></li>
+                                        
+                                    
+                                </ul>
+                            </div>
+                        </li>
+                    
+                
+                    
+                    
+                        <li class="sidebar-dropdown  ">
+                            <button class="btn">
+                                <i class="material-icons me-2">menu_book</i>
+                                Guides
+                            </button>
+                            <div class="sidebar-submenu ">
+                                <ul>
+                                    
+                                        
+                                        
+                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/docs/guides/manage-workspaces/">Manage Workspaces</a></li>
+                                        
+                                    
+                                        
+                                        
+                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/docs/guides/send-grpc-request/">Send GRPC Request</a></li>
+                                        
+                                    
+                                        
+                                        
+                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/docs/guides/send-http-request/">Send HTTP Request</a></li>
+                                        
+                                    
+                                </ul>
+                            </div>
                         </li>
                     
                 
@@ -351,13 +390,30 @@
             <a class="text-decoration-none text-reset" href="http://localhost:1313/docs/quickstart/">
                 <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
                     <span class="icon-color d-flex my-3">
-                        <i class="material-icons align-middle">rocket_launch</i>
+                        <i class="material-icons align-middle">rocket</i>
                         
-                        
+                        <i class="material-icons icon-faint align-middle ms-auto" title="Directory">folder</i>
                     </span>
                     <div class="card-body p-0 content">
-                        <p class="fs-5 fw-semibold card-title mb-1">Quickstart</p>
-                        <p class="para card-text mb-0"></p>
+                        <p class="fs-5 fw-semibold card-title mb-1">Quick Start</p>
+                        <p class="para card-text mb-0">Get started with Chapar.</p>
+                    </div>
+                    
+                </div>
+            </a>
+        </div>
+        
+        <div id="list-item" class="col-md-4 col-12 mt-4 pt-2">
+            <a class="text-decoration-none text-reset" href="http://localhost:1313/docs/guides/">
+                <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
+                    <span class="icon-color d-flex my-3">
+                        <i class="material-icons align-middle">menu_book</i>
+                        
+                        <i class="material-icons icon-faint align-middle ms-auto" title="Directory">folder</i>
+                    </span>
+                    <div class="card-body p-0 content">
+                        <p class="fs-5 fw-semibold card-title mb-1">Guides</p>
+                        <p class="para card-text mb-0">How to use Chapar.</p>
                     </div>
                     
                 </div>
@@ -631,6 +687,41 @@
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
     
@@ -659,14 +750,23 @@
             {
                 id:  2 ,
                 href: "\/docs\/quickstart\/",
-                title: "Quickstart",
-                description: "Installation linkTo install Chapar, you can download the latest release or build the project from source.\nDownload the latest release linkYou can download the latest release from the releases page. Be sure to download the version that is compatible with your operating system.\nInstall From Source linkTo install Chapar from source, clone the repository install the dependencies, and run the application using the following commands:\ngit clone https://github.com/chapar-rest/chapar.git cd chapar go build -o chapar .",
-                content: "Installation linkTo install Chapar, you can download the latest release or build the project from source.\nDownload the latest release linkYou can download the latest release from the releases page. Be sure to download the version that is compatible with your operating system.\nInstall From Source linkTo install Chapar from source, clone the repository install the dependencies, and run the application using the following commands:\ngit clone https://github.com/chapar-rest/chapar.git cd chapar go build -o chapar . Dependencies linkIf you want to build the project from source, you need to install the following dependencies: Chapar is built using Gio library so you need to install the following dependencies to build the project:\nfor linux follow instructions in gio linux for macOS follow instructions in gio macos\n"
+                title: "Quick Start",
+                description: "Get started with Chapar.",
+                content: ""
             }
         );
     index.add(
             {
                 id:  3 ,
+                href: "\/docs\/guides\/",
+                title: "Guides",
+                description: "How to use Chapar.",
+                content: ""
+            }
+        );
+    index.add(
+            {
+                id:  4 ,
                 href: "\/docs\/contributing\/",
                 title: "Contributing",
                 description: "How to contribute to Chapar",
@@ -675,7 +775,7 @@
         );
     index.add(
             {
-                id:  4 ,
+                id:  5 ,
                 href: "\/docs\/contributing\/how-to-contribute\/",
                 title: "How to Contribute",
                 description: "Contribute to code, improve documentation, help others, and contribute financially.",
@@ -684,7 +784,7 @@
         );
     index.add(
             {
-                id:  5 ,
+                id:  6 ,
                 href: "\/docs\/contributing\/financial-contributions\/",
                 title: "Financial Contributions",
                 description: "Help support the Chapar development by becoming a financial contributor.",
@@ -693,7 +793,7 @@
         );
     index.add(
             {
-                id:  6 ,
+                id:  7 ,
                 href: "\/docs\/contributing\/code-of-conduct\/",
                 title: "Code of Conduct",
                 description: "Contributor Covenant Code of Conduct.",
@@ -702,7 +802,7 @@
         );
     index.add(
             {
-                id:  7 ,
+                id:  8 ,
                 href: "\/docs\/help\/",
                 title: "Help",
                 description: "Help using the Chapar.",
@@ -711,7 +811,7 @@
         );
     index.add(
             {
-                id:  8 ,
+                id:  9 ,
                 href: "\/docs\/help\/troubleshooting\/",
                 title: "Troubleshooting",
                 description: "Solutions to common problems.",
@@ -720,11 +820,47 @@
         );
     index.add(
             {
-                id:  9 ,
+                id:  10 ,
                 href: "\/docs\/help\/faqs\/",
                 title: "FAQ",
                 description: "Answers to frequently asked questions.",
                 content: " warning Caution - This documentation is in progress "
+            }
+        );
+    index.add(
+            {
+                id:  11 ,
+                href: "\/docs\/quickstart\/installation\/",
+                title: "Installation",
+                description: "Installation linkTo install Chapar, you can download the latest release or build the project from source.\nDownload the latest release linkYou can download the latest release from the releases page. Be sure to download the version that is compatible with your operating system.\nInstall From Source linkTo install Chapar from source, clone the repository install the dependencies, and run the application using the following commands:\ngit clone https://github.com/chapar-rest/chapar.git cd chapar go build -o chapar .",
+                content: "Installation linkTo install Chapar, you can download the latest release or build the project from source.\nDownload the latest release linkYou can download the latest release from the releases page. Be sure to download the version that is compatible with your operating system.\nInstall From Source linkTo install Chapar from source, clone the repository install the dependencies, and run the application using the following commands:\ngit clone https://github.com/chapar-rest/chapar.git cd chapar go build -o chapar . Dependencies linkIf you want to build the project from source, you need to install the following dependencies: Chapar is built using Gio library so you need to install the following dependencies to build the project:\nfor linux follow instructions in gio linux for macOS follow instructions in gio macos\n"
+            }
+        );
+    index.add(
+            {
+                id:  12 ,
+                href: "\/docs\/guides\/manage-workspaces\/",
+                title: "Manage Workspaces",
+                description: "Workspaces are a way to organize your requests and collections. You can create multiple workspaces to separate your requests and collections based on your needs. Chapr comes with a default workspace where by default all your requests and collections are stored.\nCreate a Workspace linkTo create a new workspace, go to Workspaces tab and click on the “New Workspace” button. You can give your workspace a name.",
+                content: "Workspaces are a way to organize your requests and collections. You can create multiple workspaces to separate your requests and collections based on your needs. Chapr comes with a default workspace where by default all your requests and collections are stored.\nCreate a Workspace linkTo create a new workspace, go to Workspaces tab and click on the “New Workspace” button. You can give your workspace a name.\n"
+            }
+        );
+    index.add(
+            {
+                id:  13 ,
+                href: "\/docs\/guides\/send-grpc-request\/",
+                title: "Send GRPC Request",
+                description: "To send an GRPC request using Chapar, you can use the following steps:\nOpen the Chapar application. Click on “New” and select “GRPC Request”. ",
+                content: "To send an GRPC request using Chapar, you can use the following steps:\nOpen the Chapar application. Click on “New” and select “GRPC Request”. "
+            }
+        );
+    index.add(
+            {
+                id:  14 ,
+                href: "\/docs\/guides\/send-http-request\/",
+                title: "Send HTTP Request",
+                description: "To send an HTTP request using Chapar, you can use the following steps:\nOpen the Chapar application. Click on “New” and select “HTTP Request”. ",
+                content: "To send an HTTP request using Chapar, you can use the following steps:\nOpen the Chapar application. Click on “New” and select “HTTP Request”. "
             }
         );
     search.addEventListener('input', show_results, true);
