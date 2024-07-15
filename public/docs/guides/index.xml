@@ -9,18 +9,11 @@
     <lastBuildDate>Sun, 25 Feb 2024 15:18:24 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/docs/guides/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Manage Workspaces</title>
-      <link>http://localhost:1313/docs/guides/manage-workspaces/</link>
-      <pubDate>Sun, 25 Feb 2024 15:18:24 +0100</pubDate>
-      <guid>http://localhost:1313/docs/guides/manage-workspaces/</guid>
-      <description>Workspaces are a way to organize your requests and collections. You can create multiple workspaces to separate your requests and collections based on your needs. Chapr comes with a default workspace where by default all your requests and collections are stored.&#xA;Create a Workspace linkTo create a new workspace, go to Workspaces tab and click on the &amp;ldquo;New Workspace&amp;rdquo; button. You can give your workspace a name.</description>
-    </item>
-    <item>
       <title>Send GRPC Request</title>
       <link>http://localhost:1313/docs/guides/send-grpc-request/</link>
       <pubDate>Sun, 25 Feb 2024 15:18:24 +0100</pubDate>
       <guid>http://localhost:1313/docs/guides/send-grpc-request/</guid>
-      <description>To send an GRPC request using Chapar, you can use the following steps:&#xA;Open the Chapar application. Click on &amp;ldquo;New&amp;rdquo; and select &amp;ldquo;GRPC Request&amp;rdquo;. </description>
+      <description>To send an GRPC request using Chapar, you can use the following steps:&#xA;Open the Chapar application. Click on &amp;ldquo;New&amp;rdquo; and select &amp;ldquo;GRPC Request&amp;rdquo;. Enter the URL of the GRPC server. In &amp;ldquo;Server info&amp;rdquo; select eatheir &amp;ldquo;Server reflection&amp;rdquo; or &amp;ldquo;Proto file&amp;rdquo; and hit &amp;ldquo;Reload&amp;rdquo; to load the server info. In &amp;ldquo;Body&amp;rdquo; enter the request message in JSON format. you can also use &amp;ldquo;Load Example&amp;rdquo; to load an example request. Click on &amp;ldquo;Invoke&amp;rdquo; to send the request.</description>
     </item>
     <item>
       <title>Send HTTP Request</title>

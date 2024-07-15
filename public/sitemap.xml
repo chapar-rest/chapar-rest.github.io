@@ -36,12 +36,9 @@
     <lastmod>2024-02-25T15:18:24+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-02-25T15:18:24+01:00</lastmod>
+    <lastmod>2024-07-15T22:18:24+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/quickstart/installation/</loc>
-    <lastmod>2024-02-25T15:18:24+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/guides/manage-workspaces/</loc>
     <lastmod>2024-02-25T15:18:24+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/guides/send-grpc-request/</loc>
