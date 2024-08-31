@@ -40,9 +40,11 @@ Chapar is currently in the early beta phase, with the first release expected soo
 * Dark mode support.
 * Data is stored locally on your machine. and no data is sent to any server.
 * Import collections and requests from Postman.
+* Support GRPC protocol.
+* Support for grpc reflection and proto files.
+* Load sample request structure of given grpc method.
 
 ### Roadmap
-* Support for gRPC, WebSocket, GraphQL protocol.
-* Syntax highlighting for request body.
+* Support WebSocket, GraphQL protocol.
 * Python as a scripting language for pre-request and post-request scripts.
 * Support for tunneling to servers and kube clusters as pre request actions.
