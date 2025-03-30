@@ -4,7 +4,7 @@
     <title>Help on Chapar</title>
     <link>http://localhost:1313/docs/help/</link>
     <description>Recent content in Help on Chapar</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 25 Feb 2024 15:18:24 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/docs/help/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,14 @@
       <link>http://localhost:1313/docs/help/faqs/</link>
       <pubDate>Sun, 25 Feb 2024 15:18:24 +0100</pubDate>
       <guid>http://localhost:1313/docs/help/faqs/</guid>
-      <description> warning Caution - This documentation is in progress </description>
+      <description>&lt;div class=&#34;alert alert-warning d-flex&#34; role=&#34;alert&#34;&gt;&#xA;  &lt;div class=&#34;flex-shrink-1 alert-icon&#34;&gt;&#xA;  &lt;span class=&#34;material-icons size-20 me-2&#34;&gt;&#xA;  warning&#xA;  &lt;/span&gt;&lt;/div&gt;&#xA;  &lt;div class=&#34;w-100&#34;&gt;&lt;strong&gt;Caution&lt;/strong&gt; - This documentation is in progress&lt;/div&gt;&#xA;  &lt;/div&gt;</description>
     </item>
     <item>
       <title>Troubleshooting</title>
       <link>http://localhost:1313/docs/help/troubleshooting/</link>
       <pubDate>Sun, 25 Feb 2024 15:18:24 +0100</pubDate>
       <guid>http://localhost:1313/docs/help/troubleshooting/</guid>
-      <description> warning Caution - This documentation is in progress </description>
+      <description>&lt;div class=&#34;alert alert-warning d-flex&#34; role=&#34;alert&#34;&gt;&#xA;  &lt;div class=&#34;flex-shrink-1 alert-icon&#34;&gt;&#xA;  &lt;span class=&#34;material-icons size-20 me-2&#34;&gt;&#xA;  warning&#xA;  &lt;/span&gt;&lt;/div&gt;&#xA;  &lt;div class=&#34;w-100&#34;&gt;&lt;strong&gt;Caution&lt;/strong&gt; - This documentation is in progress&lt;/div&gt;&#xA;  &lt;/div&gt;</description>
     </item>
   </channel>
 </rss>

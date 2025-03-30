@@ -4,7 +4,7 @@
     <title>Quick Start on Chapar</title>
     <link>http://localhost:1313/docs/quickstart/</link>
     <description>Recent content in Quick Start on Chapar</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 25 Feb 2024 15:18:24 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/docs/quickstart/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>http://localhost:1313/docs/quickstart/installation/</link>
       <pubDate>Sun, 25 Feb 2024 15:18:24 +0100</pubDate>
       <guid>http://localhost:1313/docs/quickstart/installation/</guid>
-      <description>Installation linkTo install Chapar, you can download the latest release or build the project from source.&#xA;Download the latest release linkYou can download the latest release from the releases page. Be sure to download the version that is compatible with your operating system.&#xA;Install From Source linkTo install Chapar from source, clone the repository install the dependencies, and run the application using the following commands:&#xA;git clone https://github.com/chapar-rest/chapar.git cd chapar go build -o chapar .</description>
+      <description>&lt;h3 id=&#34;installation&#34;&gt;Installation &lt;a href=&#34;#installation&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;To install Chapar, you can download the latest release or build the project from source.&lt;/p&gt;&#xA;&lt;h4 id=&#34;download-the-latest-release&#34;&gt;Download the latest release &lt;a href=&#34;#download-the-latest-release&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;You can download the latest release from the &lt;a href=&#34;https://github.com/chapar-rest/chapar/releases&#34; rel=&#34;external&#34; target=&#34;_blank&#34;&gt;releases page&lt;svg width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M14 5c-.552 0-1-.448-1-1s.448-1 1-1h6c.552 0 1 .448 1 1v6c0 .552-.448 1-1 1s-1-.448-1-1v-3.586l-7.293 7.293c-.391.39-1.024.39-1.414 0-.391-.391-.391-1.024 0-1.414l7.293-7.293h-3.586zm-9 2c-.552 0-1 .448-1 1v11c0 .552.448 1 1 1h11c.552 0 1-.448 1-1v-4.563c0-.552.448-1 1-1s1 .448 1 1v4.563c0 1.657-1.343 3-3 3h-11c-1.657 0-3-1.343-3-3v-11c0-1.657 1.343-3 3-3h4.563c.552 0 1 .448 1 1s-.448 1-1 1h-4.563z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;.&#xA;Be sure to download the version that is compatible with your operating system.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -4,7 +4,7 @@
     <title>Guides on Chapar</title>
     <link>http://localhost:1313/docs/guides/</link>
     <description>Recent content in Guides on Chapar</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 15 Jul 2024 01:18:24 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/docs/guides/index.xml" rel="self" type="application/rss+xml" />
@@ -13,28 +13,28 @@
       <link>http://localhost:1313/docs/guides/manage-workspaces/</link>
       <pubDate>Sun, 14 Jul 2024 01:18:24 +0100</pubDate>
       <guid>http://localhost:1313/docs/guides/manage-workspaces/</guid>
-      <description>Workspaces are a way to organize your requests and collections. You can create multiple workspaces to separate your requests and collections based on your needs. Chapr comes with a default workspace where by default all your requests and collections are stored.&#xA;Create a Workspace linkTo create a new workspace, go to Workspaces tab and click on the &amp;ldquo;New Workspace&amp;rdquo; button. You can give your workspace a name.</description>
+      <description>&lt;p&gt;Workspaces are a way to organize your requests and collections. You can create multiple workspaces to separate your requests and collections based on your needs.&#xA;Chapr comes with a default workspace where by default all your requests and collections are stored.&lt;/p&gt;&#xA;&lt;h4 id=&#34;create-a-workspace&#34;&gt;Create a Workspace &lt;a href=&#34;#create-a-workspace&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;To create a new workspace, go to Workspaces tab and click on the &amp;ldquo;New Workspace&amp;rdquo; button. You can give your workspace a name.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;&#xA;&#xA;&#xA;  &#xA;    &#xA;      &lt;img src=&#34;http://localhost:1313/images/guides/create_workspace.gif&#34; alt=&#34;Create Workspace&#34; width=&#34;1165&#34; height=&#34;745&#34; loading=&#34;lazy&#34;&gt;&#xA;    &#xA;  &#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Send GRPC Request</title>
       <link>http://localhost:1313/docs/guides/send-grpc-request/</link>
       <pubDate>Sun, 25 Feb 2024 15:18:24 +0100</pubDate>
       <guid>http://localhost:1313/docs/guides/send-grpc-request/</guid>
-      <description>To send an GRPC request using Chapar, you can use the following steps:&#xA;Open the Chapar application. Click on &amp;ldquo;New&amp;rdquo; and select &amp;ldquo;GRPC Request&amp;rdquo;. Enter the URL of the GRPC server. In &amp;ldquo;Server info&amp;rdquo; select eatheir &amp;ldquo;Server reflection&amp;rdquo; or &amp;ldquo;Proto file&amp;rdquo; and hit &amp;ldquo;Reload&amp;rdquo; to load the server info. In &amp;ldquo;Body&amp;rdquo; enter the request message in JSON format. you can also use &amp;ldquo;Load Example&amp;rdquo; to load an example request. Click on &amp;ldquo;Invoke&amp;rdquo; to send the request.</description>
+      <description>&lt;p&gt;To send an GRPC request using Chapar, you can use the following steps:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Open the Chapar application.&lt;/li&gt;&#xA;&lt;li&gt;Click on &amp;ldquo;New&amp;rdquo; and select &amp;ldquo;GRPC Request&amp;rdquo;.&lt;/li&gt;&#xA;&lt;li&gt;Enter the URL of the GRPC server.&lt;/li&gt;&#xA;&lt;li&gt;In &amp;ldquo;Server info&amp;rdquo; select eatheir &amp;ldquo;Server reflection&amp;rdquo; or &amp;ldquo;Proto file&amp;rdquo; and hit &amp;ldquo;Reload&amp;rdquo; to load the server info.&lt;/li&gt;&#xA;&lt;li&gt;In &amp;ldquo;Body&amp;rdquo; enter the request message in JSON format. you can also use &amp;ldquo;Load Example&amp;rdquo; to load an example request.&lt;/li&gt;&#xA;&lt;li&gt;Click on &amp;ldquo;Invoke&amp;rdquo; to send the request.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;You can also add metadata to the request in the &amp;ldquo;Metadata&amp;rdquo; section. change request timeout and other settings in the &amp;ldquo;Settings&amp;rdquo; section.&#xA;Chapar supports both unary and server streaming GRPC requests.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Send HTTP Request</title>
       <link>http://localhost:1313/docs/guides/send-http-request/</link>
       <pubDate>Sun, 25 Feb 2024 15:18:24 +0100</pubDate>
       <guid>http://localhost:1313/docs/guides/send-http-request/</guid>
-      <description>To send an HTTP request using Chapar, you can use the following steps:&#xA;Open the Chapar application. Click on &amp;ldquo;New&amp;rdquo; and select &amp;ldquo;HTTP Request&amp;rdquo;. Enter the URL of the server you want to send the request to. Choose the HTTP method you want to use (GET, POST, PUT, DELETE, etc.). Add any headers or parameters you need to include in the request. Click on &amp;ldquo;Send&amp;rdquo; to send the request. View the response in the &amp;ldquo;Response&amp;rdquo; section.</description>
+      <description>&lt;p&gt;To send an HTTP request using Chapar, you can use the following steps:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Open the Chapar application.&lt;/li&gt;&#xA;&lt;li&gt;Click on &amp;ldquo;New&amp;rdquo; and select &amp;ldquo;HTTP Request&amp;rdquo;.&lt;/li&gt;&#xA;&lt;li&gt;Enter the URL of the server you want to send the request to.&lt;/li&gt;&#xA;&lt;li&gt;Choose the HTTP method you want to use (GET, POST, PUT, DELETE, etc.).&lt;/li&gt;&#xA;&lt;li&gt;Add any headers or parameters you need to include in the request.&lt;/li&gt;&#xA;&lt;li&gt;Click on &amp;ldquo;Send&amp;rdquo; to send the request.&lt;/li&gt;&#xA;&lt;li&gt;View the response in the &amp;ldquo;Response&amp;rdquo; section.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Variables</title>
       <link>http://localhost:1313/docs/guides/variables/</link>
       <pubDate>Mon, 15 Jul 2024 01:18:24 +0100</pubDate>
       <guid>http://localhost:1313/docs/guides/variables/</guid>
-      <description>Chapar comes with predefined variables that you can use in your requests. These variables can be used to dynamically generate values for headers, parameters, and request bodies. Here are some of the variables that are available in Chapar:&#xA;{{randomUUID4}} - Generates a random UUID version 4. {{timeNow}} - Generates the current time in RFC3339 format. {{unixTimestamp}} - Generates the current Unix timestamp. {{randInt1000}} - Generates a random integer between 0 and 1000.</description>
+      <description>&lt;p&gt;Chapar comes with predefined variables that you can use in your requests. These variables can be used to dynamically generate values for headers, parameters, and request bodies. Here are some of the variables that are available in Chapar:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;{{randomUUID4}}&lt;/code&gt; - Generates a random UUID version 4.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;{{timeNow}}&lt;/code&gt; - Generates the current time in RFC3339 format.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;{{unixTimestamp}}&lt;/code&gt; - Generates the current Unix timestamp.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;{{randInt1000}}&lt;/code&gt; - Generates a random integer between 0 and 1000.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;{{randInt100}}&lt;/code&gt; - Generates a random integer between 0 and 100.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;{{randInt}}&lt;/code&gt; - Generates a random integer between 0 and maxInt.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;{{randFloat}}&lt;/code&gt; - Generates a random 64 float&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;{{randFloat32}}&lt;/code&gt; - Generates a random 32 float&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;{{fullDate}}&lt;/code&gt; - Generates the current date in the format &amp;ldquo;2006-01-02&amp;rdquo;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;{{randBool}}&lt;/code&gt; - Generates a random boolean value.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
