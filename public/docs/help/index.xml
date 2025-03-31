@@ -6,7 +6,7 @@
     <description>Recent content in Help on Chapar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Feb 2024 15:18:24 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 30 Mar 2025 22:56:21 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/docs/help/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FAQ</title>
@@ -21,6 +21,13 @@
       <pubDate>Sun, 25 Feb 2024 15:18:24 +0100</pubDate>
       <guid>http://localhost:1313/docs/help/troubleshooting/</guid>
       <description>&lt;div class=&#34;alert alert-warning d-flex&#34; role=&#34;alert&#34;&gt;&#xA;  &lt;div class=&#34;flex-shrink-1 alert-icon&#34;&gt;&#xA;  &lt;span class=&#34;material-icons size-20 me-2&#34;&gt;&#xA;  warning&#xA;  &lt;/span&gt;&lt;/div&gt;&#xA;  &lt;div class=&#34;w-100&#34;&gt;&lt;strong&gt;Caution&lt;/strong&gt; - This documentation is in progress&lt;/div&gt;&#xA;  &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Privacy Policy</title>
+      <link>http://localhost:1313/docs/help/privacy_policy/</link>
+      <pubDate>Sun, 30 Mar 2025 22:56:21 +0100</pubDate>
+      <guid>http://localhost:1313/docs/help/privacy_policy/</guid>
+      <description>&lt;h1 id=&#34;privacy-policy-for-chapar&#34;&gt;Privacy Policy for Chapar &lt;a href=&#34;#privacy-policy-for-chapar&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Last Updated: 30 March 2025&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction &lt;a href=&#34;#introduction&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This Privacy Policy describes how Chapar (&amp;ldquo;we&amp;rdquo;, &amp;ldquo;our&amp;rdquo;, or &amp;ldquo;us&amp;rdquo;) handles privacy matters. Chapar is a free, open-source application that respects your privacy by design.&lt;/p&gt;&#xA;&lt;h2 id=&#34;information-collection&#34;&gt;Information Collection &lt;a href=&#34;#information-collection&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;We do not collect any personal information.&lt;/strong&gt; Chapar operates entirely on your device and does not:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Collect personal data&lt;/li&gt;&#xA;&lt;li&gt;Track your usage&lt;/li&gt;&#xA;&lt;li&gt;Send any data to remote servers&lt;/li&gt;&#xA;&lt;li&gt;Use analytics services&lt;/li&gt;&#xA;&lt;li&gt;Use advertising frameworks&lt;/li&gt;&#xA;&lt;li&gt;Create user profiles&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;data-storage&#34;&gt;Data Storage &lt;a href=&#34;#data-storage&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;All data created or used by Chapar is stored locally on your device only. We have no ability to access this data.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
