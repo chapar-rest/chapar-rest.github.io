@@ -1,0 +1,80 @@
+{{ define "main" }}
+  <div class='hx:mx-auto hx:flex hextra-max-page-width'>
+    <article class="hx:max-w-6xl hx:mx-auto hx:break-words hx:flex hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:justify-center hx:pb-8 hx:pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+      <main class="hx:w-full hx:min-w-0 hx:max-w-6xl hx:px-6 hx:pt-4 hx:md:px-12">
+        <div class="content">
+            <div class="hx:overflow-x-auto hx:mx-6 hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-green-200 hx:bg-green-100 hx:text-green-900 hx:dark:border-green-200/30 hx:dark:bg-green-900/30 hx:dark:text-green-200">
+              <div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"><svg height="1.2em" class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg></div>
+                <div class="hx:w-full hx:min-w-0 hx:leading-7">
+                  <div class="hx:mt-6 hx:leading-7 hx:first:mt-0">Version <strong>v0.4.3</strong> released with Openapi and Proto file import support.</div>
+                </div>
+            </div>
+
+            <!-- Hero Section -->
+            <h1 class="hx:text-center hx:pt-8 hx:pb-0 hx:mb-0 hx:text-7xl hx:font-bold hx:tracking-tight hx:text-slate-900 hx:dark:text-slate-100">
+                The <span class="home-highlight">API Client</span> that simply works
+            </h1>
+            <h5 class="hx:text-center hx:mt-3 hx:text-base hx:text-gray-500 dark:text-gray-400">
+                A fast, secure, and offline API client for your REST and gRPC services
+            </h5>
+
+            <!-- Buttons -->
+            <div class="hx:flex hx:justify-center hx:gap-4 hx:mt-8">
+                <a href="/download" class="hx:inline-flex hx:items-center hx:px-6 hx:py-3 hx:bg-blue-600 hx:text-white hx:font-medium hx:rounded-lg hx:hover:bg-blue-700 hx:transition-colors hx:no-underline">
+                    Download
+                </a>
+                <a href="https://github.com/chapar-rest/chapar" target="_blank" class="hx:inline-flex hx:items-center hx:gap-2 hx:px-6 hx:py-3 hx:bg-slate-800 hx:text-white hx:font-medium hx:rounded-lg hx:hover:bg-slate-700 hx:transition-colors hx:no-underline hx:dark:bg-slate-700 hx:dark:hover:bg-slate-600">
+                    <svg class="hx:w-5 hx:h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/>
+                    </svg>
+                    Open Source
+                </a>
+            </div>
+
+            <!-- Platform Availability -->
+            <p class="hx:text-center hx:mt-6 hx:text-sm hx:text-gray-600 hx:dark:text-gray-400">
+                Available for macOS, Windows, and Linux
+            </p>
+
+            <!-- Feature Cards -->
+            <div class="hx:flex hx:flex-row hx:mt-8 hx:mb-8 hx:justify-center">
+                <div class="hx:w-64 hx:h-32 hx:p-4 hx:mr-6 hx:border hx:rounded-lg hx:border-gray-300 hx:bg-slate-50 hx:dark:border-gray-600 hx:dark:bg-slate-800/50">
+                    <h3 class="hx:text-base hx:font-semibold hx:mb-2 hx:text-slate-900 hx:dark:text-slate-100">
+                        Fast and Private
+                    </h3>
+                    <p class="hx:text-xs hx:leading-relaxed hx:text-gray-600 hx:dark:text-gray-400">
+                        Local-only data, secrets encryption, and zero telemetry.
+                    </p>
+                </div>
+
+                <div class="hx:w-64 hx:h-32 hx:p-4 hx:mr-6 hx:border hx:rounded-lg hx:border-gray-300 hx:bg-slate-50 hx:dark:border-gray-600 hx:dark:bg-slate-800/50">
+                    <h3 class="hx:text-base hx:font-semibold hx:mb-2 hx:text-slate-900 hx:dark:text-slate-100">
+                        Configuration as File
+                    </h3>
+                    <p class="hx:text-xs hx:leading-relaxed hx:text-gray-600 hx:dark:text-gray-400">
+                        Save and share configurations as files.
+                    </p>
+                </div>
+
+                <div class="hx:w-64 hx:h-32 hx:p-4 hx:border hx:rounded-lg hx:border-gray-300 hx:bg-slate-50 hx:dark:border-gray-600 hx:dark:bg-slate-800/50">
+                    <h3 class="hx:text-base hx:font-semibold hx:mb-2 hx:text-slate-900 hx:dark:text-slate-100">
+                        Python Scripting
+                    </h3>
+                    <p class="hx:text-xs hx:leading-relaxed hx:text-gray-600 hx:dark:text-gray-400">
+                        Python scripts and request chaining.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Screenshot Placeholder -->
+            <div class="hx:w-full hx:mt-12 hx:mb-8 hx:border hx:rounded-lg hx:overflow-hidden hx:border-slate-200 hx:dark:border-slate-700 hx:bg-slate-100 hx:dark:bg-slate-800/50">
+                <div class="hx:aspect-video hx:flex hx:items-center hx:justify-center hx:text-gray-400 hx:dark:text-gray-600">
+                    <span class="hx:text-lg">Screenshot placeholder</span>
+                </div>
+            </div>
+            
+        </div>
+      </main>
+    </article>
+  </div>
+{{ end }}

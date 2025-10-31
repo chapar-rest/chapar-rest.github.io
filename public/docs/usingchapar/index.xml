@@ -1,0 +1,142 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapar – Using Chapar</title>
+    <link>http://localhost:1313/docs/usingchapar/</link>
+    <description>Recent content in Using Chapar on Chapar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	  <atom:link href="http://localhost:1313/docs/usingchapar/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Workspaces</title>
+      <link>http://localhost:1313/docs/usingchapar/workspaces/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/usingchapar/workspaces/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Workspaces are a way to organize your requests and collections.
+To manage workspaces, you can click on the workspaces button on the left navigation bar.&lt;/p&gt;
+&lt;p&gt;
+    &lt;img src=&#34;.././images/manage-workspaces.png&#34; alt=&#34;Workspaces&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h3&gt;Create a new workspace&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;create-a-new-workspace&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#create-a-new-workspace&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;You can create a new workspace by clicking the new button in the top right corner.&lt;/p&gt;
+&lt;h3&gt;Switch between workspaces&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;switch-between-workspaces&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#switch-between-workspaces&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;You can switch between workspaces by choosing the workspace from the workspaces dropdown menu in the top left.&lt;/p&gt;
+&lt;p&gt;
+    &lt;img src=&#34;.././images/switch-workspaces.png&#34; alt=&#34;Switch Workspace&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;div class=&#34;hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200&#34;&gt;
+  &lt;div class=&#34;hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2&#34;&gt;&lt;svg height=1.2em class=&#34;hx:inline-block hx:align-middle&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx:w-full hx:min-w-0 hx:leading-7&#34;&gt;
+    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;When you switch between workspaces, make sure you save and close all the requests and collections that you are working on.
+otherwise you will might lose your work.&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Environments</title>
+      <link>http://localhost:1313/docs/usingchapar/environments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/usingchapar/environments/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Use environments to manage your API keys, base URLs, and other API-specific settings.
+To manage environments, you can click on the environments button on the left navigation bar.&lt;/p&gt;
+&lt;p&gt;
+    &lt;img src=&#34;.././images/environments.png&#34; alt=&#34;Environments&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h3&gt;Create a new environment&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;create-a-new-environment&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#create-a-new-environment&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Click on the new button to create a new environment.&lt;/p&gt;
+&lt;p&gt;
+    &lt;img src=&#34;.././images/create-environment.png&#34; alt=&#34;Create Environment&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;A new environment will be created with &lt;code&gt;New Environment&lt;/code&gt; as the name. you can click on the name to edit the name of the environment and press enter to save the changes.&lt;/p&gt;
+&lt;h3&gt;Edit an environment&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;edit-an-environment&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#edit-an-environment&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;You can edit an environment by clicking on the environment in the left sidebar. environment will be opened as a tab in the main window. you can close the tab by clicking the close button on the tab.&lt;/p&gt;
+&lt;p&gt;
+    &lt;img src=&#34;.././images/edit-environment.png&#34; alt=&#34;Edit Environment&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Using the plus button (2) you can add a new variable to the environment. variables are used to store the API keys, base URLs, and other API-specific settings.
+You can delete a variable by clicking on the delete button on each row.&lt;/p&gt;
+&lt;h3&gt;Switch between environments&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;switch-between-environments&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#switch-between-environments&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;You can switch between environments by choosing the environment from the environments dropdown menu in the top right corner.&lt;/p&gt;
+&lt;p&gt;
+    &lt;img src=&#34;.././images/switch-environment.png&#34; alt=&#34;Switch Environment&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h3&gt;Using variables in requests&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;using-variables-in-requests&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#using-variables-in-requests&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;After selecting the environment, anywere in your request you can use its variables by using the &lt;code&gt;{{ variable_name }}&lt;/code&gt; syntax.&lt;/p&gt;
+&lt;p&gt;
+    &lt;img src=&#34;.././images/using-environment-variable.png&#34; alt=&#34;Using Variables in Requests&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Requests and Collections</title>
+      <link>http://localhost:1313/docs/usingchapar/requests-and-collections/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/usingchapar/requests-and-collections/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Create a new request or collection&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;create-a-new-request-or-collection&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#create-a-new-request-or-collection&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;You can create a new request or collection by clicking the new button in the top right corner. and selecting the type of request or collection you want to create.&lt;/p&gt;
+&lt;p&gt;
+    &lt;img src=&#34;.././images/create-new.png&#34; alt=&#34;New Request or Collection&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;A new collection will be created with &lt;code&gt;New Collection&lt;/code&gt; as the name. and a new request will be created with &lt;code&gt;New Request&lt;/code&gt; as the name.
+you can click on the name to edit the name of the request or collection and press enter to save the changes.&lt;/p&gt;
+&lt;p&gt;
+    &lt;img src=&#34;.././images/edit-name.png&#34; alt=&#34;Edit Name&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;To add a request to a collection, you can click on the three dots on the collection and select the request you want to add.&lt;/p&gt;
+&lt;p&gt;
+    &lt;img src=&#34;.././images/add-request-to-collection.png&#34; alt=&#34;Add Request to Collection&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;From the same menu you can also delete the request or collection.&lt;/p&gt;
+&lt;h2&gt;Open a request&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;open-a-request&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#open-a-request&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;You can open a request by clicking on the request in the left sidebar.request will be opened as a tab in the main window. you can close the tab by clicking the close button on the tab.&lt;/p&gt;
+&lt;p&gt;
+    &lt;img src=&#34;.././images/open-a-request.png&#34; alt=&#34;Open Request&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Functions</title>
+      <link>http://localhost:1313/docs/usingchapar/functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/usingchapar/functions/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Chapar comes with a built-in functions to generate random data, validate data, and more.&lt;/p&gt;
+&lt;h3&gt;List of functions:&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;list-of-functions&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#list-of-functions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;{{randomUUID4}} - Generates a random UUID version 4.&lt;/li&gt;
+&lt;li&gt;{{timeNow}} - Generates the current time in RFC3339 format.&lt;/li&gt;
+&lt;li&gt;{{unixTimestamp}} - Generates the current Unix timestamp.&lt;/li&gt;
+&lt;li&gt;{{randInt1000}} - Generates a random integer between 0 and 1000.&lt;/li&gt;
+&lt;li&gt;{{randInt100}} - Generates a random integer between 0 and 100.&lt;/li&gt;
+&lt;li&gt;{{randInt}} - Generates a random integer between 0 and maxInt.&lt;/li&gt;
+&lt;li&gt;{{randFloat}} - Generates a random 64 float&lt;/li&gt;
+&lt;li&gt;{{randFloat32}} - Generates a random 32 float&lt;/li&gt;
+&lt;li&gt;{{fullDate}} - Generates the current date in the format “2006-01-02”.&lt;/li&gt;
+&lt;li&gt;{{randBool}} - Generates a random boolean value.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
