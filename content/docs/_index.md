@@ -9,5 +9,6 @@ Chapar is an upcoming native API testing tool built with Go, designed to simplif
 {{< cards >}}
 {{< card link="gettingstarted" title="Getting Started" subtitle="Getting started with Chapar"  icon="light-bulb" >}}
 {{< card link="UsingChapar" title="Using Chapar" subtitle="Learn how to use Chapar to test your APIs" icon="puzzle" >}}
+{{< card link="MockServer" title="Mock Server" subtitle="A public REST and gRPC API to test against" icon="server" >}}
 {{< card link="Terms" title="Terms" subtitle="Terms and conditions of using Chapar" icon="shield-check" >}}
 {{< /cards >}}
