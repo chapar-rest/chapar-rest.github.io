@@ -1,36 +1,93 @@
 ---
 title: "Environments"
 weight: 101
-summary: "How to create and manage environments"
+summary: "Create environments, use their variables, keep secrets encrypted and switch between them"
 ---
 
-Use environments to manage your API keys, base URLs, and other API-specific settings.
-To manage environments, you can click on the environments button on the left navigation bar.
+An **environment** is a named set of variables, such as `baseUrl`, `token` or `userId`. Requests refer to them as `{{name}}`, so the same request can run against your local server, staging or production by switching the environment.
 
-![Environments](./images/environments.png)
+Every [space](../workspaces) has its own environments. One environment is **active** at a time; it's shown in the title bar.
 
-### Create a new environment
-Click on the new button to create a new environment.
+## The Envs page
 
-![Create Environment](./images/create-environment.png)
+Click **Envs** in the navigation bar. The sidebar lists the environments of the space; click one to open it in a tab.
 
-A new environment will be created with `New Environment` as the name. you can click on the name to edit the name of the environment and press enter to save the changes.
+![Editing an environment](../images/environments.png)
 
-### Edit an environment
+The editor shows one row per variable:
 
-You can edit an environment by clicking on the environment in the left sidebar. environment will be opened as a tab in the main window. you can close the tab by clicking the close button on the tab.
+| Column | What it does |
+|--------|--------------|
+| Checkbox | Turns the variable on or off. A disabled variable is not replaced in requests. |
+| **Key** | The variable's name, used as `{{key}}`. |
+| **Value** | Its value. Click to edit. |
+| Lock | Marks the value as [secret](#secret-values). |
+| Trash | Deletes the variable. |
 
-![Edit Environment](./images/edit-environment.png)
+Use **Search** to filter long lists, **Add** to add a variable and **Save** (**⌘S**) to write the changes. Click the name at the top of the tab to rename the environment.
 
-Using the plus button (2) you can add a new variable to the environment. variables are used to store the API keys, base URLs, and other API-specific settings.
-You can delete a variable by clicking on the delete button on each row.
+## Create, import, duplicate and delete
 
-### Switch between environments
-You can switch between environments by choosing the environment from the environments dropdown menu in the top right corner.
+- **New** creates an environment called *New Environment* and opens it.
+- **Import** reads a Postman environment (`.json`).
+- Right-click an environment in the sidebar for **Duplicate** and **Delete**.
 
-![Switch Environment](./images/switch-environment.png)
+![The environment menu](../images/environment-menu.png)
 
-### Using variables in requests
-After selecting the environment, anywere in your request you can use its variables by using the `{{ variable_name }}` syntax.
+## Switch the active environment
 
-![Using Variables in Requests](./images/using-environment-variable.png)
+Pick an environment in the selector in the title bar. **No Environment** turns variables off: `{{name}}` placeholders are then sent as they are.
+
+![Switching environments](../images/environment-switch.png)
+
+The active environment is also where [request actions](../request-actions) and [scripts](../../scripting) write the values they extract, and it selects the [cookie jar](../cookies) that requests use.
+
+## Use variables in requests
+
+Write `{{name}}` anywhere in a request: the URL, query and path params, headers, the body, form fields, auth fields, gRPC metadata and message, GraphQL queries and scripts. Chapar replaces them when you send the request.
+
+As you type `{{`, Chapar suggests the variables of the active environment, the [built-in functions](../functions) and the values the request extracts from its response:
+
+![Variable completion](../images/variable-completion.png)
+
+Variables are colored as you type: a known variable in the info color, an unknown one (a typo, or a variable that exists only in another environment) in the warning color. Hover a variable to see where it comes from and its current value:
+
+![Hovering a variable](../images/variable-hover.png)
+
+## Secret values
+
+Values such as tokens and passwords shouldn't sit in plain text on disk or in git. Click the lock on a row to mark its value **secret**:
+
+- The value is encrypted on disk with AES-256-GCM, so the environment file is safe to sync or commit.
+- The value is masked in the editor, and variable hovers never show it.
+- Requests still use the real value when you send them.
+
+The first time you mark a value secret, Chapar asks you to set up a **secret key**. It keeps the key in your OS secret store: the macOS Keychain, the Windows Credential Manager, or the Secret Service on Linux. Where no secret store is available, Chapar asks for a passphrase once per session instead.
+
+Manage the key in **Settings** › **Security**: show it, replace it with a key you paste (to read secrets created on another machine), or remove it from this machine.
+
+![The Security settings](../images/settings-security.png)
+
+{{< callout type="warning" >}}
+Keep a copy of your key somewhere safe. Without it, secret values can't be decrypted. If Chapar opens an environment whose secrets it can't decrypt, it says so and offers an **Unlock** button where you can paste the key.
+{{< /callout >}}
+
+Values you don't mark secret stay in plain text.
+
+## Environment files
+
+Environments are YAML files in the `envs` folder of the space:
+
+```yaml
+apiVersion: v1
+kind: Environment
+metadata:
+  id: 2c8e4bd0-5a8e-5b54-9d42-1f0d6c0d7a11
+  name: Production
+spec:
+  values:
+    - id: 6a0a5bd4-3c37-5d2c-8a3b-1b2fd3c1e0b2
+      enable: true
+      key: baseUrl
+      value: https://mocks.chapar.rest/api/v1
+```

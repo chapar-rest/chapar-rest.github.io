@@ -23,29 +23,367 @@
       <description>
         
         
-        &lt;h2&gt;Install Release Build&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;install-release-build&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#install-release-build&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Chapar is available as a release build for macOS, Windows, and Linux. You can download the latest release from the &lt;a href=&#34;https://github.com/chapar-rest/chapar/releases&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chapar GitHub Releases&lt;/a&gt; page.&lt;/p&gt;
-&lt;h3&gt;macOS&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;macos&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#macos&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;On macos you can install Chapar from the &lt;a href=&#34;https://apps.apple.com/us/app/chapar-rest/id6673918597?mt=12&amp;amp;itscg=30200&amp;amp;itsct=apps_box_badge&amp;amp;mttnsubad=6673918597&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;App Store&lt;/a&gt;.&lt;/p&gt;
-&lt;h3&gt;Install from source.&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;install-from-source&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#install-from-source&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Chapar is written in Go, so you can install it from source by cloning the repository and running &lt;code&gt;go build&lt;/code&gt;.&lt;/p&gt;
+        &lt;p&gt;Chapar is released for macOS (Apple Silicon and Intel), Linux (amd64 and arm64) and Windows (amd64). Every release is published on the &lt;a href=&#34;https://github.com/chapar-rest/chapar/releases/latest&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub Releases&lt;/a&gt; page.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Platform&lt;/th&gt;
+					&lt;th&gt;File&lt;/th&gt;
+					&lt;th&gt;Notes&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;macOS, Apple Silicon&lt;/td&gt;
+					&lt;td&gt;&lt;code&gt;chapar-macos-&amp;lt;version&amp;gt;-arm64.dmg&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;Signed and notarized&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;macOS, Intel&lt;/td&gt;
+					&lt;td&gt;&lt;code&gt;chapar-macos-&amp;lt;version&amp;gt;-amd64.dmg&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;Signed and notarized&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Linux, x86-64&lt;/td&gt;
+					&lt;td&gt;&lt;code&gt;chapar-linux-&amp;lt;version&amp;gt;-amd64.tar.xz&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Linux, ARM64&lt;/td&gt;
+					&lt;td&gt;&lt;code&gt;chapar-linux-&amp;lt;version&amp;gt;-arm64.tar.xz&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Windows, x86-64&lt;/td&gt;
+					&lt;td&gt;&lt;code&gt;chapar-windows-&amp;lt;version&amp;gt;-amd64.zip&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;Windows on ARM runs it through emulation&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;macOS&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;macos&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#macos&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+
+
+
+
+
+
+&lt;div class=&#34;hextra-scrollbar hx:overflow-x-auto hx:overflow-y-hidden hx:overscroll-x-contain&#34;&gt;
+  &lt;div class=&#34;hx:mt-4 hx:flex hx:w-max hx:min-w-full hx:border-b hx:border-gray-200 hx:pb-px hx:dark:border-neutral-800&#34; role=&#34;tablist&#34;&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-00-0&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-00-0&#34; aria-selected=&#34;true&#34; tabindex=&#34;0&#34; data-state=&#34;selected&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;span&gt;Homebrew&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-00-1&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-00-1&#34; aria-selected=&#34;false&#34; tabindex=&#34;-1&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;span&gt;DMG&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-00-2&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-00-2&#34; aria-selected=&#34;false&#34; tabindex=&#34;-1&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;span&gt;App Store&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;div class=&#34;hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block&#34; id=&#34;tabs-panel-tabs-00-0&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;tabs-tab-tabs-00-0&#34; aria-hidden=&#34;false&#34; tabindex=&#34;0&#34; data-state=&#34;selected&#34;&gt;&lt;p&gt;Homebrew is the easiest way to install and update Chapar:&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/chapar-rest/chapar.git
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd chapar
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;go build -o chapar .&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew tap chapar-rest/chapar
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew install --cask chapar&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;The GUI framework used is &lt;a href=&#34;https://gioui.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gio&lt;/a&gt;. and its using the CGO to compile the binary. which is why you need to have the C compiler installed. more details &lt;a href=&#34;https://gioui.org/doc/install&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;h3&gt;On Arch Linux&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;on-arch-linux&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#on-arch-linux&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;On Arch Linux you can install Chapar from the &lt;a href=&#34;https://aur.archlinux.org/packages/chapar-bin&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AUR&lt;/a&gt;. this package is built by the community and is not officially supported by the Chapar team.&lt;/p&gt;
+&lt;p&gt;To update to the latest release:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew upgrade --cask chapar&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block&#34; id=&#34;tabs-panel-tabs-00-1&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;tabs-tab-tabs-00-1&#34; aria-hidden=&#34;true&#34;&gt;Download the DMG for your Mac from the &lt;a href=&#34;https://github.com/chapar-rest/chapar/releases/latest&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;latest release&lt;/a&gt; (&lt;code&gt;arm64&lt;/code&gt; for Apple Silicon, &lt;code&gt;amd64&lt;/code&gt; for Intel), open it and drag &lt;strong&gt;Chapar&lt;/strong&gt; into &lt;strong&gt;Applications&lt;/strong&gt;.&lt;/div&gt;&lt;div class=&#34;hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block&#34; id=&#34;tabs-panel-tabs-00-2&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;tabs-tab-tabs-00-2&#34; aria-hidden=&#34;true&#34;&gt;&lt;p&gt;Chapar is also available on the &lt;a href=&#34;https://apps.apple.com/us/app/chapar-rest/id6673918597?mt=12&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mac App Store&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The App Store version runs in a sandbox, so it keeps its data in a different folder. If you already used the downloaded version, copy your data into the sandbox:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cp -r $HOME/.config/chapar $HOME/Library/Containers/rest.chapar.app/Data/.config&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;or link the two folders so both versions share the same data:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ln -s $HOME/.config/chapar $HOME/Library/Containers/rest.chapar.app/Data/.config&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2&gt;Windows&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;windows&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#windows&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Download &lt;code&gt;chapar-windows-&amp;lt;version&amp;gt;-amd64.zip&lt;/code&gt; from the &lt;a href=&#34;https://github.com/chapar-rest/chapar/releases/latest&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;latest release&lt;/a&gt;, extract it and run &lt;code&gt;chapar.exe&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200&#34;&gt;
+  &lt;div class=&#34;hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2&#34;&gt;&lt;svg height=1.2em class=&#34;hx:inline-block hx:align-middle&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx:w-full hx:min-w-0 hx:leading-7&#34;&gt;
+    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;There is no 32-bit Windows build. The GPU library Chapar draws with (wgpu) has no 32-bit Windows version.&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;Linux&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;linux&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#linux&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Download the &lt;code&gt;tar.xz&lt;/code&gt; archive for your CPU from the &lt;a href=&#34;https://github.com/chapar-rest/chapar/releases/latest&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;latest release&lt;/a&gt; and extract it:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tar -xJf chapar-linux-v0.7.0-amd64.tar.xz
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;./chapar&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;Arch Linux (AUR)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;arch-linux-aur&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#arch-linux-aur&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;On Arch-based distributions you can install the &lt;a href=&#34;https://aur.archlinux.org/packages/chapar-bin&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;chapar-bin&lt;/code&gt;&lt;/a&gt; package with your AUR helper:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;yay -S chapar-bin&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The AUR package is maintained by a community contributor and may lag behind the latest release.&lt;/p&gt;
+&lt;h2&gt;Build from source&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;build-from-source&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#build-from-source&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Chapar is written in Go. Its UI toolkit, &lt;a href=&#34;https://github.com/mirzakhany/yoga&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Yoga&lt;/a&gt;, renders through GLFW and WebGPU, so building needs CGO and a C compiler:&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;OS&lt;/th&gt;
+					&lt;th&gt;What to install&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;macOS&lt;/td&gt;
+					&lt;td&gt;Xcode Command Line Tools: &lt;code&gt;xcode-select --install&lt;/code&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Debian / Ubuntu&lt;/td&gt;
+					&lt;td&gt;&lt;code&gt;sudo apt install gcc libx11-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev libxxf86vm-dev libgl1-mesa-dev&lt;/code&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Windows&lt;/td&gt;
+					&lt;td&gt;A MinGW-w64 GCC on your &lt;code&gt;PATH&lt;/code&gt;, for example from &lt;a href=&#34;https://www.msys2.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MSYS2&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Then clone and build:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/chapar-rest/chapar.git
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd chapar
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;go build -o chapar .
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;./chapar&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Dependencies are vendored. If you change them, run &lt;code&gt;make vendor&lt;/code&gt; instead of &lt;code&gt;go mod vendor&lt;/code&gt;: the script also copies C sources that &lt;code&gt;go mod vendor&lt;/code&gt; leaves out.&lt;/p&gt;
+&lt;p&gt;To build the same packages the releases ship (DMG, &lt;code&gt;tar.xz&lt;/code&gt;, &lt;code&gt;zip&lt;/code&gt;), install the Yoga CLI with &lt;code&gt;make install_deps&lt;/code&gt; and run &lt;code&gt;yoga package&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;yoga package -os darwin -arch arm64 -version v0.7.0   &lt;span style=&#34;color:#75715e&#34;&gt;# dist/darwin/*.dmg&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;yoga package -os linux -version v0.7.0                &lt;span style=&#34;color:#75715e&#34;&gt;# dist/linux/*.tar.xz&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;yoga package -os windows -version v0.7.0              &lt;span style=&#34;color:#75715e&#34;&gt;# dist/windows/*.zip&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;Next steps&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;next-steps&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#next-steps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../quick-start&#34;&gt;Quick Start&lt;/a&gt;: send your first requests to the free mock server.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../../scripting&#34;&gt;Python Scripting&lt;/a&gt;: turn on scripting if you want pre and post-request scripts. It needs Docker.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Quick Start</title>
+      <link>http://localhost:1313/docs/gettingstarted/quick-start/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/gettingstarted/quick-start/</guid>
+      <description>
+        
+        
+        &lt;p&gt;This walkthrough uses the free &lt;a href=&#34;../../mockserver&#34;&gt;Chapar mock server&lt;/a&gt; at &lt;code&gt;mocks.chapar.rest&lt;/code&gt;, so you don&amp;rsquo;t need an API of your own. It takes about five minutes.&lt;/p&gt;
+&lt;h2&gt;1. Learn the window&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-learn-the-window&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-learn-the-window&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;../../usingchapar/images/http-request.png&#34; alt=&#34;The Chapar window&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Title bar&lt;/strong&gt;: the space you are working in (left), the command palette (middle), and on the right the About button, the cookie jar, the active environment and Settings.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Navigation bar&lt;/strong&gt; (far left): &lt;strong&gt;Requests&lt;/strong&gt;, &lt;strong&gt;Envs&lt;/strong&gt; (environments) and &lt;strong&gt;Spaces&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sidebar&lt;/strong&gt;: the collections and requests of the current space. Click the panel button next to the space name to hide it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tabs&lt;/strong&gt;: every request, collection and environment you open gets a tab. A filled dot marks unsaved changes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Request and response panes&lt;/strong&gt;: side by side or stacked. Switch with &lt;strong&gt;Split&lt;/strong&gt; in the footer.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Footer&lt;/strong&gt;: the version, &lt;strong&gt;Split&lt;/strong&gt;, the &lt;strong&gt;Console&lt;/strong&gt; with Chapar&amp;rsquo;s logs, and &lt;strong&gt;Notifications&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;2. Create an environment&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-create-an-environment&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-create-an-environment&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;An environment holds the values your requests share, such as a base URL or a token.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Envs&lt;/strong&gt; in the navigation bar, then &lt;strong&gt;New&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click the name at the top of the new tab and call it &lt;code&gt;Mock&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Add&lt;/strong&gt; twice and fill in two variables:&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Key&lt;/th&gt;
+					&lt;th&gt;Value&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;code&gt;baseUrl&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;code&gt;https://mocks.chapar.rest/api/v1&lt;/code&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;code&gt;sessionId&lt;/code&gt;&lt;/td&gt;
+					&lt;td&gt;any name of your own, for example &lt;code&gt;alice-laptop&lt;/code&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Press &lt;strong&gt;⌘S&lt;/strong&gt; (&lt;strong&gt;Ctrl+S&lt;/strong&gt; on Windows and Linux) to save, and pick &lt;strong&gt;Mock&lt;/strong&gt; in the environment selector in the title bar.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;See &lt;a href=&#34;../../usingchapar/environments&#34;&gt;Environments&lt;/a&gt; for more.&lt;/p&gt;
+&lt;h2&gt;3. Send an HTTP request&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-send-an-http-request&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-send-an-http-request&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Go back to &lt;strong&gt;Requests&lt;/strong&gt; and click &lt;strong&gt;New&lt;/strong&gt;. A request called &lt;em&gt;New Request&lt;/em&gt; opens in a tab.&lt;/li&gt;
+&lt;li&gt;Keep the method &lt;code&gt;GET&lt;/code&gt; and type &lt;code&gt;{{baseUrl}}/todos&lt;/code&gt; as the URL. While you type &lt;code&gt;{{&lt;/code&gt;, Chapar suggests the variables of the active environment.&lt;/li&gt;
+&lt;li&gt;Open the &lt;strong&gt;Headers&lt;/strong&gt; tab and add &lt;code&gt;X-Session-Id&lt;/code&gt; with the value &lt;code&gt;{{sessionId}}&lt;/code&gt;. This gives you a private todo list on the mock server.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Send&lt;/strong&gt; or press &lt;strong&gt;⌘Enter&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The response pane shows the status, time and size, and the JSON body. The &lt;strong&gt;Headers&lt;/strong&gt;, &lt;strong&gt;Cookies&lt;/strong&gt; and &lt;strong&gt;Timeline&lt;/strong&gt; tabs show the rest of the exchange. Save the request with &lt;strong&gt;⌘S&lt;/strong&gt; and rename it on its &lt;strong&gt;Info&lt;/strong&gt; tab.&lt;/p&gt;
+&lt;p&gt;Read &lt;a href=&#34;../../usingchapar/http-requests&#34;&gt;HTTP Requests&lt;/a&gt; for every option.&lt;/p&gt;
+&lt;h2&gt;4. Invoke a gRPC method&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;4-invoke-a-grpc-method&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4-invoke-a-grpc-method&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Download &lt;a href=&#34;https://github.com/chapar-rest/mock-server/blob/main/api/proto/mock/v1/todo.proto&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;todo.proto&lt;/code&gt;&lt;/a&gt; from the mock server repository.&lt;/li&gt;
+&lt;li&gt;Click the arrow next to &lt;strong&gt;New&lt;/strong&gt; and choose &lt;strong&gt;gRPC request&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Type &lt;code&gt;mocks.chapar.rest:443&lt;/code&gt; as the address.&lt;/li&gt;
+&lt;li&gt;On the &lt;strong&gt;Server&lt;/strong&gt; tab choose &lt;strong&gt;Proto files&lt;/strong&gt;, click &lt;strong&gt;Add proto files…&lt;/strong&gt; and pick &lt;code&gt;todo.proto&lt;/code&gt;. Chapar loads the methods.&lt;/li&gt;
+&lt;li&gt;Pick &lt;code&gt;/mock.v1.TodoService/ListTodos&lt;/code&gt; in the method list, and add &lt;code&gt;x-session-id&lt;/code&gt; with your session name on the &lt;strong&gt;Metadata&lt;/strong&gt; tab.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Invoke&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;../../usingchapar/images/grpc-request.png&#34; alt=&#34;A gRPC request&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Read &lt;a href=&#34;../../usingchapar/grpc-requests&#34;&gt;gRPC Requests&lt;/a&gt; for reflection, TLS, streaming and more.&lt;/p&gt;
+&lt;h2&gt;5. Chain requests&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;5-chain-requests&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#5-chain-requests&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Most APIs need a value from one response in the next request, like an id or a token. Chapar can:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Extract&lt;/strong&gt; values from a response into the environment, with a JSONPath, a header or a cookie name.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trigger&lt;/strong&gt; another request before this one is sent.&lt;/li&gt;
+&lt;li&gt;Run a &lt;strong&gt;Python script&lt;/strong&gt; before or after the request, with tests.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;See &lt;a href=&#34;../../usingchapar/request-actions&#34;&gt;Request Actions&lt;/a&gt; and &lt;a href=&#34;../../scripting&#34;&gt;Python Scripting&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Shortcuts worth knowing&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;shortcuts-worth-knowing&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#shortcuts-worth-knowing&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Shortcut (macOS)&lt;/th&gt;
+					&lt;th&gt;Windows / Linux&lt;/th&gt;
+					&lt;th&gt;Action&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;⌘K&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Ctrl+K&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Command palette: open any request, collection or environment, run any command&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;⌘Enter&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Ctrl+Enter&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Send the request / invoke the method&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;⌘S&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Ctrl+S&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Save the active tab&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;⌘,&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Ctrl+,&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Settings&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;⌘P&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Ctrl+P&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Go to an open tab&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;⌘W&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Ctrl+W&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Close the tab&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;⌘⇧]&lt;/strong&gt; / &lt;strong&gt;⌘⇧[&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Ctrl+Shift+]&lt;/strong&gt; / &lt;strong&gt;Ctrl+Shift+[&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Next / previous tab&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;⌘1&lt;/strong&gt; … &lt;strong&gt;⌘8&lt;/strong&gt;, &lt;strong&gt;⌘9&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Ctrl+1&lt;/strong&gt; … &lt;strong&gt;Ctrl+8&lt;/strong&gt;, &lt;strong&gt;Ctrl+9&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Jump to a tab, or to the last one&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
 
       </description>
     </item>
@@ -59,85 +397,144 @@
       <description>
         
         
-        &lt;p&gt;All your data is stored locally on your machine. so you can import data from a file or a directory.
-Where the default location is, is dependent on the operating system. you can change the default location in the settings.&lt;/p&gt;
-&lt;div class=&#34;hextra-scrollbar hx:overflow-x-auto hx:overflow-y-hidden hx:overscroll-x-contain&#34;&gt;
-  &lt;div class=&#34;hx:mt-4 hx:flex hx:w-max hx:min-w-full hx:border-b hx:border-gray-200 hx:pb-px hx:dark:border-neutral-800&#34;&gt;&lt;button
-        class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white&#34;
-        role=&#34;tab&#34;
-        type=&#34;button&#34;
-        aria-controls=&#34;tabs-panel-0&#34; aria-selected=&#34;true&#34;  tabindex=&#34;0&#34;  data-state=&#34;selected&#34;&gt;macos&lt;/button&gt;&lt;button
-        class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white&#34;
-        role=&#34;tab&#34;
-        type=&#34;button&#34;
-        aria-controls=&#34;tabs-panel-1&#34;&gt;windows&lt;/button&gt;&lt;button
-        class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white&#34;
-        role=&#34;tab&#34;
-        type=&#34;button&#34;
-        aria-controls=&#34;tabs-panel-2&#34;&gt;linux&lt;/button&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;
-
-  &lt;div
-  class=&#34;hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block&#34;
-  id=&#34;tabs-panel-0&#34;
-  role=&#34;tabpanel&#34; tabindex=&#34;0&#34;  data-state=&#34;selected&#34; &gt;&lt;strong&gt;macos&lt;/strong&gt;: The default location for macOS is &lt;code&gt;~/.config/.chapar&lt;/code&gt;.&lt;/div&gt;
-  &lt;div
-  class=&#34;hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block&#34;
-  id=&#34;tabs-panel-1&#34;
-  role=&#34;tabpanel&#34;&gt;&lt;strong&gt;windows&lt;/strong&gt;: The default location for Windows is &lt;code&gt;%APPDATA%\chapar&lt;/code&gt;.&lt;/div&gt;
-  &lt;div
-  class=&#34;hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block&#34;
-  id=&#34;tabs-panel-2&#34;
-  role=&#34;tabpanel&#34;&gt;&lt;strong&gt;linux&lt;/strong&gt;: The default location for Linux is &lt;code&gt;~/.config/chapar&lt;/code&gt;.&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;h2&gt;Import&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;import&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#import&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Chapar supports importing data from number of different formats.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Open API Specification (OAS)&lt;/li&gt;
-&lt;li&gt;Protobuf files&lt;/li&gt;
-&lt;li&gt;Postman Collection&lt;/li&gt;
-&lt;li&gt;Postman Requests&lt;/li&gt;
-&lt;li&gt;Postman Environments&lt;/li&gt;
-&lt;li&gt;Insomnia (Planned)&lt;/li&gt;
-&lt;li&gt;Har (Planned)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;To import requests use the import button in the top right corner. and select the file you want to import.&lt;/p&gt;
-&lt;p&gt;
-    &lt;img src=&#34;.././images/import-requests.png&#34; alt=&#34;Import Requests&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;h2&gt;Change Data Location&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;change-data-location&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#change-data-location&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;You can change the default location for the data in the settings.&lt;/p&gt;
-&lt;p&gt;Navigate to the settings and select the data location. there you can see where the data is stored. and you can change it to a different location.
-After changing the data location, you need to restart the app for the changes to take effect.&lt;/p&gt;
-&lt;p&gt;
-    &lt;img src=&#34;.././images/change-data-location.png&#34; alt=&#34;Change Data Location&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;div class=&#34;hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200&#34;&gt;
-  &lt;div class=&#34;hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2&#34;&gt;&lt;svg height=1.2em class=&#34;hx:inline-block hx:align-middle&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;
+        &lt;h2&gt;Import&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;import&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#import&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Chapar imports:&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Format&lt;/th&gt;
+					&lt;th&gt;Where&lt;/th&gt;
+					&lt;th&gt;Result&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Postman collection (&lt;code&gt;.json&lt;/code&gt;, v2.1)&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Requests&lt;/strong&gt; › &lt;strong&gt;Import&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;A collection with its requests&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;OpenAPI specification (&lt;code&gt;.json&lt;/code&gt;, &lt;code&gt;.yaml&lt;/code&gt;, &lt;code&gt;.yml&lt;/code&gt;)&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Requests&lt;/strong&gt; › &lt;strong&gt;Import&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;A collection with a request for every operation&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Protobuf file (&lt;code&gt;.proto&lt;/code&gt;)&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Requests&lt;/strong&gt; › &lt;strong&gt;Import&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;A collection with a gRPC request for every method&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Postman environment (&lt;code&gt;.json&lt;/code&gt;)&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Envs&lt;/strong&gt; › &lt;strong&gt;Import&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;An environment with its variables&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;To import a collection, click &lt;strong&gt;Import&lt;/strong&gt; above the request tree (or right-click the tree and choose &lt;strong&gt;Import&lt;/strong&gt;), and pick the file. Chapar recognizes the format from the file.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../usingchapar/images/tree-menu.png&#34; alt=&#34;The request tree menu&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;To import an environment, open &lt;strong&gt;Envs&lt;/strong&gt;, click &lt;strong&gt;Import&lt;/strong&gt; and pick a Postman environment file.&lt;/p&gt;
+&lt;div class=&#34;hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200&#34;&gt;
+  &lt;div class=&#34;hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2&#34;&gt;&lt;svg height=1.2em class=&#34;hx:inline-block hx:align-middle&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;
 
   &lt;div class=&#34;hx:w-full hx:min-w-0 hx:leading-7&#34;&gt;
-    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;In the current version of Chapar, everything is stored in as files even the environment variables. which means if you put sensitive information in the environment variables, it will be stored in the file system.
-This will be improved in the future. but for now, you need to be careful sharing your data with others.&lt;/div&gt;
+    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;Try it with the mock server: import its &lt;a href=&#34;https://raw.githubusercontent.com/chapar-rest/mock-server/main/api/rest/openapi.yaml&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenAPI spec&lt;/a&gt; to get a ready-made request for every REST endpoint, or its &lt;a href=&#34;https://github.com/chapar-rest/mock-server/tree/main/api/proto/mock/v1&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;proto files&lt;/a&gt; for the gRPC services.&lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;h2&gt;Tip: Use a version control system&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;tip-use-a-version-control-system&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#tip-use-a-version-control-system&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;It&amp;rsquo;s a good idea to use a version control system to keep track of your changes. you can use git to do this.&lt;/p&gt;
+&lt;p&gt;Insomnia and HAR imports are planned.&lt;/p&gt;
+&lt;h2&gt;Where your data lives&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;where-your-data-lives&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#where-your-data-lives&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Everything you create is stored as YAML files, one file per request and environment, in the &lt;strong&gt;workspace folder&lt;/strong&gt;:&lt;/p&gt;
+
+  
+  
+  
+&lt;div class=&#34;hextra-scrollbar hx:overflow-x-auto hx:overflow-y-hidden hx:overscroll-x-contain&#34;&gt;
+  &lt;div class=&#34;hx:mt-4 hx:flex hx:w-max hx:min-w-full hx:border-b hx:border-gray-200 hx:pb-px hx:dark:border-neutral-800&#34; role=&#34;tablist&#34;&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-01-0&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-01-0&#34; aria-selected=&#34;true&#34; tabindex=&#34;0&#34; data-state=&#34;selected&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;span&gt;macOS&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-01-1&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-01-1&#34; aria-selected=&#34;false&#34; tabindex=&#34;-1&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;span&gt;Linux&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;button class=&#34;hextra-tabs-toggle hx:cursor-pointer hx:data-[state=selected]:border-primary-500 hx:data-[state=selected]:text-primary-600 hx:data-[state=selected]:dark:border-primary-500 hx:data-[state=selected]:dark:text-primary-600 hx:mr-2 hx:rounded-t hx:p-2 hx:font-medium hx:leading-5 hx:transition-colors hx:-mb-0.5 hx:select-none hx:border-b-2 hx:border-transparent hx:text-gray-600 hx:hover:border-gray-200 hx:hover:text-black hx:dark:text-gray-200 hx:dark:hover:border-neutral-800 hx:dark:hover:text-white hx:hextra-focus-visible-inset&#34; id=&#34;tabs-tab-tabs-01-2&#34; role=&#34;tab&#34; type=&#34;button&#34; aria-controls=&#34;tabs-panel-tabs-01-2&#34; aria-selected=&#34;false&#34; tabindex=&#34;-1&#34;&gt;&lt;span class=&#34;hx:inline-flex hx:items-center hx:gap-1.5&#34;&gt;&lt;span&gt;Windows&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;div class=&#34;hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block&#34; id=&#34;tabs-panel-tabs-01-0&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;tabs-tab-tabs-01-0&#34; aria-hidden=&#34;false&#34; tabindex=&#34;0&#34; data-state=&#34;selected&#34;&gt;&lt;code&gt;~/.config/chapar&lt;/code&gt;&lt;/div&gt;&lt;div class=&#34;hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block&#34; id=&#34;tabs-panel-tabs-01-1&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;tabs-tab-tabs-01-1&#34; aria-hidden=&#34;true&#34;&gt;&lt;code&gt;~/.config/chapar&lt;/code&gt; (or &lt;code&gt;$XDG_CONFIG_HOME/chapar&lt;/code&gt;)&lt;/div&gt;&lt;div class=&#34;hextra-tabs-panel hx:rounded-sm hx:pt-6 hx:hidden hx:data-[state=selected]:block&#34; id=&#34;tabs-panel-tabs-01-2&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;tabs-tab-tabs-01-2&#34; aria-hidden=&#34;true&#34;&gt;&lt;code&gt;%APPDATA%\chapar&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Inside it, every &lt;a href=&#34;../../usingchapar/workspaces&#34;&gt;space&lt;/a&gt; has its own folder:&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git add .
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git commit -m &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Initial commit&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;chapar/
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;└── Chapar Mock/                  # a space
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    ├── _workspace.yaml
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    ├── collections/
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    │   └── Todos/
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    │       ├── _collection.yaml  # the collection&amp;#39;s headers, auth and notes
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    │       ├── Create todo.yaml
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    │       └── List todos.yaml
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    ├── requests/                 # requests that are not in a collection
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    ├── envs/
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    │   ├── Local.yaml
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    │   └── Production.yaml
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    └── .state/                   # machine-local state, ignored by git
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        └── cookies/&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
   &lt;button
     class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
     title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
   &gt;
     &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
 &lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;You can then push your changes to a remote repository. and share it with your team.&lt;/p&gt;
+&lt;p&gt;Chapar&amp;rsquo;s own settings are kept apart from your data:&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;OS&lt;/th&gt;
+					&lt;th&gt;Settings folder&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;macOS&lt;/td&gt;
+					&lt;td&gt;&lt;code&gt;~/Library/Application Support/chapar&lt;/code&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Linux&lt;/td&gt;
+					&lt;td&gt;&lt;code&gt;~/.config/chapar&lt;/code&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Windows&lt;/td&gt;
+					&lt;td&gt;&lt;code&gt;%APPDATA%\chapar&lt;/code&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;Change the workspace folder&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;change-the-workspace-folder&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#change-the-workspace-folder&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Open &lt;strong&gt;Settings&lt;/strong&gt; (&lt;strong&gt;⌘,&lt;/strong&gt;) › &lt;strong&gt;Data&lt;/strong&gt; and set &lt;strong&gt;Workspace path&lt;/strong&gt; to the absolute path of another folder, for example a folder inside a git repository or a synced drive. Click &lt;strong&gt;Save&lt;/strong&gt; and restart Chapar.&lt;/p&gt;
+&lt;h2&gt;Export and share&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;export-and-share&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#export-and-share&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Because a space is a folder of YAML files, you share it by sharing the folder. Keep it in git to review and version your API collections with your code:&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd ~/.config/chapar
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git commit -m &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Add Chapar collections&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The &lt;code&gt;.state&lt;/code&gt; folder, which holds your cookie jars, comes with its own &lt;code&gt;.gitignore&lt;/code&gt;, so session tokens stay out of the repository.&lt;/p&gt;
+&lt;p&gt;To share a single request in another form, open it and click &lt;strong&gt;Code&lt;/strong&gt;: Chapar writes it as cURL, Python, Go, JavaScript (Axios or Node fetch), Java (OkHttp), Ruby or .NET code. See &lt;a href=&#34;../../usingchapar/http-requests#generate-code&#34;&gt;Generate code&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200&#34;&gt;
+  &lt;div class=&#34;hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2&#34;&gt;&lt;svg height=1.2em class=&#34;hx:inline-block hx:align-middle&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx:w-full hx:min-w-0 hx:leading-7&#34;&gt;
+    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;Environment values are stored in plain text unless you mark them &lt;strong&gt;secret&lt;/strong&gt;. Secret values are encrypted with a key kept in your OS keychain, so environment files are safe to commit. See &lt;a href=&#34;../../usingchapar/environments#secret-values&#34;&gt;Secret values&lt;/a&gt;.&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
 
       </description>
     </item>

@@ -1,61 +1,88 @@
 ---
 title: "Import And Export Data"
-weight: 101
-summary: "How to import and export data into Chapar"
+weight: 102
+summary: "Import Postman, OpenAPI and proto files, and find where Chapar keeps your data"
 ---
 
-All your data is stored locally on your machine. so you can import data from a file or a directory. 
-Where the default location is, is dependent on the operating system. you can change the default location in the settings.
+## Import
 
-{{< tabs items="macos,windows,linux" >}}
+Chapar imports:
 
-  {{< tab >}}**macos**: The default location for macOS is `~/.config/.chapar`.{{< /tab >}}
-  {{< tab >}}**windows**: The default location for Windows is `%APPDATA%\chapar`.{{< /tab >}}
-  {{< tab >}}**linux**: The default location for Linux is `~/.config/chapar`.{{< /tab >}}
+| Format | Where | Result |
+|--------|-------|--------|
+| Postman collection (`.json`, v2.1) | **Requests** › **Import** | A collection with its requests |
+| OpenAPI specification (`.json`, `.yaml`, `.yml`) | **Requests** › **Import** | A collection with a request for every operation |
+| Protobuf file (`.proto`) | **Requests** › **Import** | A collection with a gRPC request for every method |
+| Postman environment (`.json`) | **Envs** › **Import** | An environment with its variables |
 
-{{< /tabs >}}
+To import a collection, click **Import** above the request tree (or right-click the tree and choose **Import**), and pick the file. Chapar recognizes the format from the file.
 
+![The request tree menu](../../usingchapar/images/tree-menu.png)
 
-## Import 
+To import an environment, open **Envs**, click **Import** and pick a Postman environment file.
 
-Chapar supports importing data from number of different formats.
-
-- Open API Specification (OAS)
-- Protobuf files
-- Postman Collection
-- Postman Requests
-- Postman Environments
-- Insomnia (Planned)
-- Har (Planned)
-
-To import requests use the import button in the top right corner. and select the file you want to import.
-
-![Import Requests](./images/import-requests.png)
-
-## Change Data Location
-
-You can change the default location for the data in the settings.
-
-Navigate to the settings and select the data location. there you can see where the data is stored. and you can change it to a different location.
-After changing the data location, you need to restart the app for the changes to take effect.
-
-![Change Data Location](./images/change-data-location.png)
-
-
-{{< callout type="warning" >}}
- In the current version of Chapar, everything is stored in as files even the environment variables. which means if you put sensitive information in the environment variables, it will be stored in the file system.
- This will be improved in the future. but for now, you need to be careful sharing your data with others.
+{{< callout type="info" >}}
+Try it with the mock server: import its [OpenAPI spec](https://raw.githubusercontent.com/chapar-rest/mock-server/main/api/rest/openapi.yaml) to get a ready-made request for every REST endpoint, or its [proto files](https://github.com/chapar-rest/mock-server/tree/main/api/proto/mock/v1) for the gRPC services.
 {{< /callout >}}
 
+Insomnia and HAR imports are planned.
 
-## Tip: Use a version control system
+## Where your data lives
 
-It's a good idea to use a version control system to keep track of your changes. you can use git to do this.
+Everything you create is stored as YAML files, one file per request and environment, in the **workspace folder**:
 
-```bash
-git init
-git add .
-git commit -m "Initial commit"
+{{< tabs items="macOS,Linux,Windows" >}}
+  {{< tab >}}`~/.config/chapar`{{< /tab >}}
+  {{< tab >}}`~/.config/chapar` (or `$XDG_CONFIG_HOME/chapar`){{< /tab >}}
+  {{< tab >}}`%APPDATA%\chapar`{{< /tab >}}
+{{< /tabs >}}
+
+Inside it, every [space](../../usingchapar/workspaces) has its own folder:
+
+```text
+chapar/
+└── Chapar Mock/                  # a space
+    ├── _workspace.yaml
+    ├── collections/
+    │   └── Todos/
+    │       ├── _collection.yaml  # the collection's headers, auth and notes
+    │       ├── Create todo.yaml
+    │       └── List todos.yaml
+    ├── requests/                 # requests that are not in a collection
+    ├── envs/
+    │   ├── Local.yaml
+    │   └── Production.yaml
+    └── .state/                   # machine-local state, ignored by git
+        └── cookies/
 ```
 
-You can then push your changes to a remote repository. and share it with your team.
+Chapar's own settings are kept apart from your data:
+
+| OS | Settings folder |
+|----|-----------------|
+| macOS | `~/Library/Application Support/chapar` |
+| Linux | `~/.config/chapar` |
+| Windows | `%APPDATA%\chapar` |
+
+### Change the workspace folder
+
+Open **Settings** (**⌘,**) › **Data** and set **Workspace path** to the absolute path of another folder, for example a folder inside a git repository or a synced drive. Click **Save** and restart Chapar.
+
+## Export and share
+
+Because a space is a folder of YAML files, you share it by sharing the folder. Keep it in git to review and version your API collections with your code:
+
+```bash
+cd ~/.config/chapar
+git init
+git add .
+git commit -m "Add Chapar collections"
+```
+
+The `.state` folder, which holds your cookie jars, comes with its own `.gitignore`, so session tokens stay out of the repository.
+
+To share a single request in another form, open it and click **Code**: Chapar writes it as cURL, Python, Go, JavaScript (Axios or Node fetch), Java (OkHttp), Ruby or .NET code. See [Generate code](../../usingchapar/http-requests#generate-code).
+
+{{< callout type="warning" >}}
+Environment values are stored in plain text unless you mark them **secret**. Secret values are encrypted with a key kept in your OS keychain, so environment files are safe to commit. See [Secret values](../../usingchapar/environments#secret-values).
+{{< /callout >}}

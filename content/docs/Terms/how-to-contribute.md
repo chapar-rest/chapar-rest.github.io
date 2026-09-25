@@ -38,20 +38,21 @@ Contributing to the codebase is a great way to help improve the project. Here’
 Good documentation is essential for any project. Here’s how you can contribute to the documentation:
 
 1. **Identify areas for improvement:** Look for typos, unclear sections, or outdated information in the existing documentation.
-2. **Edit the documentation:** Make the necessary changes in the documentation files. These are usually found in the docs folder or as README.md files in various directories.
+2. **Edit the documentation:** This website lives in the [chapar-rest.github.io](https://github.com/chapar-rest/chapar-rest.github.io) repository; the documentation pages are Markdown files in `content/docs`.
 3. **Follow the same process:** Use the same GitHub flow and Conventional Commits Specification as you would for code contributions.
 4. **Submit a Pull Request:** Provide a clear explanation of the documentation improvements you made.
 
 ## Help others
 Participating in the community and helping others is a valuable way to contribute. Here’s how you can get involved:
 
-**Answer questions:** Visit the Chapar Issues page to find questions and issues raised by other users. Provide helpful answers and solutions.
+**Answer questions:** Visit the [Chapar Issues](https://github.com/chapar-rest/chapar/issues) page to find questions and issues raised by other users. Provide helpful answers and solutions.
 
 **Share knowledge:** Write tutorials, blog posts, or create videos explaining how to use different features of the project.
 
 **Report bugs:** If you encounter any bugs, report them by creating a new issue on the [Chapar Issues](https://github.com/chapar-rest/chapar/issues) page. Provide detailed information to help the maintainers understand and reproduce the issue.
-is the place to get help and help others with Chapar.
+
+**Join the conversation:** the [#chapar channel on the Gophers Slack](https://gophers.slack.com/messages/chapar) is the place to get help and help others with Chapar.
 
 ## Contribute financially
 
-Help support the team developing Chapar by [becoming a financial contributor](/docs/contributing/financial-contributions/).
+Help support the team developing Chapar by [becoming a financial contributor](../financial-contributions/).

@@ -2,6 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/docs/scripting/api-reference/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/mockserver/rest-api/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/scripting/examples/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/mockserver/grpc-api/</loc>
+  </url><url>
     <loc>http://localhost:1313/docs/gettingstarted/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/gettingstarted/installation/</loc>
@@ -12,21 +20,37 @@
   </url><url>
     <loc>http://localhost:1313/docs/usingchapar/environments/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/gettingstarted/import-and-export-data/</loc>
-  </url><url>
     <loc>http://localhost:1313/docs/terms/privacy-policy/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/gettingstarted/quick-start/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/usingchapar/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/terms/how-to-contribute/</loc>
   </url><url>
+    <loc>http://localhost:1313/docs/gettingstarted/import-and-export-data/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/scripting/</loc>
+  </url><url>
     <loc>http://localhost:1313/docs/usingchapar/requests-and-collections/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/terms/financial-contributions/</loc>
   </url><url>
+    <loc>http://localhost:1313/docs/usingchapar/http-requests/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/mockserver/</loc>
+  </url><url>
     <loc>http://localhost:1313/docs/terms/code-of-conduct/</loc>
   </url><url>
+    <loc>http://localhost:1313/docs/usingchapar/grpc-requests/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/usingchapar/request-actions/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/usingchapar/cookies/</loc>
+  </url><url>
     <loc>http://localhost:1313/docs/usingchapar/functions/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/usingchapar/settings/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/terms/</loc>
   </url><url>

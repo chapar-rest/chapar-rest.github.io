@@ -3,12 +3,12 @@ title: Getting Started
 sidebar:
   open: true
 weight: 100
-
 ---
 
-Chapar is an upcoming native API testing tool built with Go, designed to simplify and expedite the testing process for developers. While still in its early beta phase, Chapar aims to offer a user-friendly experience with support for both HTTP and gRPC protocols with.
+Install Chapar, send your first request to the free [mock server](../mockserver), and bring in the collections you already have.
 
 {{< cards >}}
-{{< card link="installation" title="Installation" subtitle="How to install Chapar and do initial setup"  icon="server" >}}
-{{< card link="import-and-export-data" title="Import And Export Data" subtitle="How to import and export data into Chapar"  icon="database" >}}
+{{< card link="installation" title="Installation" subtitle="Install Chapar on macOS, Windows or Linux, or build it from source" icon="download" >}}
+{{< card link="quick-start" title="Quick Start" subtitle="Send your first REST and gRPC requests in a few minutes" icon="play" >}}
+{{< card link="import-and-export-data" title="Import And Export Data" subtitle="Import Postman, OpenAPI and proto files, and where your data lives" icon="database" >}}
 {{< /cards >}}

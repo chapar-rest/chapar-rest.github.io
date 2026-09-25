@@ -1,15 +1,15 @@
 ---
 title: "About"
-summary: "About OpenRun"
+summary: "About Chapar"
 ---
 
 ### What is Chapar?
 
-Chapar is an upcoming native API testing tool built with Go, designed to simplify and expedite the testing process for developers. While still in its early beta phase, Chapar aims to offer a user-friendly experience with support for both HTTP and gRPC protocols with.
+Chapar is a fast, native API client for REST, gRPC and GraphQL, built with Go. It draws its UI on the GPU with [Yoga](https://github.com/mirzakhany/yoga), so it starts quickly, stays light and runs the same on macOS, Linux and Windows without a browser engine. Your requests, environments and cookies are plain files on your machine: no account, no cloud sync and no telemetry.
 
 ### Project Goals
 
-The goal of this project is to make it easy for individuals and teams to test their APIs with ease. Chapar aims to offer a user-friendly experience with support for both HTTP and gRPC protocols with a focus on ease of use and speed of development.
+The goal of this project is to make it easy for individuals and teams to test their APIs with ease. Chapar focuses on speed, privacy and keeping your API collections as files you own, next to your code.
 
 ### What Chapar means?
 Chapar was the institution of the royal mounted couriers in ancient Persia.
@@ -24,29 +24,28 @@ Herodus described the Chapar as follows:
 
 ### How is Chapar implemented?
 
-Single binary API testing tool writen in Go using the Gio framework. 
+Chapar is a single binary written in Go. Its UI is built with [Yoga](https://github.com/mirzakhany/yoga), a GPU-rendered (WebGPU) UI toolkit. Python scripts run in a sandboxed [executor](https://github.com/chapar-rest/python-executor) container.
 
 ### Current Status
 
-Chapar is currently in the early beta phase and under active development, with regular updates and improvements planned to enhance the user experience and functionality.
+Chapar is under active development. Version 0.7.0 moved the app to a new GPU-rendered UI; WebSocket and MQTT support are next on the list.
 
 ### Features
 
-- Create and manage workspaces to organize your API endpoints.
-- Create and manage environments to store variables and configurations for your API endpoints.
-- Create and manage requests to test your API endpoints.
-- Send requests with different methods (GET, POST, PUT, DELETE, PATCH, HEAD, OPTION,CONNECT).
-- Send requests with different content types (JSON, XML, Form, Text, HTML).
-- Send requests with different authentication methods (Basic, Bearer, API Key, No Auth).
-- Send requests with different body types (Form, Raw, Binary).
-- Set environment variables from the response of the request using JSONPath.
-- Dark mode support.
-- Data is stored locally on your machine. and no data is sent to any server.
-- Import collections and requests from Postman.
-- Support GRPC protocol.
-- Support for grpc reflection and proto files.
-- Load sample request structure of given grpc method.
-- Chaining requests with Pre/Post request option.
+- **REST / HTTP**: every method, query and path params, JSON, XML, text, form-data, URL-encoded and binary bodies.
+- **gRPC**: server reflection or proto files, unary and server-streaming calls, metadata and trailers, TLS and mutual TLS, and example messages for any method.
+- **GraphQL**: queries and variables, with data and errors split out.
+- **Spaces** keep separate collections, requests and environments.
+- **Collections** share headers, auth and notes with their requests.
+- **Environments** with `{{variables}}`, completion, and secret values encrypted with a key in your OS keychain.
+- **Cookie jar** per environment, which you can browse and edit.
+- **Request actions**: trigger another request first, set environment values from a response, extract values with JSONPath.
+- **Python scripting**: pre and post-request scripts for HTTP, gRPC and GraphQL, with tests and logs.
+- **Timeline** of every request: DNS, connect, TLS, time to first byte and scripts.
+- **Code generation** for cURL, Python, Go, JavaScript, Java, Ruby and .NET.
+- **Import** Postman collections and environments, OpenAPI specs and proto files.
+- **Command palette**, themes, language servers for code editors, and a console.
+- Everything is stored as YAML files, so a space can live in git.
 
 ### Who is behind this project?
 

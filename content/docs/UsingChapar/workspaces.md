@@ -1,24 +1,52 @@
 ---
-title: "Workspaces"
+title: "Spaces"
 weight: 100
-summary: "How to create and manage workspaces"
+summary: "Create, switch, rename and delete spaces"
+aliases:
+  - /docs/usingchapar/spaces/
 ---
 
-Workspaces are a way to organize your requests and collections.
-To manage workspaces, you can click on the workspaces button on the left navigation bar.
+A **space** (called a *workspace* in older versions) is a separate set of collections, requests and environments. Use one space per project, team or client so their requests and environments never mix.
 
-![Workspaces](./images/manage-workspaces.png)
+Chapar always has a **Default** space, and starts in the space you used last.
 
-### Create a new workspace
-You can create a new workspace by clicking the new button in the top right corner.
+## The Spaces page
 
+Click **Spaces** in the navigation bar to see every space as a card.
 
-### Switch between workspaces
-You can switch between workspaces by choosing the workspace from the workspaces dropdown menu in the top left.
+![The Spaces page](../images/spaces.png)
 
-![Switch Workspace](./images/switch-workspaces.png)
+- The space you are in is marked **Active**, with a count of its collections, requests and environments.
+- **Search spaces** filters the cards by name.
+- Each card has **Switch**, **Rename** (pencil) and **Delete** (trash) buttons.
 
-{{< callout type="warning" >}}
-  When you switch between workspaces, make sure you save and close all the requests and collections that you are working on.
-  otherwise you will might lose your work.
-{{< /callout >}}
+## Create a space
+
+1. On the Spaces page, click **New Space**.
+2. Type a name and click **OK**. Leave it empty to get *New Space*.
+
+![Creating a space](../images/space-new.png)
+
+The new space starts empty. Switch to it to add collections, requests and environments.
+
+## Switch spaces
+
+Pick a space in the selector at the left of the title bar, or click **Switch** on its card.
+
+![Switching spaces from the title bar](../images/space-switch.png)
+
+If some open tabs have unsaved changes, Chapar asks before it switches, because switching closes them and their changes are lost. Save your work first, or choose **No** to stay.
+
+## Rename a space
+
+Click the pencil on the card, type the new name and click **OK**. The space's folder on disk is renamed too. The **Default** space can't be renamed.
+
+## Delete a space
+
+Click the trash icon on the card and confirm. The space and **all its collections, requests and environments are deleted**, and this can't be undone.
+
+You can't delete the **Default** space or the space you are in; switch to another space first.
+
+## Spaces on disk
+
+Each space is a folder in the workspace folder (`~/.config/chapar` by default), so you can back it up, copy it to another machine or keep it in git. See [Where your data lives](../../gettingstarted/import-and-export-data#where-your-data-lives).

@@ -3,6 +3,9 @@ languageCode: en-us
 title: Chapar
 
 params:
+  footer:
+    displayPoweredBy: false
+    displayCopyright: true
   navbar:
     displayTitle: true
     displayLogo: true
