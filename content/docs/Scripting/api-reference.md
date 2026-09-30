@@ -9,7 +9,7 @@ Three names are defined in every script, with no imports needed:
 | Name | What it is |
 |------|------------|
 | `request` | The request being sent. A pre-request script may change it. |
-| `response` | The response, in post-request scripts. `None` in pre-request scripts. |
+| `response` | The response, in post-request scripts. A pre-request script runs before the request is sent, so there is no response: `response` is falsy and equals `None`, and reading any of its attributes raises an error that says so. |
 | `chapar` | The environment, tests, logging and skipping. `import chapar` works too. |
 
 The Python standard library is available (`json`, `hashlib`, `hmac`, `base64`, `datetime`, `uuid`, `re`, …), as is the [`requests`](https://requests.readthedocs.io/) package.

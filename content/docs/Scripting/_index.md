@@ -124,7 +124,7 @@ request.headers["X-Signature"] = hmac.new(key, body, hashlib.sha256).hexdigest()
 
 ## Editor support
 
-The script editor has Python highlighting, and, when the Python language server ([pyright](https://github.com/microsoft/pyright)) is installed, completion, hover documentation and error checking that know the `chapar`, `request` and `response` objects. If pyright is missing, Chapar offers to install it; see [Settings › Language servers](../usingchapar/settings#language-servers). `{{variables}}` are highlighted and completed in scripts too.
+The script editor has Python highlighting, and, when the Python language server ([pyright](https://github.com/microsoft/pyright)) is installed, completion, hover documentation and error checking that know the `chapar`, `request` and `response` objects. In a pre-request script the editor flags any use of `response`, which only exists after the request is sent. If pyright is missing, Chapar offers to install it; see [Settings › Language servers](../usingchapar/settings#language-servers). `{{variables}}` are highlighted and completed in scripts too.
 
 ## When a script fails
 
