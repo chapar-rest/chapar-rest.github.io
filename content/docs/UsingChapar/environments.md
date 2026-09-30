@@ -18,7 +18,7 @@ The editor shows one row per variable:
 
 | Column | What it does |
 |--------|--------------|
-| Checkbox | Turns the variable on or off. A disabled variable is not replaced in requests. |
+| Checkbox | Turns the variable on or off. Only checked variables are used: an unchecked one is kept, but it is not replaced in requests and scripts do not see it. Setting a variable from a script or a request action checks it. |
 | **Key** | The variable's name, used as `{{key}}`. |
 | **Value** | Its value. Click to edit. |
 | Lock | Marks the value as [secret](#secret-values). |

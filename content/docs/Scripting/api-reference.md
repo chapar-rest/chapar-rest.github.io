@@ -75,7 +75,7 @@ Available in post-request scripts.
 
 ### Environment
 
-`chapar.env` is the active environment.
+`chapar.env` is the active environment. It holds only the variables that are checked on the Envs page; setting a variable checks it.
 
 | Call | Does |
 |------|------|

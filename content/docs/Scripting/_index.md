@@ -56,7 +56,7 @@ Chapar pulls the `chapar/python-executor` image the first time, starts the `chap
 | **Enable** | Off | Run pre and post-request scripts. |
 | **Language** | Python | The only language for now. |
 | **Use Docker** | On | Let Chapar run the executor in Docker. |
-| **Docker image** | `chapar/python-executor:0.3.0` | The executor image. Each Chapar release pins the version it speaks. |
+| **Docker image** | `chapar/python-executor:0.3.1` | The executor image. Each Chapar release pins the version it speaks, and moves a setting still on an older `chapar/python-executor` image (or `latest`) to it. Another image, or a newer version, is kept. |
 | **Port** | 2397 | The local port the executor listens on. Change it if the port is taken. |
 
 Use **Restart** to restart the executor with the saved settings, for example after starting Docker.
