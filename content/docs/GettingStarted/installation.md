@@ -68,7 +68,7 @@ There is no 32-bit Windows build. The GPU library Chapar draws with (wgpu) has n
 Download the `tar.xz` archive for your CPU from the [latest release](https://github.com/chapar-rest/chapar/releases/latest) and extract it:
 
 ```bash
-tar -xJf chapar-linux-v0.9.0-amd64.tar.xz
+tar -xJf chapar-linux-{{< latest-release >}}-amd64.tar.xz
 ./chapar
 ```
 
@@ -106,9 +106,9 @@ Dependencies are vendored. If you change them, run `make vendor` instead of `go 
 To build the same packages the releases ship (DMG, `tar.xz`, `zip`), install the Yoga CLI with `make install_deps` and run `yoga package`:
 
 ```bash
-yoga package -os darwin -arch arm64 -version v0.9.0   # dist/darwin/*.dmg
-yoga package -os linux -version v0.9.0                # dist/linux/*.tar.xz
-yoga package -os windows -version v0.9.0              # dist/windows/*.zip
+yoga package -os darwin -arch arm64 -version {{< latest-release >}}   # dist/darwin/*.dmg
+yoga package -os linux -version {{< latest-release >}}                # dist/linux/*.tar.xz
+yoga package -os windows -version {{< latest-release >}}              # dist/windows/*.zip
 ```
 
 ## Next steps

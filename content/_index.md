@@ -4,9 +4,9 @@ layout: hextra-home
 ---
 
 <div class="hx:mb-6 hx:flex hx:flex-col hx:gap-4 hx:justify-center hx:items-center hx:w-full hx:mx-auto">
-{{< hextra/hero-badge link="https://github.com/chapar-rest/chapar/releases/tag/v0.9.0" >}}
+{{< hextra/hero-badge link="https://github.com/chapar-rest/chapar/releases/latest" >}}
   <div class="hx:w-2 hx:h-2 hx:rounded-full hx:bg-primary-400"></div>
-  <span>v0.9.0 is out, see what's new</span>
+  <span>{{< latest-release >}} is out, see what's new</span>
   {{< icon name="arrow-circle-right" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 
