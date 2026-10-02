@@ -1,7 +1,7 @@
 ---
 title: "Import And Export Data"
 weight: 102
-summary: "Import Postman, OpenAPI and proto files, and find where Chapar keeps your data"
+summary: "Import Postman, OpenAPI, proto files and curl commands, and find where Chapar keeps your data"
 ---
 
 ## Import
@@ -13,9 +13,13 @@ Chapar imports:
 | Postman collection (`.json`, v2.1) | **Requests** › **Import** | A collection with its requests |
 | OpenAPI specification (`.json`, `.yaml`, `.yml`) | **Requests** › **Import** | A collection with a request for every operation |
 | Protobuf file (`.proto`) | **Requests** › **Import** | A collection with a gRPC request for every method |
+| curl command | **Requests** › **Import** › **From curl command…** | A request with the command's method, URL, headers, body and auth |
 | Postman environment (`.json`) | **Envs** › **Import** | An environment with its variables |
+| Test case (`.yaml`) | **Tests** › **Import** | A [test case](../../testing) |
 
 To import a collection, click **Import** above the request tree (or right-click the tree and choose **Import**), and pick the file. Chapar recognizes the format from the file.
+
+To import a curl command, such as one copied from API docs or a browser's *Copy as cURL*, open the arrow next to **Import** and choose **From curl command…**, or right-click a collection and choose **Import curl** to add it there. A curl command on the clipboard is filled in for you. You can also paste a curl command straight into the URL field of an HTTP request: Chapar replaces the request's method, URL, params, headers, body and auth with the command's, and keeps its name, collection and scripts.
 
 ![The request tree menu](../../usingchapar/images/tree-menu.png)
 
@@ -52,6 +56,8 @@ chapar/
     ├── envs/
     │   ├── Local.yaml
     │   └── Production.yaml
+    ├── testcases/
+    │   └── Todo lifecycle.yaml
     └── .state/                   # machine-local state, ignored by git
         └── cookies/
 ```

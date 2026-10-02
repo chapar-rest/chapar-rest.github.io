@@ -12,6 +12,7 @@ Chapar is a fast, native API client for REST, gRPC and GraphQL. It is written in
 {{< card link="gettingstarted" title="Getting Started" subtitle="Install Chapar and send your first request"  icon="light-bulb" >}}
 {{< card link="usingchapar" title="Using Chapar" subtitle="Spaces, environments, HTTP and gRPC requests, cookies and settings" icon="puzzle" >}}
 {{< card link="scripting" title="Python Scripting" subtitle="Pre and post-request scripts, tests and request chaining" icon="code" >}}
+{{< card link="testing" title="Testing" subtitle="Test cases with assertions and captures, in the app and in CI" icon="beaker" >}}
 {{< card link="mockserver" title="Mock Server" subtitle="A public REST and gRPC API to test against" icon="server" >}}
 {{< card link="terms" title="Terms" subtitle="Licence, privacy policy and how to contribute" icon="shield-check" >}}
 {{< /cards >}}

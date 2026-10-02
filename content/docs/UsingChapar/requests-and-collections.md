@@ -40,6 +40,7 @@ The sidebar shows the collections of the space, with the requests inside them, a
 | **New HTTP / gRPC / GraphQL request** | Creates a request in this collection. |
 | **New collection** | Creates a collection. |
 | **Import** | Imports a Postman collection, OpenAPI spec or proto file. See [Import](../../gettingstarted/import-and-export-data#import). |
+| **Import curl** | Creates a request from a curl command, in this collection. |
 | **Duplicate** | Copies the request, or the collection with all its requests. The copy of a request is named *… (copy)*. |
 | **Delete** | Deletes the request, or the collection and all its requests. |
 

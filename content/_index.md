@@ -58,10 +58,10 @@ layout: hextra-home
     icon="code"
   >}}
   {{< hextra/feature-card
-    title="Request Chaining"
-    subtitle="Trigger requests, extract values with JSONPath, and share them through environments."
-    link="/docs/usingchapar/request-actions"
-    icon="switch-horizontal"
+    title="Test Cases and CI"
+    subtitle="Chain requests into test cases with assertions and captures, then run them in CI with chapar-cli."
+    link="/docs/testing"
+    icon="beaker"
   >}}
   {{< hextra/feature-card
     title="Configuration as Files"
@@ -71,7 +71,7 @@ layout: hextra-home
   >}}
   {{< hextra/feature-card
     title="Import What You Have"
-    subtitle="Postman collections and environments, OpenAPI specs and proto files."
+    subtitle="Postman collections and environments, OpenAPI specs, proto files and curl commands."
     link="/docs/gettingstarted/import-and-export-data#import"
     icon="download"
   >}}

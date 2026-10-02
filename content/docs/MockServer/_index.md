@@ -2,7 +2,7 @@
 title: Mock Server
 sidebar:
   open: true
-weight: 103
+weight: 104
 ---
 
 `mocks.chapar.rest` is a free, public mock API you can use to try Chapar, or any other API client, without running a server of your own. The same server speaks REST and gRPC, and GraphQL, WebSocket and MQTT support are planned.

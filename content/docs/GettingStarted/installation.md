@@ -115,3 +115,4 @@ yoga package -os windows -version {{< latest-release >}}              # dist/win
 
 - [Quick Start](../quick-start): send your first requests to the free mock server.
 - [Python Scripting](../../scripting): turn on scripting if you want pre and post-request scripts. It needs Docker.
+- [Command Line and CI](../../testing/command-line): install `chapar-cli` to run your test cases in CI.
