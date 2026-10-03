@@ -3,6 +3,10 @@ languageCode: en-us
 title: Chapar
 
 params:
+  description: A fast, private and offline API client for your REST, gRPC and GraphQL services.
+  # Link preview image (og:image, twitter:image) for pages without their own.
+  images:
+    - /images/social-card.png
   # Latest Chapar release, shown on the home page, in the footer and in the
   # install docs. Bump on each release.
   latestRelease: v0.9.1
