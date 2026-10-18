@@ -1,6 +1,6 @@
 ---
 title: ''
-description: A fast, private and offline API client for your REST, gRPC and GraphQL services.
+description: A fast, private and offline API client for your REST, gRPC, GraphQL and WebSocket services.
 layout: hextra-home
 ---
 
@@ -18,7 +18,7 @@ layout: hextra-home
 
 <div class="hx:mb-6 hx:flex hx:justify-center hx:items-center hx:w-full">
 {{< hextra/hero-subtitle >}}
-  A fast, private and offline API client for your REST, gRPC and GraphQL services
+  A fast, private and offline API client for your REST, gRPC, GraphQL and WebSocket services
 {{< /hextra/hero-subtitle >}}
 </div>
 
@@ -41,8 +41,8 @@ layout: hextra-home
 <div class="hx:w-full hx:mx-auto" style="max-width: 1000px;">
 {{< hextra/feature-grid cols="3" >}}
   {{< hextra/feature-card
-    title="REST, gRPC and GraphQL"
-    subtitle="Every HTTP method and body type, gRPC with reflection or proto files, TLS and streaming, and GraphQL queries."
+    title="REST, gRPC, GraphQL and WebSocket"
+    subtitle="Every HTTP method and body type, gRPC with reflection or proto files, GraphQL queries, and live WebSocket connections."
     link="/docs/usingchapar/http-requests"
     icon="globe-alt"
   >}}
@@ -65,16 +65,16 @@ layout: hextra-home
     icon="beaker"
   >}}
   {{< hextra/feature-card
-    title="Configuration as Files"
-    subtitle="Spaces, requests and environments are YAML files you can review and share in git."
-    link="/docs/gettingstarted/import-and-export-data"
-    icon="document-text"
+    title="Traffic Proxy"
+    subtitle="See the HTTPS traffic of any app or phone, then open a request in Chapar, copy it as cURL or export HAR."
+    link="/docs/proxy"
+    icon="status-online"
   >}}
   {{< hextra/feature-card
-    title="Import What You Have"
-    subtitle="Postman collections and environments, OpenAPI specs, proto files and curl commands."
-    link="/docs/gettingstarted/import-and-export-data#import"
-    icon="download"
+    title="Files and Imports"
+    subtitle="Requests and environments are YAML files you can keep in git. Import Postman, OpenAPI, proto files and curl."
+    link="/docs/gettingstarted/import-and-export-data"
+    icon="document-text"
   >}}
 {{< /hextra/feature-grid >}}
 </div>

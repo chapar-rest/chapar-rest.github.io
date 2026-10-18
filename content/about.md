@@ -5,7 +5,7 @@ summary: "About Chapar"
 
 ### What is Chapar?
 
-Chapar is a fast, native API client for REST, gRPC and GraphQL, built with Go. It draws its UI on the GPU with [Yoga](https://github.com/mirzakhany/yoga), so it starts quickly, stays light and runs the same on macOS, Linux and Windows without a browser engine. Your requests, environments and cookies are plain files on your machine: no account, no cloud sync and no telemetry.
+Chapar is a fast, native API client for REST, gRPC, GraphQL and WebSocket, built with Go, with a built-in proxy for inspecting other apps' traffic. It draws its UI on the GPU with [Yoga](https://github.com/mirzakhany/yoga), so it starts quickly, stays light and runs the same on macOS, Linux and Windows without a browser engine. Your requests, environments and cookies are plain files on your machine: no account, no cloud sync and no telemetry.
 
 ### Project Goals
 
@@ -28,13 +28,15 @@ Chapar is a single binary written in Go. Its UI is built with [Yoga](https://git
 
 ### Current Status
 
-Chapar is under active development. Version 0.7.0 moved the app to a new GPU-rendered UI; WebSocket and MQTT support are next on the list.
+Chapar is under active development. Version 0.7.0 moved the app to a new GPU-rendered UI, 0.10.0 added WebSocket requests and 0.11.0 the traffic proxy. MQTT support is next on the list.
 
 ### Features
 
 - **REST / HTTP**: every method, query and path params, JSON, XML, text, form-data, URL-encoded and binary bodies.
 - **gRPC**: server reflection or proto files, unary and server-streaming calls, metadata and trailers, TLS and mutual TLS, and example messages for any method.
 - **GraphQL**: queries and variables, with data and errors split out.
+- **WebSocket**: text, JSON and binary messages, saved messages, and a live message log.
+- **Proxy**: capture the HTTP(S) traffic of apps and phones, then open requests in Chapar, copy them as cURL or export HAR.
 - **Spaces** keep separate collections, requests and environments.
 - **Collections** share headers, auth and notes with their requests.
 - **Environments** with `{{variables}}`, completion, and secret values encrypted with a key in your OS keychain.
