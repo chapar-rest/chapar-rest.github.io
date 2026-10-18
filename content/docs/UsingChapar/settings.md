@@ -1,7 +1,7 @@
 ---
 title: "Settings"
-weight: 108
-summary: "Every setting: HTTP defaults, appearance, scripting, editor, language servers, security and data"
+weight: 109
+summary: "Every setting: HTTP defaults, appearance, scripting, editor, language servers, security, data and the proxy"
 ---
 
 Open **Settings** with the gear in the title bar or **⌘,** (**Ctrl+,**). Changes apply when you click **Save**; **Cancel** drops them and **Defaults** resets the form to Chapar's defaults. Appearance changes preview live.
@@ -80,3 +80,20 @@ The key that encrypts [secret environment values](../environments#secret-values)
 ## Data
 
 **Workspace path** is the folder where your spaces are stored. Change it to keep your collections in a git repository or a synced folder, then restart Chapar. See [Where your data lives](../../gettingstarted/import-and-export-data#where-your-data-lives).
+
+## Proxy
+
+Settings for the [traffic capture proxy](../../proxy).
+
+![Proxy settings](../images/settings-proxy.png)
+
+| Setting | Default | What it does |
+|---------|---------|--------------|
+| **Port** | 9090 | The port the proxy listens on. |
+| **Allow devices on local network** | Off | Listen on every network interface so phones and other computers can use the proxy, not just this computer. Anyone on the network can then send traffic through it while it runs. |
+| **Requests kept** | 5000 | Past this, the oldest captured requests are dropped. |
+| **Memory limit (MB)** | 256 | The most memory captured request and response bodies may use. Past it, the oldest requests are dropped. |
+| **Body capture limit (MB)** | 10 | Bodies larger than this pass through without being kept. |
+| **Don't decrypt** | Apple's domains | Comma-separated domains passed through without decrypting, such as apps that pin their certificates. A domain covers its subdomains; `*.example.com` covers only subdomains. |
+
+The port, network access and body limit apply the next time you start the proxy. The other settings apply right away.

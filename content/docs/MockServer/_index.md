@@ -2,15 +2,16 @@
 title: Mock Server
 sidebar:
   open: true
-weight: 104
+weight: 105
 ---
 
-`mocks.chapar.rest` is a free, public mock API you can use to try Chapar, or any other API client, without running a server of your own. The same server speaks REST and gRPC, and GraphQL, WebSocket and MQTT support are planned.
+`mocks.chapar.rest` is a free, public mock API you can use to try Chapar, or any other API client, without running a server of your own. The same server speaks REST, gRPC and WebSocket; GraphQL and MQTT support are planned.
 
 | Protocol | Address | Contract |
 |----------|---------|----------|
 | REST | `https://mocks.chapar.rest/api/v1` | [OpenAPI spec](https://github.com/chapar-rest/mock-server/blob/main/api/rest/openapi.yaml) |
 | gRPC | `mocks.chapar.rest:443` (TLS) | [Proto files](https://github.com/chapar-rest/mock-server/tree/main/api/proto/mock/v1) |
+| WebSocket | `wss://mocks.chapar.rest/ws` | [WebSocket API](websocket-api) |
 
 It offers two kinds of endpoints:
 
@@ -20,6 +21,7 @@ It offers two kinds of endpoints:
 {{< cards >}}
 {{< card link="rest-api" title="REST API" subtitle="Todo and utility endpoints over HTTP" icon="globe-alt" >}}
 {{< card link="grpc-api" title="gRPC API" subtitle="TodoService and UtilityService, including streaming" icon="lightning-bolt" >}}
+{{< card link="websocket-api" title="WebSocket API" subtitle="Echo, streams, live todo updates, close codes and auth" icon="switch-vertical" >}}
 {{< /cards >}}
 
 ## Use it from Chapar
