@@ -1,6 +1,6 @@
 ---
 title: "Cookies"
-weight: 107
+weight: 108
 summary: "A cookie jar per environment: how cookies are stored and sent, and how to view, add, edit and clear them"
 ---
 

@@ -58,7 +58,7 @@ Variables are colored as you type: a known variable in the info color, an unknow
 
 Values such as tokens and passwords shouldn't sit in plain text on disk or in git. Click the lock on a row to mark its value **secret**:
 
-- The value is encrypted on disk with AES-256-GCM, so the environment file is safe to sync or commit.
+- The value is encrypted with AES-256-GCM and kept in the space's local state (`.state/secrets`), which git ignores. The environment file names the secret and leaves its value empty, so it is safe to sync or commit.
 - The value is masked in the editor, and variable hovers never show it.
 - Requests still use the real value when you send them.
 
@@ -73,6 +73,10 @@ Keep a copy of your key somewhere safe. Without it, secret values can't be decry
 {{< /callout >}}
 
 Values you don't mark secret stay in plain text.
+
+### Secrets on a new machine
+
+When you [clone a space](../git#clone-a-space) or copy it to another machine, its secrets have no value there yet. Such a secret is marked **unset**: it isn't filled into requests, the environment editor names it in a banner so you can set it, and `chapar test` leaves it out with a warning.
 
 ## Environment files
 

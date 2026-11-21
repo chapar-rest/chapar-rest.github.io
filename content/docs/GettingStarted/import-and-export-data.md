@@ -19,6 +19,8 @@ Chapar imports:
 
 To import a collection, click **Import** above the request tree (or right-click the tree and choose **Import**), and pick the file. Chapar recognizes the format from the file.
 
+You can also drag Postman collections, OpenAPI specs and `.proto` files from Finder or your file manager and drop them on the **Requests** page. Each one is imported as if you had picked it with **Import**, so you can drop several at once.
+
 To import a curl command, such as one copied from API docs or a browser's *Copy as cURL*, open the arrow next to **Import** and choose **From curl command…**, or right-click a collection and choose **Import curl** to add it there. A curl command on the clipboard is filled in for you. You can also paste a curl command straight into the URL field of an HTTP request: Chapar replaces the request's method, URL, params, headers, body and auth with the command's, and keeps its name, collection and scripts.
 
 ![The request tree menu](../../usingchapar/images/tree-menu.png)
@@ -59,7 +61,8 @@ chapar/
     ├── testcases/
     │   └── Todo lifecycle.yaml
     └── .state/                   # machine-local state, ignored by git
-        └── cookies/
+        ├── cookies/
+        └── secrets/              # encrypted secret values
 ```
 
 Chapar's own settings are kept apart from your data:

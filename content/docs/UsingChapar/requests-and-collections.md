@@ -4,7 +4,7 @@ weight: 102
 summary: "Create, open, organize and share requests, and set defaults for a whole collection"
 ---
 
-A **request** is one saved HTTP, gRPC or GraphQL call. A **collection** is a folder of requests that can also give them shared headers, authentication and notes. Requests and collections live in the **Requests** page of the current [space](../workspaces).
+A **request** is one saved HTTP, gRPC, GraphQL or WebSocket call. A **collection** is a folder of requests that can also give them shared headers, authentication and notes. Requests and collections live in the **Requests** page of the current [space](../workspaces).
 
 ## Create requests and collections
 
@@ -58,7 +58,11 @@ Collection headers and auth can use `{{variables}}` like everything else.
 
 ## Tabs
 
-Every request, collection and environment you open gets a tab. Tabs show the request method, **ENV** for environments or a folder for collections, and a filled dot when there are unsaved changes.
+Every request, collection, environment and test case you open gets a tab. Tabs show an icon for the kind of item (the request method, **ENV** for environments, a folder for collections), and a filled dot when there are unsaved changes. The tab in front joins the document below it.
+
+Hover a request's tab to see where it goes: the method and URL of an HTTP request, the URL of a GraphQL or WebSocket request, or the server and method of a gRPC call. Long titles are cut to fit; the tooltip shows them whole.
+
+The window is named after the tab in front (*List todos — Chapar*), so the Dock, Mission Control, the taskbar and window switchers tell several Chapar windows apart.
 
 | Shortcut (macOS) | Action |
 |------------------|--------|
