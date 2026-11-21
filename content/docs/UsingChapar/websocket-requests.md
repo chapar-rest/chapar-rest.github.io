@@ -1,10 +1,10 @@
 ---
 title: "WebSocket Requests"
-weight: 105
+weight: 106
 summary: "Connect to a WebSocket server, send text, JSON or binary messages, save them, and watch everything that arrives"
 ---
 
-A WebSocket request opens a connection to a server and keeps it open. You send messages when you like, and everything the server sends shows up in the message log as it arrives. Create one from **New › WebSocket** in the request tree.
+A WebSocket request opens a connection to a server and keeps it open. You send messages when you like, and everything the server sends shows up in the message log as it arrives. Create one from **New › WebSocket request** above the request tree.
 
 ![A WebSocket request](../images/websocket-request.png)
 

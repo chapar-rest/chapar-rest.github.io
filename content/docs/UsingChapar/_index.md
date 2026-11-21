@@ -5,7 +5,7 @@ sidebar:
 weight: 101
 ---
 
-Learn how to organize your work and send HTTP, gRPC and WebSocket requests with Chapar.
+Learn how to organize your work, send HTTP, gRPC, GraphQL and WebSocket requests, and share it all through Git.
 
 {{< cards >}}
 {{< card link="workspaces" title="Spaces" subtitle="Keep separate sets of collections, requests and environments" icon="cube" >}}
@@ -13,9 +13,12 @@ Learn how to organize your work and send HTTP, gRPC and WebSocket requests with 
 {{< card link="requests-and-collections" title="Requests and Collections" subtitle="Create, organize and share requests, and set defaults per collection" icon="collection" >}}
 {{< card link="http-requests" title="HTTP Requests" subtitle="Methods, params, bodies, auth, headers, responses and code generation" icon="globe-alt" >}}
 {{< card link="grpc-requests" title="gRPC Requests" subtitle="Reflection or proto files, metadata, TLS, streaming and examples" icon="lightning-bolt" >}}
+{{< card link="graphql-requests" title="GraphQL Requests" subtitle="Queries and mutations with variables, headers and auth" icon="share" >}}
 {{< card link="websocket-requests" title="WebSocket Requests" subtitle="Connect, send and save messages, and watch the live message log" icon="switch-vertical" >}}
 {{< card link="request-actions" title="Request Actions" subtitle="Chain requests, set environment values and extract response data" icon="switch-horizontal" >}}
 {{< card link="cookies" title="Cookies" subtitle="A cookie jar per environment that you can browse and edit" icon="database" >}}
 {{< card link="functions" title="Variables and Functions" subtitle="Variable syntax, completion and built-in dynamic values" icon="code" >}}
-{{< card link="settings" title="Settings" subtitle="HTTP defaults, themes, editor, language servers, security and the proxy" icon="cog" >}}
+{{< card link="editor" title="The Editor" subtitle="Multiple cursors, folding, find and replace, the minimap and shortcuts" icon="pencil-alt" >}}
+{{< card link="git" title="Git" subtitle="Commit, push, pull, branch, merge and clone spaces" icon="cloud-upload" >}}
+{{< card link="settings" title="Settings" subtitle="HTTP defaults, appearance, updates, editor, language servers, security and the proxy" icon="cog" >}}
 {{< /cards >}}

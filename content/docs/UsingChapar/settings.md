@@ -1,7 +1,7 @@
 ---
 title: "Settings"
-weight: 109
-summary: "Every setting: HTTP defaults, appearance, scripting, editor, language servers, security, data and the proxy"
+weight: 112
+summary: "Every setting: HTTP defaults, appearance, updates, scripting, editor, language servers, security, data and the proxy"
 ---
 
 Open **Settings** with the gear in the title bar or **⌘,** (**Ctrl+,**). Changes apply when you click **Save**; **Cancel** drops them and **Defaults** resets the form to Chapar's defaults. Appearance changes preview live.
@@ -27,10 +27,12 @@ Open **Settings** with the gear in the title bar or **⌘,** (**Ctrl+,**). Chang
 | Setting | What it does |
 |---------|--------------|
 | **Theme** | The color theme: light and dark themes including Tokyo Night, Catppuccin, Dracula, Nord, Gruvbox, One, Solarized and GitHub. Every theme meets WCAG 2.1 AA contrast. |
-| **UI font size** | The size of the app's text. |
-| **Editor font size** | The size of text in code editors. |
-| **Horizontal request/response split** | Stack the request above the response instead of side by side. **Split** in the footer toggles it too. |
-| **Hide navbar** | Hide the Requests / Envs / Spaces bar on the left. The pages stay reachable from the command palette. |
+| **UI font size** | The size of the app's text. Every text style, from captions to headings, scales with it. |
+| **Density** | **Compact**, **Default** or **Comfortable**: how tightly controls and spacing are packed. |
+| **Overlay scrollbars** | Thin scrollbars that show only while you scroll, instead of always-visible ones. |
+| **Horizontal request/response split** | Stack the request above the response instead of side by side. **Split** in the footer switches it too. |
+| **Hide navbar** | Hide the navigation bar on the left (Requests, Envs, Tests, Proxy, Git, Spaces). The pages stay reachable from the command palette. |
+| **Check for updates** | Look for a new release when Chapar starts. See [Updates](../../gettingstarted/installation#updates). |
 
 ## Scripting
 
@@ -47,6 +49,7 @@ Turns the Python executor on or off and configures it. See [Python Scripting ›
 | **Auto close brackets** / **Auto close quotes** | On | Insert the closing bracket or quote as you type. |
 | **Show line numbers** | On | Show the line number gutter. |
 | **Wrap lines** | On | Soft-wrap long lines. |
+| **Show minimap** | Off | Draw a miniature of the document at the editor's right edge; click or drag it to scroll. See [The Editor](../editor#minimap). |
 | **Syntax highlighting limit (KB)** | 2048 | Documents larger than this are shown without colors, because a highlighted document takes many times its size in memory. Large responses offer a **Highlight anyway** button. |
 
 ## Language servers

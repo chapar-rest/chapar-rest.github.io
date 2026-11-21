@@ -82,6 +82,19 @@ yay -S chapar-bin
 
 The AUR package is maintained by a community contributor and may lag behind the latest release.
 
+## Updates
+
+Once at startup, Chapar checks GitHub for a newer release. When there is one, a notice in the bottom-right corner offers **Install latest** and **See what's new**:
+
+| Installed with | What **Install latest** does |
+|----------------|------------------------------|
+| DMG (macOS) | Downloads the new DMG, checks the app's signature, Gatekeeper's verdict and that the same team signed it, replaces the app and offers a restart. |
+| Homebrew | Runs `brew upgrade --cask chapar`. |
+| Windows zip | Puts the new `chapar.exe` in place of the running one. |
+| Linux, or a copy Chapar can't replace | Offers a **Download** button for the release page. |
+
+Every release file is signed, and Chapar installs nothing without a valid signature. The App Store version is updated by the App Store. Turn the check off in **Settings › Appearance › Check for updates**.
+
 ## Build from source
 
 Chapar is written in Go. Its UI toolkit, [Yoga](https://github.com/mirzakhany/yoga), renders through GLFW and WebGPU, so building needs CGO and a C compiler:

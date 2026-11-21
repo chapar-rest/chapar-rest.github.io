@@ -9,7 +9,7 @@ params:
     - /images/social-card.png
   # Latest Chapar release, shown on the home page, in the footer and in the
   # install docs. Bump on each release.
-  latestRelease: v0.11.0
+  latestRelease: v0.14.0
   footer:
     displayPoweredBy: false
     displayCopyright: true

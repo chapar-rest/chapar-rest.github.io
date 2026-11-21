@@ -1,6 +1,6 @@
 ---
 title: "Request Actions"
-weight: 106
+weight: 107
 summary: "Chain requests: trigger a request first, set environment values from a response and extract response data"
 ---
 

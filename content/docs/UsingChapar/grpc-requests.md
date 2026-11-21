@@ -84,6 +84,8 @@ The **Settings** tab controls the connection:
 | **Trusted root certificate** | A PEM CA certificate to trust in addition to the system roots, for servers with a private or self-signed certificate. |
 | **Server name override** | The name to check the server certificate against, when it differs from the host in the address (for example when you connect through a tunnel or by IP). |
 | **Client certificate** / **Client key** | For mutual TLS: the PEM certificate and private key Chapar presents to the server. Set both. |
+| **Max response size (MB)** | The largest message the server may send back. `0` keeps gRPC's default of 4 MB; raise it when a call fails with `ResourceExhausted`. It applies to server reflection too. |
+| **Max request size (MB)** | The largest message Chapar may send. `0` means no limit. |
 
 By default the connection uses TLS and checks the server certificate against your system's trusted roots, so public servers like `mocks.chapar.rest:443` need no settings at all.
 

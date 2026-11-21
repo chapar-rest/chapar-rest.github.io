@@ -1,6 +1,6 @@
 ---
 title: "Variables and Functions"
-weight: 108
+weight: 109
 summary: "The {{variable}} syntax, where it works, completion, and the built-in dynamic values"
 ---
 

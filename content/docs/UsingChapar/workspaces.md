@@ -19,6 +19,7 @@ Click **Spaces** in the navigation bar to see every space as a card.
 - The space you are in is marked **Active**, with a count of its collections, requests and environments.
 - **Search spaces** filters the cards by name.
 - Each card has **Switch**, **Rename** (pencil) and **Delete** (trash) buttons.
+- **Clone** creates a space from a Git repository a teammate pushed. See [Git › Clone a space](../git#clone-a-space).
 
 ## Create a space
 
@@ -49,4 +50,4 @@ You can't delete the **Default** space or the space you are in; switch to anothe
 
 ## Spaces on disk
 
-Each space is a folder in the workspace folder (`~/.config/chapar` by default), so you can back it up, copy it to another machine or keep it in git. See [Where your data lives](../../gettingstarted/import-and-export-data#where-your-data-lives).
+Each space is a folder in the workspace folder (`~/.config/chapar` by default), so you can back it up, copy it to another machine or keep it in git, from the built-in [Git page](../git) or any other git tool. See [Where your data lives](../../gettingstarted/import-and-export-data#where-your-data-lives).
