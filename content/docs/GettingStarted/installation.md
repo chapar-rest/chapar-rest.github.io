@@ -19,10 +19,9 @@ Chapar is released for macOS (Apple Silicon and Intel), Linux (amd64 and arm64) 
 {{< tabs items="Homebrew,DMG,App Store" >}}
 
 {{< tab >}}
-Homebrew is the easiest way to install and update Chapar:
+Homebrew is the easiest way to install and update Chapar. The `chapar` cask is in Homebrew's own cask repository, so no tap is needed:
 
 ```bash
-brew tap chapar-rest/chapar
 brew install --cask chapar
 ```
 
@@ -31,6 +30,8 @@ To update to the latest release:
 ```bash
 brew upgrade --cask chapar
 ```
+
+If you installed Chapar from the `chapar-rest/chapar` tap before, `brew update` moves it to the official cask; nothing else to do.
 {{< /tab >}}
 
 {{< tab >}}
